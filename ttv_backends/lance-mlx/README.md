@@ -1,0 +1,349 @@
+# lance-mlx
+
+> **Note:** "Lance" here refers to **ByteDance Intelligent Creation Lab's unified multimodal model** ([paper](https://arxiv.org/abs/2605.18678), [weights](https://huggingface.co/bytedance-research/Lance)), **not** [Lance/LanceDB](https://github.com/lancedb/lance) (the columnar data format).
+
+MLX port of **Lance** for Apple Silicon. Lance is a 3B-active / ~12B-total parameter dual-stream Mixture-of-Transformer-Experts model that unifies image and video understanding, generation, and editing in a single framework. This package brings Lance to Apple Silicon via MLX, with weights hosted on the `mlx-community` HuggingFace organization.
+
+## 📦 Weights on Hugging Face (`mlx-community`)
+
+All repos live in the **[Lance MLX collection](https://huggingface.co/collections/mlx-community/lance-mlx-6a0f3cd5648a74f8283fc8a4)** for one-click browsing.
+
+### Recommended by task (TL;DR)
+
+| Task | Use | Why |
+|---|---|---|
+| **`t2i`** (text→image) | `Lance-3B-bf16` | Only validated path; quant variants all degrade — see research notes below |
+| **`image_edit`** | `Lance-3B-bf16` | Same precision requirement as t2i |
+| **`t2v`** (text→video) | `Lance-3B-Video-bf16` | Production within n_lat ≤ 16,128 |
+| **`video_edit`** | `Lance-3B-Video-bf16` | Same envelope as t2v |
+| **`x2t_image`** (VQA) on 32 GB+ Macs | `Lance-3B-bf16` | Full bf16 quality |
+| **`x2t_image`** (VQA) on 8-16 GB Macs | `Lance-3B-AWQ-INT4` | 27% size, 6-9× faster decode, ~4/6 oracle parity with bf16 |
+| **`x2t_video`** (VQA) | `Lance-3B-Video-bf16` | No video-VQA quant variant — bf16 only |
+| Wan2.2 VAE (standalone) | `Wan2.2-VAE-Lance-bf16` | Shared by image + video pipelines |
+
+### Full repo list
+
+| Repo | Status | Notes |
+|---|---|---|
+| [`mlx-community/Lance-3B-bf16`](https://huggingface.co/mlx-community/Lance-3B-bf16) | 🟢 Production | `t2i`, `image_edit`, `x2t_image` (full quality, ~15 GB) |
+| [`mlx-community/Lance-3B-AWQ-INT4`](https://huggingface.co/mlx-community/Lance-3B-AWQ-INT4) | 🟢 Production (VQA only) | `x2t_image` on 8-16 GB Macs (5.65 GB repo, 3.31 GB LLM, 6-9× faster long-form decode). **Don't use for t2i** — quant research notes below. |
+| [`mlx-community/Lance-3B-8bit`](https://huggingface.co/mlx-community/Lance-3B-8bit) | ⚠️ Superseded | Naive 8-bit broken on image gen; `Lance-3B-AWQ-INT4` is the working compressed variant for VQA. Kept for historical reproducibility. |
+| [`mlx-community/Wan2.2-VAE-Lance-bf16`](https://huggingface.co/mlx-community/Wan2.2-VAE-Lance-bf16) | 🟢 Production | 48-ch Wan2.2 VAE (standalone, shared by image + video pipelines) |
+| [`mlx-community/Lance-3B-Video-bf16`](https://huggingface.co/mlx-community/Lance-3B-Video-bf16) | 🟢 Production through 768²×25f | `t2v` (photoreal after Phase 5j + 5m fixes), `x2t_video`, `video_edit` |
+
+### Quantization research — closed as RESEARCH (Phase 5b → 5c-3h, May 2026)
+
+**Bottom line: bf16 is the only production-grade variant for image generation. AWQ-INT4 ships for VQA only.** We are not actively developing further quantization variants.
+
+What we tried (each linked to a notes writeup):
+
+- **Naive groupwise 4-bit + 8-bit, full and UND-only tower configurations** ([phase5b_quantization_findings.md](notes/phase5b_quantization_findings.md), [phase5c2_validation/FINDINGS.md](notes/phase5n_diagnostics/phase5c2_validation/FINDINGS.md)) — all produce ~80% high-frequency detail loss on Lance image generation. Text-only forward (VQA) less affected. `mlx-community/Lance-3B-8bit` is from this lineage.
+- **DWQ (4-bit UND-only with mlx-lm's distillation harness)** ([phase5c-1 in BACKLOG.md](BACKLOG.md)) — 1/4 prompts acceptable; mlx-lm DWQ has a hardcoded `bits < 8` gate so no 8-bit variant possible.
+- **AWQ (Reza2kn-style alpha-search + per-channel scale fusion, ported to MLX)** ([phase5c3_awq_port/PHASE_5C3_COMPLETE.md](notes/phase5n_diagnostics/phase5c3_awq_port/PHASE_5C3_COMPLETE.md)) — code lives in [`src/lance_mlx/quant/`](src/lance_mlx/quant/) (`awq.py`, `calibrate.py`). Produces shippable VQA variant at 4-bit; doesn't close the image-gen gap.
+
+What we learned ([phase5c3_awq_port/PHASE_5C3H_FINDINGS.md](notes/phase5n_diagnostics/phase5c3_awq_port/PHASE_5C3H_FINDINGS.md)):
+
+- **AWQ math is working correctly per-Linear.** Weight-level introspection at 6 representative Linears confirms AWQ reduces per-layer output MSE by 28% on average at 8-bit, 20% at 4-bit.
+- **Per-layer gains don't compound into end-to-end image quality** because Lance t2i runs **2,160 forward-pass evaluations per image** (36 layers × 30 Euler steps × 2 CFG arms). Errors at each Euler step feed the next step's input via the flow-matching integrator. Per-step quant improvements average out over this long path.
+- **Middle layers (around layer 18) are AWQ's blind spot** — their activations don't have the strong per-channel outlier pattern AWQ assumes, and middle-layer AWQ regressions partially cancel peripheral-layer gains.
+- **The 80% HF floor is architectural, not algorithmic.** k-quants from llama.cpp, NVFP4, custom Metal kernels would all face the same compounding bottleneck. No quant scheme tested or hypothesized would close this floor without changing Lance's architecture itself.
+
+Forward pointer for downstream `mlxEngine` work: [`notes/mlx_engine_quant_notes.md`](notes/mlx_engine_quant_notes.md) — captures the Lance-specific constraints and the two speculative paths that target compounding directly (hybrid precision per layer position, or step-conditional AWQ calibration) rather than per-layer quant precision.
+
+For now, **bf16 is the recommended path for any image generation use case, on any Apple Silicon hardware that can fit it.** AWQ-INT4 unlocks Lance VQA on smaller Macs.
+
+## Status
+
+🟢 **Image and video both production-quality through n_lat ≤ 16,128 (2026-05-23).** Image pipelines (t2i, image_edit, x2t_image) reproduce the bf16 PyTorch reference. Video pipelines (t2v, video_edit, x2t_video) landed two production fixes: **Phase 5j position-ID fix** (`latent_pos_base=0`, closed [issue #2](https://github.com/xocialize/lance-mlx/issues/2)) and **Phase 5m CFG-renorm fix** ([v0.5.2](https://github.com/xocialize/lance-mlx/releases/tag/v0.5.2-phase5m-cfg-renorm), `cfg_renorm_type="channel"`). **Production envelope: n_lat ≤ 16,128** (256² through 768²×25f, 480×704×17f) — verified across two diagnostic prompts (panda surfing, bus + Big Ben). Phase 5m root cause: the legacy `"global"` CFG-renorm cap computed a single scalar L2 over the full velocity tensor, so at ~2× n_lat the same cap silently over-suppressed high-frequency detail. `"channel"` clamps per-channel without dragging the aggregate. Within the envelope, n_lat → quality is stochastic seed × scale, not a monotonic degradation curve. At **n_lat ≥ ~30k (768²×49f, 480×848×121f)** Phase 5m partially closes the original pure-noise failure to a milder "structured-but-degraded with mesh artifacts" regime — model attempts the scene but VAE outputs colored geometric tiles overlaid throughout (verified manually 2026-05-23, final std=0.623 vs ~0.88 for clean runs — channel renorm clamps too aggressively at late timesteps once n_lat hits ~30k, pushing latents outside the VAE's trained distribution). Narrowed scope of [issue #1](https://github.com/xocialize/lance-mlx/issues/1).
+
+| Capability | Status |
+|---|---|
+| Convert HF safetensors → MLX bf16 (both checkpoints + Wan2.2 VAE) | ✅ `scripts/02_convert.py`, `scripts/06_convert_wan_vae.py` |
+| Load `Lance_3B` + `Lance_3B_Video` into `LanceModel` | ✅ 0 missing keys, dummy forward verified |
+| **x2t_image VQA (image → text answer)** | **✅ Production, upstream-faithful preprocessing (2026-06-11).** Fine reads (chart values) require the upstream bucket-crop geometry — now the default; see "x2t preprocessing fidelity" below. |
+| KV cache for fast autoregressive decode | ✅ 1.7×–2.8× speedup on long generations |
+| **t2i (text → image generation)** | **✅ Production. Photorealistic, prompt-aligned output.** |
+| **image_edit (instruction-based)** | **✅ Production. "Remove hat" preserves identity + style + signature; "Add pearl necklace" leaves rest intact.** |
+| **t2v (text → video)** | ✅ **Production. Photoreal/CGI-quality output** at n_lat ≤ 16,128 (256–768² × ≤25f; 480×704×17f; 640²×17f) after Phase 5j position-ID fix + Phase 5m CFG-renorm fix. Verified across two diagnostic prompts (panda surfing, bus + Big Ben). ❌ Degraded with mesh artifacts at n_lat ≥ ~30k (768²×49f, 480×848×121f) — [issue #1](https://github.com/xocialize/lance-mlx/issues/1) narrowed from "pure noise" to "structured-but-degraded mesh artifacts". |
+| **x2t_video (video VQA)** | **✅ Validated against Phase 0 oracle.** Cooking video → kitchen+pan+spatula+tomato+meat all content-correct in 17.5 s. |
+| **video_edit (instruction-based)** | ✅ Same envelope as t2v: works at ≤9,216 latent tokens after Phase 5d fix. |
+| 8-bit + 4-bit quants + HF community variants | 🔬 Closed as research — see "Quantization research" above (AWQ-INT4 shipped for VQA; bf16 only for image gen) |
+
+**Try it:**
+```bash
+# Install
+git clone https://github.com/xocialize/lance-mlx && cd lance-mlx && uv sync
+
+# Download production-ready image MVP (~15 GB):
+HF_HUB_DISABLE_XET=1 uv run huggingface-cli download mlx-community/Lance-3B-bf16
+
+# t2i — photorealistic text-to-image:
+HF_HUB_DISABLE_XET=1 uv run python scripts/08_t2i_demo.py \
+    --prompt "A photorealistic tabby cat holding a colorful STOP sign." \
+    --lance-weights ~/.cache/huggingface/hub/models--mlx-community--Lance-3B-bf16/snapshots/*/ \
+    --vae-weights   ~/.cache/huggingface/hub/models--mlx-community--Lance-3B-bf16/snapshots/*/vae.safetensors
+
+# image_edit — instruction-based editing:
+HF_HUB_DISABLE_XET=1 uv run python scripts/13_image_edit_demo.py \
+    --input-image my_photo.jpg \
+    --instruction "Remove the hat from the painting." \
+    --lance-weights .../Lance-3B-bf16 --vae-weights .../vae.safetensors
+
+# x2t_image — image VQA:
+HF_HUB_DISABLE_XET=1 uv run python scripts/04_x2t_image_demo.py \
+    --case 03 \
+    --lance-weights .../Lance-3B-bf16 \
+    --vit-weights   .../Lance-3B-bf16/vit.safetensors
+```
+
+> The demo scripts above are the per-task drivers used to validate the pipelines. The
+> installed console entry point (`lance-mlx generate`) wraps the same pipelines — see
+> "Quick start" below. Note the `--memory-mode` / `--lossless-decode` knobs documented in
+> "Hardware" are currently library-API options on `LancePipeline.from_pretrained` /
+> `.generate` (and the demo scripts), not yet flags on the `lance-mlx generate` CLI.
+
+## x2t preprocessing fidelity (2026-06-11)
+
+Upstream Lance does **not** preprocess x2t images with the HF Qwen2.5-VL
+smart-resize. Its ViT stream is `BucketResize` (deterministic center-crop to the
+nearest aspect-ratio bucket at `resolution_vit²` area) + `DivisibleCrop(28)` +
+CLIP normalize, with the **vision span attending bidirectionally** in prefill and
+logits masked to `len(tokenizer)`. Using HF smart-resize instead produces
+**systematic** wrong answers on fine chart reads (the same wrong value every
+run — oracle case-02 answered "43" instead of "29%" across 14 runs and three
+independent MLX implementations).
+
+`UnderstandingPipeline.generate` is now upstream-faithful by default
+(`preprocess="upstream"`, `vision_full_attn=True`, `resolution="image_768res"`);
+the byte-exact transform lives in `pipeline/upstream_und_preprocess.py`
+(verified max|diff| = 0.0 against upstream's verbatim torchvision code). The
+legacy path is available via `preprocess="hf"`.
+
+**Parity scope note:** with preprocessing byte-exact, position ids exactly equal
+to HF `get_rope_index`, and every ViT stage at cosine 1.000000 vs PyTorch on the
+CPU stream, residual answer differences vs a CUDA capture are greedy knife-edge
+flips from backend accumulation noise (Apple-GPU fp32 matmul ≈ 8e-4 rel/op,
+flash-attn ordering, autocast structure) — token-exact equality with
+foreign-hardware captures is not an achievable or meaningful gate for
+autoregressive generation. Gate semantically. Diagnostic tooling:
+`scripts/46_upstream_exact_gate.py` (ablation grid), `scripts/47_vit_vs_pytorch.py` +
+`scripts/48_vit_stage_bisect.py` (ViT PT-parity + stage bisect), `scripts/49_crossfeed_pt_vit.py` (PT-ViT cross-feed).
+
+## Schedulers
+
+Two schedulers ship in this repo (`src/lance_mlx/scheduler/solvers.py` — `DPMSolverPlusPlus2M`, with an Euler warm-up fallback):
+
+### DPM-Solver++(2M) — ~2.4× faster, 12 steps
+```bash
+HF_HUB_DISABLE_XET=1 uv run python scripts/08_t2i_demo.py \
+    --prompt "A photorealistic tabby cat holding a colorful STOP sign." \
+    --lance-weights ~/.cache/huggingface/hub/models--mlx-community--Lance-3B-bf16/snapshots/*/ \
+    --vae-weights   ~/.cache/huggingface/hub/models--mlx-community--Lance-3B-bf16/snapshots/*/vae.safetensors \
+    --scheduler dpm --steps 12
+```
+
+### Default Euler — quality baseline, 30 steps
+```bash
+HF_HUB_DISABLE_XET=1 uv run python scripts/08_t2i_demo.py \
+    --prompt "A photorealistic tabby cat holding a colorful STOP sign." \
+    --lance-weights ~/.cache/huggingface/hub/models--mlx-community--Lance-3B-bf16/snapshots/*/ \
+    --vae-weights   ~/.cache/huggingface/hub/models--mlx-community--Lance-3B-bf16/snapshots/*/vae.safetensors \
+    --scheduler euler --steps 30
+```
+
+| Mode | Steps | Generate time | vs baseline |
+|---|---|---|---|
+| DPM-Solver++(2M) | 12 | ~78s | **2.4×** |
+| Default Euler | 30 | ~196s | — |
+
+_Benchmarked on Lance-3B-bf16, 768², seed=42, cfg_scale=4.0, M-series Apple Silicon._
+
+---
+
+See [HANDOFF.md](./HANDOFF.md) for the phased roadmap (start with the **⚠ Verified findings (2026-05-19)** section — it supersedes earlier guesses). Phase 0 parity-oracle capture runbook lives at [Docs/RUNPOD_PHASE0.md](./Docs/RUNPOD_PHASE0.md). Per-phase technical notes in [notes/](./notes/). Open items / current backlog: [BACKLOG.md](./BACKLOG.md). Measured memory footprints: [LIMITS.md](./LIMITS.md).
+
+## Quick start (after PyPI release)
+
+The package installs a `lance-mlx` console script (`lance_mlx.__main__:main`) with a single
+`generate` subcommand. `--weights` is **required**:
+
+```bash
+uv pip install lance-mlx
+# Image generation
+lance-mlx generate --task t2i --prompt "..." --weights mlx-community/Lance-3B-bf16
+# Image editing
+lance-mlx generate --task image_edit --image foo.jpg --prompt "Remove the hat" --weights mlx-community/Lance-3B-bf16
+# Image understanding (VQA)
+lance-mlx generate --task x2t_image --image foo.png --prompt "What is this?" --weights mlx-community/Lance-3B-bf16
+# Video generation
+lance-mlx generate --task t2v --prompt "..." --weights mlx-community/Lance-3B-Video-bf16
+```
+
+`generate` flags: `--task {t2i,t2v,image_edit,video_edit,x2t_image,x2t_video}` (required),
+`--weights` (required), `--prompt`, `--image`, `--video`, `--output` (default `outputs/`),
+`--seed` (42), `--steps` (30), `--cfg` (4.0), `--timestep-shift` (3.5), `--resolution` (768),
+`--frames` (50), `--fps` (12).
+
+## Tasks supported
+
+- `t2i` — text-to-image (768²)
+- `t2v` — text-to-video (480p, 12 fps, ≤121 frames)
+- `image_edit` — instruction-based image editing
+- `video_edit` — instruction-based video editing
+- `x2t_image` — image understanding / VQA / captioning
+- `x2t_video` — video understanding / VQA / captioning
+
+## Architecture
+
+- **Two expert towers** (`LLM_UND`, `LLM_GEN`), each initialized from Qwen2.5-VL-3B-Instruct, with per-expert FFN, output projection, and QK-norm
+- **Modality-deterministic routing:** text + Qwen2.5-VL ViT semantic tokens → `LLM_UND` (autoregressive next-token); Wan2.2 3D causal VAE latent tokens → `LLM_GEN` (flow-matching velocity prediction)
+- **MaPE** — modality-aware RoPE with per-modality temporal offset
+- **Wan2.2 3D causal VAE** (16× spatial / 4× temporal compression, **48-channel** latent — Lance bundles its own VAE; do NOT use the public 16-ch `wan2.2_vae.safetensors`)
+- **Untied LM head**
+
+## Building blocks reused
+
+- [`Blaizzy/mlx-vlm`](https://github.com/Blaizzy/mlx-vlm) for the Qwen2.5-VL ViT and autoregressive decode infrastructure (pinned: `f2e19de…`)
+- [`Blaizzy/mlx-video`](https://github.com/Blaizzy/mlx-video) for the Wan2.2 VAE and flow-matching sampler (pinned: `87db56a…`)
+
+## Hardware
+
+Per-task floor with the `memory_mode` knob (auto / parallel / relay) introduced 2026-06-02:
+
+| RAM | Image (`t2i`, `image_edit`) | Video (`t2v`, `video_edit`) | VQA (`x2t_image`) | Notes |
+|---|---|---|---|---|
+| **8–16 GB** | ✅ bf16 via `memory_mode=relay` (single-shot per pipeline load) | ✅ via `relay` (e.g. 256²×61f fits in ~8.7 GB) | ✅ `Lance-3B-AWQ-INT4` (3.3 GB LLM) | `auto` resolves to `relay` below 18 GiB |
+| **24 GB+** | ✅ bf16 via `memory_mode=parallel` (reusable pipeline) | ✅ via `parallel` | ✅ bf16 or AWQ-INT4 | `auto` resolves to `parallel` |
+
+`memory_mode=relay` produces **byte-identical output** to `parallel` (MD5-verified
+on real Lance-3B-bf16); it sheds the UND tower after prefill and the GEN tower
+before VAE decode, so peak ≈ heaviest single phase rather than the sum. Pipeline
+is single-shot — re-prefill needs the UND tower reloaded. `parallel` keeps
+everything resident for repeated calls. The default `auto` mode chooses by
+the GPU/accelerator budget (`ws ≥ 18 GiB` → parallel, else relay; unresolved → parallel).
+(`relay`/`parallel` are byte-identical to each other regardless of which VAE decode mode is
+selected — the schedule doesn't change the math.) `memory_mode` is set at
+`LancePipeline.from_pretrained` / honored at `.generate`; `relay` is a load-time decision
+(GEN tower + VAE load lazily) and `resolve_memory_mode` lives in `model/lance_llm.py`.
+
+### VAE decode: lossless (default) vs lossy, and the 16 GB video caveat
+
+`generate(..., lossless_decode=True)` (default) uses a **bit-identical** streaming decode
+(`vae_stream.decode_streaming`); `lossless_decode=False` keeps the **lossy** trapezoidal-blend tiling
+(~1.5–4.8 / 255 off the reference). The streaming decode *bounds the memory a lossless decode
+needs*: against the naive whole `dec(z)` (the only prior bit-identical option) it is lighter in
+every measured case — via temporal streaming (flat in length) and spatial halo-tiling — at zero
+pixel cost (50-case bit-identity, `max|Δ|=0`). Measured true footprints (`ri_phys`, 16 GB;
+method + raw in [`LIMITS.md`](LIMITS.md) and [`results/decode_lossless/`](results/decode_lossless)):
+
+| output | whole `dec(z)` | **lossless streaming** | lossy blend | on 16 GB |
+|---|---|---|---|---|
+| 256² video → 121f | 15.41 | **8.05** | 12.47 | **lossless** ✅ lighter + exact |
+| 512² video → 61f | (OOM) | **12.64** | (OOM >20) | **lossless** ✅ only path that fits |
+| 1024² image | 15.60 | **12.17** | 12.53 | **lossless** ✅ lighter + exact |
+| **768² video (≥13f)** | (OOM) | **>~21** (lower bound¹) | **13.2–16.3** (+~3 swap) | **lossy only on 16 GB** (lossless: 24 GB+ [P]²) |
+
+¹ The lossless 768² decode exceeds 16 GB; our only measurement is a watchdog abort at **>~21 GB**, a lower bound — the exact peak is **unmeasured**.
+² We have no 24 GB machine to confirm it, so "fits 24 GB" is an **unverified inference** from the >~21 GB footprint, not a measurement.
+
+**When to keep the lossy fallback.** Lossy is *not* a general low-memory mode — at 256²/512²
+video and all images the lossless streaming decode is already the lighter path (and exact), so
+there is no reason to use lossy there. Lossy earns its keep in **exactly one** case: **768²
+video on a 16 GB Mac**, where the lossless decode exceeds ~21 GB and does not fit while the lossy
+blend (13.2–16.3 GB, +~3 GB swap at 25f) does. The `n_lat ≤ 16,128` envelope (256² → 768²×25f)
+was established with that lossy decode: a 16 GB machine can **generate** 768²×25f but only
+**lossily** decodes it — use `lossless_decode=False` there, or a bigger-RAM machine for
+bit-identical 768² video (24 GB+ [P] — inferred from the >~21 GB lower bound; we have not measured
+the true peak or confirmed 24 GB suffices). The default `lossless_decode=True` is left to
+repo-owner discretion for `main`.
+
+- **Reference platform:** M5 Max 128 GB (macOS 26.2+ for Neural Accelerator support)
+
+## Layout
+
+```
+.
+├── HANDOFF.md                 phased port plan (this is the spec)
+├── BACKLOG.md                 open items / current backlog
+├── LIMITS.md                  measured memory footprints + method
+├── pyproject.toml             hatchling build; uv-managed env (deps pin mlx-vlm/mlx-video)
+├── src/lance_mlx/
+│   ├── __init__.py
+│   ├── __main__.py            `lance-mlx generate` CLI entry point
+│   ├── bench.py               Timer + RunRecord + JSONL logging
+│   ├── io.py                  image/video IO + muxing
+│   ├── model/
+│   │   ├── lance_llm.py       dual-expert MoT backbone + resolve_memory_mode
+│   │   ├── _loader.py         weight loading
+│   │   ├── mape.py            modality-aware RoPE
+│   │   ├── flow_head.py       velocity prediction head
+│   │   ├── time_embedder.py   timestep embedding
+│   │   ├── routing.py         token modality routing
+│   │   ├── latent_pos_embed.py  latent position ids (Phase 5j fix)
+│   │   ├── prefix_cache.py    prefix/KV cache for AR decode
+│   │   ├── vae_bridge.py      Wan2.2 VAE interface
+│   │   └── vae_stream.py      bit-identical streaming/halo-tiled decode
+│   ├── pipeline/
+│   │   ├── t2i.py             text-to-image flow loop (memory_mode, lossless_decode)
+│   │   ├── t2v.py             text-to-video flow loop
+│   │   ├── image_edit.py
+│   │   ├── video_edit.py
+│   │   ├── understanding.py   x2t_image + x2t_video AR decode
+│   │   └── upstream_und_preprocess.py  byte-exact upstream x2t preprocessing
+│   ├── scheduler/
+│   │   └── solvers.py         DPMSolverPlusPlus2M (+ Euler warm-up)
+│   └── quant/
+│       ├── awq.py             AWQ port (alpha-search + scale fusion)
+│       └── calibrate.py       calibration harness
+├── scripts/                   ~50 numbered phase scripts + per-task demos:
+│   ├── 00_capture_oracle.py   Phase 0 PyTorch reference capture (cloud GPU)
+│   ├── 01_inspect_keys.py     weight topology audit
+│   ├── 02_convert.py          Lance checkpoint → MLX bf16 conversion
+│   ├── 06_convert_wan_vae.py  Wan2.2 VAE conversion
+│   ├── 06_publish_hf.py       HF upload
+│   ├── 08_t2i_demo.py         t2i driver (--scheduler dpm|euler)
+│   ├── 13_image_edit_demo.py  image_edit driver
+│   ├── 04_x2t_image_demo.py   x2t_image VQA driver
+│   ├── 10_t2v_demo.py / 14_x2t_video_demo.py / 15_video_edit_demo.py
+│   └── 46–49_*.py             ViT/upstream parity diagnostics
+├── prompts/
+│   ├── t2i_eval.json
+│   ├── t2v_eval.json
+│   └── understanding_eval.json
+├── tests/
+│   ├── fixtures/              Phase 0 PyTorch reference outputs
+│   ├── test_routing.py
+│   ├── test_mape.py
+│   ├── test_lance_model.py
+│   ├── test_mot_layer.py
+│   ├── test_scheduler.py
+│   ├── test_decode_stream.py
+│   ├── test_prefix_equiv.py
+│   ├── test_bench.py
+│   └── test_model_smoke.py
+├── notes/                     phase-by-phase educational notes
+├── Docs/                      RUNPOD_PHASE0.md + runbooks
+├── results/                   measured footprints / decode validation
+└── vendor/                    read-only reference clones
+```
+
+## License
+
+This MLX port: **Apache 2.0**.
+
+Lance model weights: Apache 2.0 (ByteDance Intelligent Creation Lab).
+Wan2.2 VAE: Apache 2.0 (Alibaba).
+Qwen2.5-VL: Apache 2.0 (Alibaba).
+
+See `LICENSE` and `NOTICE` for full attribution.
+
+## Citation
+
+```bibtex
+@article{fu2026lance,
+  title={Lance: Unified Multimodal Modeling by Multi-Task Synergy},
+  author={Fu, Fengyi and Huang, Mengqi and Wu, Shaojin and others},
+  journal={arXiv preprint arXiv:2605.18678},
+  year={2026}
+}
+```

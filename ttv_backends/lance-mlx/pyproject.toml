@@ -1,0 +1,71 @@
+[project]
+name = "lance-mlx"
+version = "0.0.1"
+description = "MLX port of Lance (ByteDance unified multimodal model) for Apple Silicon"
+requires-python = ">=3.12"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{name = "MVS Collective"}]
+keywords = ["mlx", "apple-silicon", "multimodal", "video-generation", "image-generation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "mlx>=0.20.0",
+    "mlx-lm>=0.20.0",
+    # Pinned to known-good commits 2026-05-20 — Qwen2.5-VL mRoPE has been
+    # churning upstream (multiple commits/month). Unpin only after a deliberate
+    # bump-and-validate cycle. See src/lance_mlx/model/lance_llm.py for the
+    # subclass contract we rely on.
+    "mlx-vlm @ git+https://github.com/Blaizzy/mlx-vlm.git@f2e19deccd257814c91a9cc2b5cb47281385cf40",
+    "mlx-video @ git+https://github.com/Blaizzy/mlx-video.git@87db56a51758fefb748a359b90a5283bb8ba4837",
+    "huggingface_hub>=0.25.0",
+    "requests>=2.31",
+    "safetensors>=0.4.5",
+    "numpy>=2.0",
+    "pillow>=10.0",
+    "imageio>=2.34",
+    "imageio-ffmpeg>=0.5.1",
+    "tqdm>=4.66",
+    "tokenizers>=0.20",
+    "hf-transfer>=0.1.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6", "lpips>=0.1.4", "scikit-image>=0.24"]
+
+[project.scripts]
+lance-mlx = "lance_mlx.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/xocialize/lance-mlx"
+"Bug Tracker" = "https://github.com/xocialize/lance-mlx/issues"
+"Upstream Model" = "https://huggingface.co/bytedance-research/Lance"
+Paper = "https://arxiv.org/abs/2605.18678"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+# Required because two deps use git+https direct references (mlx-vlm, mlx-video).
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lance_mlx"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]

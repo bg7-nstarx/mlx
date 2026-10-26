@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uvx ruff check videox_fun_mlx tests
+      - run: uvx ruff format --check videox_fun_mlx tests
+
+  type:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --extra dev
+      - name: Type-check with ty
+        run: uv run ty check
+        continue-on-error: true
+
+  test:
+    # arm64 runner — MLX requires Apple Silicon. The root pyproject carries the
+    # vendored upstream deps (decord has no macOS arm64 wheel), so install only
+    # what the MLX test suite imports instead of `uv sync`.
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python -m pip install --upgrade pip
+          pip install mlx mlx-arsenal numpy pytest
+      - run: python -m pytest tests/ -v
+
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v6

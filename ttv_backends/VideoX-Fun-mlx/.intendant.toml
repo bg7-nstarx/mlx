@@ -1,0 +1,7 @@
+[intendant]
+version = "1"
+stack = "python"
+enforcement = "advisory"
+
+[exemptions]
+PYTHON_LO001 = "Fork upstream avec layout flat, refactor reporté"
