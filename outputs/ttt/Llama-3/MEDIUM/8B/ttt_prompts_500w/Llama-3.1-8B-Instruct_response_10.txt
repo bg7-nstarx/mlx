@@ -1,0 +1,33 @@
+The Cessna 172N is a widely used single-engine, four-seat aircraft. The steering and braking components are critical for safe and controlled flight operations. Here's a breakdown of the key components:
+
+**Steering Components:**
+
+1. **Rudder Pedals:** The rudder pedals are used to control the rudder, which is a flat surface at the back of the aircraft. The rudder pedals are connected to the rudder through a system of cables and linkages. The pilot presses the left pedal to turn the aircraft left and the right pedal to turn it right.
+2. **Rudder:** The rudder is a flat surface at the back of the aircraft that provides directional control. It is connected to the rudder pedals through a system of cables and linkages.
+3. **Cable and Linkage System:** The cable and linkage system connects the rudder pedals to the rudder. This system allows the pilot to control the rudder with the pedals.
+
+**Braking Components:**
+
+1. **Brake Pedals:** The brake pedals are used to control the brakes on the main landing gear. The pilot presses the left pedal to apply the left brake and the right pedal to apply the right brake.
+2. **Main Landing Gear:** The main landing gear consists of two wheels, one on each side of the aircraft. The brakes are applied to these wheels to slow or stop the aircraft.
+3. **Brake System:** The brake system consists of a master cylinder, brake lines, and brake calipers. The master cylinder is connected to the brake pedals and converts the pressure from the pedals into hydraulic pressure. The brake lines carry this pressure to the brake calipers, which apply the brakes to the main landing gear.
+4. **Anti-Skid System:** The anti-skid system is a critical component of the brake system. It prevents the main landing gear from skidding or locking up during braking. The anti-skid system uses a computer-controlled system to apply the brakes in a way that prevents skidding.
+
+**Additional Components:**
+
+1. **Steering and Braking Linkages:** The steering and braking linkages connect the rudder pedals to the rudder and the brake pedals to the main landing gear. These linkages allow the pilot to control the steering and braking systems.
+2. **Cable and Linkage System:** The cable and linkage system connects the rudder pedals to the rudder and the brake pedals to the main landing gear. This system allows the pilot to control the steering and braking systems.
+3. **Hydraulic System:** The hydraulic system provides the pressure needed to apply the brakes. It consists of a master cylinder, brake lines, and brake calipers.
+
+**Maintenance and Inspection:**
+
+Regular maintenance and inspection of the steering and braking components are critical to ensure safe and controlled flight operations. The following components should be inspected regularly:
+
+* Rudder pedals and linkage system
+* Rudder and cable and linkage system
+* Brake pedals and linkage system
+* Main landing gear and brake system
+* Anti-skid system
+* Hydraulic system
+
+Regular maintenance and inspection can help prevent problems with the steering and braking components, ensuring safe and controlled flight operations.

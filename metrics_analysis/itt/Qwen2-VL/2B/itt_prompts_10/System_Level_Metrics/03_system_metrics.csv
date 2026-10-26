@@ -1,0 +1,6 @@
+CPU_Util(%),CPU_Temperature(C),cpuPower,Used (GB),GPU Utilization (%),GPU_RAM(MB),GPU_Temperature(C),gpuPower,npu_usage_percentage,npu_memory_usage_mb,npuPower,total_system_power,seconds,isPlugged
+7.69,66.02,1.99,17.21,1.47,,70.91,0.12,,,0.0,80.21,0.05,True
+14.88,66.06,6.0,17.18,90.03,,70.7,40.49,,,0.0,80.21,0.16,True
+18.39,66.06,7.79,17.18,100.0,,70.7,27.94,,,0.0,80.21,0.28,True
+19.53,66.06,7.86,17.18,100.0,,70.7,27.66,,,0.0,80.21,0.4,True
+12.4,66.06,4.28,17.18,50.01,,70.7,13.52,,,0.0,80.21,0.53,True

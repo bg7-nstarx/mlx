@@ -1,0 +1,38 @@
+The Cessna 172N is a popular single-engine, four-seat, high-wing aircraft widely used for training and personal flying. The steering and braking systems of the Cessna 172N are designed to provide safe and efficient control of the aircraft.
+
+**Steering System:**
+
+The Cessna 172N has a three-axis flight control system, which includes a primary flight control system (FFCS) and a secondary flight control system (SFCS). The primary flight control system is responsible for controlling the aircraft's pitch, roll, and yaw.
+
+1. **Primary Flight Control System (FFCS):**
+The FFCS consists of a yoke, a control stick, and a trim wheel. The yoke is the primary control surface, and it is used to control the aircraft's pitch and roll. The control stick is used to control the aircraft's yaw.
+2. **Secondary Flight Control System (SFCS):**
+The SFCS is a mechanical system that provides a backup to the FFCS. It consists of a trim wheel and a trim lever. The trim wheel is used to adjust the aircraft's pitch and roll, while the trim lever is used to adjust the aircraft's yaw.
+
+**Braking System:**
+
+The Cessna 172N has a dual-brake system, which provides safe and efficient braking.
+
+1. **Main Rotor Brake (MRB):**
+The MRB is a mechanical system that applies the brakes to the main rotor. It consists of a brake pedal, a brake lever, and a brake cable. The brake pedal is used to apply the brakes, while the brake lever is used to adjust the brake cable.
+2. **Tail Rotor Brake (TRB):**
+The TRB is a mechanical system that applies the brakes to the tail rotor. It consists of a tail rotor brake pedal and a tail rotor brake lever. The tail rotor brake pedal is used to apply the brakes, while the tail rotor brake lever is used to adjust the brake cable.
+
+**Brake System Components:**
+
+The Cessna 172N's brake system consists of the following components:
+
+1. **Brake Pedals:** The brake pedals are located on the floor of the cockpit and are used to apply the brakes to the main rotor and tail rotor.
+2. **Brake Levers:** The brake levers are located on the center console of the cockpit and are used to adjust the brake cable.
+3. **Brake Cables:** The brake cables are used to connect the brake levers to the brake pedals.
+4. **Brake Pads:** The brake pads are located on the main rotor and tail rotor and are used to apply the brakes.
+
+**Braking Procedure:**
+
+To brake the Cessna 172N, follow these steps:
+
+1. **Apply the brakes:** Press the brake pedal firmly to apply the brakes to the main rotor and tail rotor.
+2. **Adjust the brake cable:** Use the brake lever to adjust the brake cable and fine-tune the braking performance.
+3. **Monitor the aircraft's speed:** Monitor the aircraft's speed and adjust the braking performance as needed.
+
+In summary, the steering and braking components of the Cessna 172N are designed to provide safe and efficient control of the aircraft. The primary flight control system and secondary flight control system work together to provide precise control of the aircraft's pitch, roll, and yaw. The dual-brake system provides safe and efficient braking, and the brake system components work together to apply the brakes to the main rotor and tail rotor.

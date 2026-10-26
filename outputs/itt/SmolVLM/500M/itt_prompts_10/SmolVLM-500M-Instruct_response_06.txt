@@ -1,0 +1,154 @@
+The image is a data visualization that is structured to show the scope of a project. The image is divided into three main sections: Region, Domain, and Data Science.
+
+**Region Section:**
+- The Region section is further divided into three sub-sections:
+  - **India**
+  - **Europe**
+  - **East Asia/Aus**
+
+**Domain Section:**
+- The Domain section is divided into three sub-sections:
+  - **Mobile Apps**
+  - **Data Science**
+  - **Web & Mobile**
+
+**Data Science Section:**
+- The Data Science section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Project Management Section:**
+- The Project Management section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Management Section:**
+- The Data Management section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into

@@ -1,0 +1,68 @@
+**Basic Blackjack Game Rules and Logic**
+
+Blackjack, also known as "21," is a popular casino banking game played with one or more decks of 52 cards. The objective is to have a hand value that is closer to 21 than the dealer's hand without exceeding 21.
+
+**Game Logic:**
+
+1. **Card Values:**
+	* Numbered cards (2-10) are worth their face value.
+	* Jacks, Queens, and Kings are worth 10 points each.
+	* Aces can be worth either 1 or 11 points, depending on which is more beneficial to the player.
+2. **Hand Value:**
+	* The sum of the card values in a player's hand is their hand value.
+	* If a player's hand value exceeds 21, they "bust" and lose the game.
+3. **Gameplay:**
+	* The game starts with each player being dealt two cards, face up.
+	* The dealer is dealt one card, face up (the "upcard"), and one card, face down (the "hole card").
+	* Players can choose to "hit" (take another card), "stand" (keep their current hand), or "double down" (double their initial bet and take one more card).
+	* If a player's hand value is 21 (an "ace" and a "10" or "face card"), they have a "blackjack" and win the game, unless the dealer also has a blackjack.
+
+**Example Gameplay:**
+
+Let's say we're playing a game of Blackjack with a standard deck of 52 cards. The player's initial bet is $10.
+
+**Initial Deal:**
+
+The player is dealt two cards: a 9 of Hearts and a 5 of Diamonds.
+
+The dealer's upcard is a 7 of Spades.
+
+**Player's Turn:**
+
+The player's hand value is 14 (9 + 5). They can choose to:
+
+* Hit: Take another card to try to get closer to 21 or beat the dealer's hand.
+* Stand: Keep their current hand and hope it beats the dealer's hand.
+* Double Down: Double their initial bet and take one more card.
+
+Let's say the player chooses to hit.
+
+**Hit:**
+
+The player is dealt another card: a 7 of Clubs.
+
+The player's hand now is: 9 of Hearts, 5 of Diamonds, 7 of Clubs.
+
+The player's hand value is now 21 (9 + 5 + 7).
+
+**Player's Turn (continued):**
+
+Since the player's hand value is 21, they have a blackjack and win the game, unless the dealer also has a blackjack.
+
+**Dealer's Turn:**
+
+The dealer reveals their hole card: a 6 of Spades.
+
+The dealer's hand value is 13 (7 + 6). They need to hit to try to get closer to 21 or beat the player's hand.
+
+The dealer is dealt another card: a 9 of Diamonds.
+
+The dealer's hand now is: 7 of Spades, 6 of Spades, 9 of Diamonds.
+
+The dealer's hand value is now 22 (7 + 6 + 9), which exceeds 21. The dealer busts and the player wins the game.
+
+**Game Over:**
+
+The player wins the game and collects their winnings, which is their initial bet of $10, plus a bonus for having a blackjack.
+
+This is a basic example of how a game of Blackjack is played. The game can be more complex, with additional rules and variations, but the basic logic remains the same.

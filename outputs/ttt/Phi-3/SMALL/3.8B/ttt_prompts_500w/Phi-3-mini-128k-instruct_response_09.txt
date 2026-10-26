@@ -1,0 +1,100 @@
+Blackjack, also known as 21, is one of the most popular casino card games, combining elements of strategy, luck, and skill. The objective is to beat the dealer by getting as close to 21 as possible without going over. Here's a basic rundown of the rules, logic, and an example of gameplay:
+
+
+**Objective:**
+
+The goal is to have a hand value that is closer to 21 than the dealer'sel's, but not exceeding 21. Face cards count as 10, Aces can be either 1 or 11, and the rest of the cards count as their face value. The player competes against the dealer, not the house.
+
+
+**Setup:**
+
+Players sit at a table with the dealer, and the dealer's cards are dealt face-up. The player's hand is dealt two cards, and the dealer's upcard (one of the dealer's cards) is visible.
+
+
+**Bets and Wagers:**
+
+Players place their bets before the cards are dealt. The minimum bet is usually $1 or $5, but can vary by casino.
+
+
+**Gameplay:**
+
+Players can choose to "hit" (take another card), "stand" (stay with their current hand), "double down" (double their bet for an additional card), or "split" (if they have two cards of the same value, they can split them into two hands).
+
+
+**Rules:**
+
+- If the player's total is higher than the dealer's but not exceeding 21, the player wins.
+
+- If the player's total exceeds 21, the player busts and loses automatically.
+
+- If the dealer's total exceeds 21, the dealer busts, and the player wins.
+
+- If the player's total is higher than the dealer's but not exceeding 21, the player wins.
+
+- If the player's total is lower than the dealer's but not exceeding 21, the player loses.
+
+- If both have the same total, it's a tie (push).
+
+- If both have the same total and the player has blackjack, the player wins.
+
+- If both have the same total and the player doesn't have blackjack, it's a push.
+
+- If the player has blackjack and the dealer doesn't, the player wins.
+
+- If the player has blackjack and the dealer has blackjack, it's a tie (push).
+
+- If neither has blackjack, the highest total wins.
+
+
+**Basic Strategy:**
+
+- Always hit if you have 16 or less and the dealer's upcard is 2-6.
+
+- Always stand if you have 17 or more and the dealer's upcard is 7 or more.
+
+- Consider splitting 10s and Aces.
+
+- Double down strategically, but be cautious.
+
+
+**Example Gameplay:**
+
+Player's hand: 10h, 6h (total 16)
+
+Dealer's upcard: 5h
+
+Player chooses to hit and receives 5d (total 21)
+
+Player stands.
+
+Dealer reveals 10c, 9d (total 19)
+
+Player wins with a natural blackjack.
+
+
+**Variations:**
+
+- Some casinos offer side bets like "Dealer Match" or "Dealer Match Blackjack" where the player can win extra if the dealer's upcard matches the player's upcard.
+
+- "Surrender" option allows players to forfeit half their bet if they're behind and don't want to risk losing.
+
+- "Surrender" option is often available only before the dealer checks for blackjack.
+
+
+**Bonuses and Rules:**
+
+- Some casinos offer bonuses for hitting or standing on 10 or 11.
+
+- "Scat" (split ace) is common in some variations.
+
+
+**Tie-breakers:**
+
+- In some games, if both have blackjack, the player with the higher card (ace first) wins.
+
+- In others, the player with the higher total wins.
+
+
+**Blackjack:**
+
+- The best hand, beats all

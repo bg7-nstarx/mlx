@@ -1,0 +1,24 @@
+Blackjack, also known as 21, is a popular card game played in casinos worldwide. It is a game of strategy, skill, and luck, where players compete against the dealer to achieve a hand value as close to 21 as possible without exceeding it. The game is played with one or more decks of 52 cards and can be enjoyed by people of all ages. The objective is to beat the dealer's hand without going over 21. Here's an overview of the rules, logic, and example gameplay of Blackjack.
+
+**Rules:**
+
+1. The game begins with the dealer shuffling the deck and dealing two cards to each player and themselves. The players' cards are dealt face up, while the dealer's first card is dealt face up and the second face down.
+2. Cards are valued as follows: numbered cards (2-10) are worth their face value, face cards (Jack, Queen, and King) are worth 10, and Aces can be worth either 1 or 11, depending on the player's choice.
+3. The goal is to have a hand value closer to 21 than the dealer's hand without going over. A hand value of 21 is called a "Blackjack" or a "natural," which pays 3:2.
+4. Players can choose to "hit" (receive another card) or "stand" (keep their current hand). They can also "double down" (double their bet and receive one more card), "split" (if dealt two cards of the same value, they can split them into two separate hands), or "surrender" (forfeit half their bet and end their turn).
+5. If a player's hand exceeds 21, they "bust" and lose their bet.
+6. The dealer must hit until they reach a hand value of 17 or higher. If the dealer busts, all remaining players win.
+7. If the dealer and a player have the same hand value, it's a "push," and the player's bet is returned.
+8. The dealer wins ties unless the player has a Blackjack.
+
+**Logic:**
+
+Blackjack is a game of probability and strategy. Players must decide when to hit or stand based on the dealer's upcard and their own hand value. The dealer's upcard is crucial in determining the best course of action. For example, if the dealer shows a 7 or higher, the player should be more conservative, as the dealer has a higher chance of getting a hand value of 17 or higher. If the dealer shows a 6 or lower, the player can be more aggressive.
+
+**Example Gameplay:**
+
+Player A and Player B are playing against the dealer. The dealer deals two cards to each player and themselves. Player A receives a 10 and a 6 (totaling 16), while Player B receives an Ace and a 5 (totaling either 6 or 16). The dealer's upcard is a 9. Player A decides to hit and receives a 5, busting with a hand value of 21. Player B decides to stand with a hand value of 16. The dealer reveals their face-down card, which is a 4, giving them a hand value of 13. The dealer hits and draws a 7, busting with a hand value of 20. Player B wins.
+
+Player C and Player D are playing against the dealer. The dealer deals two cards to each player and themselves. Player C receives a 9 and a 7 (totaling 16), while Player D receives a pair of 8s. Player C decides to split the 8s, creating two separate hands. Player C receives a 3 on the first hand and a 10 on the second hand, while Player D receives a 2 on the second hand. The dealer reveals their face-down card, which is a 5, giving them a hand value of 15. Player C decides to hit on the first hand and receives a 6, busting with a hand value of 22. Player D decides to hit on the second hand and receives a 9, totaling 17. The dealer hits and draws a 6, busting with a hand value of 21. Player D wins.
+
+In summary, Blackjack is a game of skill and strategy, where players must

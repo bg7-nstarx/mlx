@@ -1,0 +1,11 @@
+id,image,prompt,note
+01,prompts/images_itt_prompts/itt_prompts_10/01.png,Describe this image in detail.,astronaut riding a green horse (illustration)
+02,prompts/images_itt_prompts/itt_prompts_10/02.png,Describe this image in detail.,bar chart of car sales in three showrooms
+03,prompts/images_itt_prompts/itt_prompts_10/03.png,Describe this image in detail.,CAPTCHA-style code image in a web form
+04,prompts/images_itt_prompts/itt_prompts_10/04.jpg,Describe this image in detail.,calico cat in a yellow shirt playing golf
+05,prompts/images_itt_prompts/itt_prompts_10/05.jpg,Describe this image in detail.,woman giving a dog a high-five on a beach
+06,prompts/images_itt_prompts/itt_prompts_10/06.png,Describe this image in detail.,scope diagram (resume categories tree)
+07,prompts/images_itt_prompts/itt_prompts_10/07.png,Describe this image in detail.,grid of company logos
+08,prompts/images_itt_prompts/itt_prompts_10/08.jpg,Describe this image in detail.,math olympiad equation a^3 + a^2 = 36
+09,prompts/images_itt_prompts/itt_prompts_10/09.jpg,Describe this image in detail.,rabbit in a blue coat on a country path
+10,prompts/images_itt_prompts/itt_prompts_10/10.jpg,Describe this image in detail.,"Van Gogh, The Starry Night"

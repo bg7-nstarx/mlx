@@ -1,0 +1,9 @@
+The image is a math olympiad question presented in a simple, text-based format. The question is written in black text on a white background. It states:
+
+"Math Olympiad Question
+\( a^3 + a^2 = 36 \)
+
+Solution:
+\( a = ? \)"
+
+The text is clear and straightforward, focusing on solving the equation \( a^3 + a^2 = 36 \) for the variable \( a \). The question is designed to test the solver's ability to manipulate algebraic expressions and find the value of \( a \). The image does not contain any additional visual elements or illustrations, keeping the focus solely on the mathematical problem.

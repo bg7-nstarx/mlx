@@ -1,0 +1,366 @@
+prompt_id,model,family,size,input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),prompt,response
+01,Llama-3.2-1B-Instruct,Llama-3,SMALL,57,428,373,Subject,70.0,1891.1,545.24,0.859,Draft a professional email to a manager requesting a recommendation for a new job opportunity. (In 500 words),"Subject: Request for Professional Recommendation
+
+Dear [Manager's Name],
+
+I hope this email finds you well. I am writing to request a professional recommendation for a new job opportunity that I have been considering. As you may know, I have been with [Company Name] for [Number] years and have consistently demonstrated my value to the organization through my contributions to the team and my commitment to delivering high-quality results.
+
+Recently, I have been presented with an exceptional opportunity to take on new challenges and responsibilities, which aligns with my career goals and aspirations. I am excited about the prospect of joining a new team and contributing to the organization's success. However, I am also aware that this new opportunity may require me to take on new responsibilities and potentially face new challenges.
+
+I am reaching out to you in the hopes that you would be willing to provide a professional recommendation on my behalf. Your endorsement would carry significant weight, and I believe that your recommendation would be invaluable in helping me navigate this new opportunity.
+
+I would like to request that you provide a recommendation that highlights my strengths, skills, and achievements. I am confident that you will be able to speak to my abilities and demonstrate my value to the organization. I am also happy to provide any additional information or context that you may need to make your recommendation as strong as possible.
+
+In terms of the specific job opportunity, I am not yet ready to make a formal job offer. However, I am eager to discuss the opportunity with you and explore the possibilities of how I can contribute to the organization's success. I am confident that, with your recommendation, I will be able to make a strong case for why I should be considered for this new opportunity.
+
+If you are available and willing to provide a recommendation, I would be grateful if you could respond to this email by [Date]. I am looking forward to hearing from you and discussing this opportunity further.
+
+Thank you for considering my request.
+
+Best regards,
+
+[Your Name]
+
+[Your Title]
+[Company Name]
+
+[Your Contact Information]
+
+Note: This email draft is a general template and should be tailored to your specific needs and circumstances."
+02,Llama-3.2-1B-Instruct,Llama-3,SMALL,63,818,660,In,68.0,2224.3,530.52,1.614,"Provide a brief background on the UK Prime Minister in 1995, highlighting key accomplishments and challenges during their tenure.(In 500 words)","In 1995, the United Kingdom was led by Prime Minister John Major. Major was the 58th Prime Minister of the United Kingdom and served from May 2, 1990, to July 27, 1997. During his tenure, Major achieved several key accomplishments, but also faced significant challenges.
+
+Major's tenure began with a strong economy, driven by the UK's post-war economic miracle. The country experienced rapid growth, low unemployment, and a significant increase in living standards. Major's government also implemented various policies aimed at reducing unemployment and improving the standard of living for the working class.
+
+One of Major's key accomplishments was the introduction of the National Minimum Wage (NMW) in 1992. The NMW was a significant milestone in the fight for workers' rights, as it marked the first time the UK had a national minimum wage. The NMW was a major success, as it helped to reduce poverty and improve the standard of living for millions of workers.
+
+Major also played a crucial role in the UK's efforts to join the European Union (EU). In 1993, Major's government negotiated the Maastricht Treaty, which laid the foundation for the creation of the EU. The treaty was signed on March 7, 1992, and the UK officially joined the EU on January 1, 1973. This marked a significant shift in the UK's economic and foreign policy, as the country became a member of the EU.
+
+Another key accomplishment of Major's government was the introduction of the Goods and Services Tax (GST) in 1995. The GST was a significant tax reform, which aimed to simplify the UK's tax system and reduce the burden on consumers. The GST was introduced on April 6, 1995, and it has been a major success, as it has helped to reduce the number of tax-related disputes and improve the overall efficiency of the tax system.
+
+However, Major's tenure was also marked by significant challenges. One of the most significant challenges faced by Major's government was the issue of Northern Ireland. The Good Friday Agreement (GFA) was signed in 1998, but the implementation of the agreement was slow and contentious. The GFA aimed to bring an end to the Troubles in Northern Ireland, but the process was fraught with challenges, including the presence of paramilitary groups and the need for significant concessions from the UK government.
+
+Major's government also faced significant challenges in the area of healthcare. The National Health Service (NHS) was facing significant pressure, as the number of patients was increasing and the healthcare system was becoming increasingly strained. Major's government implemented various reforms aimed at improving the NHS, but the challenges faced by the NHS were significant, and the government faced significant pressure to reform the healthcare system.
+
+In conclusion, John Major's tenure as Prime Minister of the United Kingdom in 1995 was marked by significant accomplishments, including the introduction of the National Minimum Wage and the Goods and Services Tax. However, the government also faced significant challenges, including the issue of Northern Ireland and the healthcare system. Despite these challenges, Major's government played a significant role in shaping the UK's post-war economic miracle and its subsequent economic growth.
+
+Major's legacy is complex, and opinions on his tenure vary widely. Some argue that Major's government was a success, as it achieved significant economic growth and improved the standard of living for many Britons. Others argue that Major's government was a failure, as it failed to address the social and economic challenges facing the UK.
+
+Regardless of one's opinion on Major's tenure, it is clear that he played a significant role in shaping the UK's post-war economic miracle and its subsequent economic growth. His government's policies, including the introduction of the National Minimum Wage and the Goods and Services Tax, have had a lasting impact on the UK's economy and society.
+
+In the end, John Major's tenure as Prime Minister of the United Kingdom in 1995 was a complex and multifaceted period, marked by both significant accomplishments and significant challenges."
+03,Llama-3.2-1B-Instruct,Llama-3,SMALL,61,762,567,The,71.4,2170.8,532.23,1.507,"Explain the current phase of the moon, its significance, and how it fits within the lunar cycle.(In 500 words)","The current phase of the moon is Waxing Gibbous. This phase occurs when the moon is about 80% illuminated by the sun, and it is the second phase of the lunar cycle.
+
+Waxing Gibbous is a phase that begins when the moon is about 50% illuminated by the sun. As the moon continues to move through its orbit, it appears to grow larger and brighter in the sky. This phase is characterized by the moon's face being illuminated by the sun, and it is often referred to as the ""full moon"" phase.
+
+The Waxing Gibbous phase is significant because it marks the beginning of the full moon phase. This phase is a critical point in the lunar cycle, as it is the time when the full moon is visible in the night sky. The Waxing Gibbous phase is also a time of increased lunar activity, as the moon is now at its brightest and most illuminated.
+
+The Waxing Gibbous phase is also a time of increased tidal activity. The moon's gravity pulls on the Earth's oceans, causing the tides to rise and fall. This phase is particularly notable, as the tidal activity is at its highest, and the moon's gravity is at its strongest.
+
+The Waxing Gibbous phase is also a time of increased atmospheric activity. The moon's gravity causes the atmosphere to stretch and expand, creating a phenomenon known as ""atmospheric refraction."" This phase is particularly notable, as the atmospheric refraction is at its highest, and the moon's gravity is at its strongest.
+
+The Waxing Gibbous phase is also a time of increased astronomical activity. The moon is now at its brightest and most illuminated, and it is visible in the night sky for most of the year. This phase is particularly notable, as the astronomical activity is at its highest, and the moon's brightness is at its strongest.
+
+In terms of the lunar cycle, the Waxing Gibbous phase is the second phase. The lunar cycle is divided into eight distinct phases, each lasting for approximately 29.5 days. The eight phases of the lunar cycle are:
+
+1. New Moon
+2. Waxing Crescent
+3. First Quarter
+4. Waxing Gibbous
+5. Full Moon
+6. Waning Gibbous
+7. Last Quarter
+8. Waning Crescent
+
+The Waxing Gibbous phase is the second phase of the lunar cycle, and it marks the beginning of the full moon phase. This phase is significant because it marks the beginning of the full moon phase, and it is a critical point in the lunar cycle.
+
+In conclusion, the Waxing Gibbous phase is a significant phase in the lunar cycle. It marks the beginning of the full moon phase and is a critical point in the lunar cycle. The Waxing Gibbous phase is also a time of increased lunar activity, tidal activity, atmospheric activity, and astronomical activity. It is a critical phase in the lunar cycle, and it is essential to understand its significance and importance.
+
+Here is a rough timeline of the Waxing Gibbous phase:
+
+- New Moon: January 3, 2024
+- Waxing Crescent: January 4, 2024
+- First Quarter: January 5, 2024
+- Waxing Gibbous: January 6, 2024
+- Full Moon: January 7, 2024
+- Waning Gibbous: January 8, 2024
+- Last Quarter: January 9, 2024
+- Waning Crescent: January 10, 2024
+
+Note: The exact dates of the Waxing Gibbous phase may vary depending on the lunar cycle and the specific location on Earth."
+04,Llama-3.2-1B-Instruct,Llama-3,SMALL,60,649,498,To,72.0,2069.0,537.34,1.284,"Describe the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency.(In 500 words)","To calculate the time required to bake 96 cookies, we need to consider the oven capacity and efficiency. Here's a step-by-step analysis:
+
+1. **Determine the oven capacity**: The oven capacity is the total number of cookies that can be baked at one time. Let's assume the oven capacity is 12 cookies per minute (CPM). This means that the oven can bake 12 cookies per minute.
+
+2. **Calculate the baking time**: To calculate the baking time, we need to divide the total number of cookies (96) by the oven capacity (12). This gives us a baking time of 96 / 12 = 8 minutes.
+
+3. **Consider oven efficiency**: Oven efficiency is the ratio of the oven's capacity to the actual baking time. Let's assume the oven efficiency is 80% (i.e., 80% of the oven's capacity is used for baking). This means that the oven can bake 80% of the total number of cookies (96) in the same amount of time (8 minutes).
+
+4. **Calculate the baking time with oven efficiency**: To calculate the baking time with oven efficiency, we need to divide the total number of cookies (96) by the oven capacity (12) and multiply by the oven efficiency (0.8). This gives us a baking time of 96 / 12 x 0.8 = 7.68 minutes.
+
+5. **Consider the oven's capacity to handle multiple batches**: If we need to bake multiple batches of cookies, we need to consider the oven's capacity to handle multiple batches. Let's assume the oven can handle 2 batches of cookies at the same time. This means that the oven can bake 2 x 12 = 24 cookies per minute.
+
+6. **Calculate the baking time for multiple batches**: To calculate the baking time for multiple batches, we need to divide the total number of cookies (96) by the oven capacity (24) and multiply by the oven efficiency (0.8). This gives us a baking time of 96 / 24 x 0.8 = 7.68 minutes.
+
+7. **Consider the oven's capacity to handle large batches**: If we need to bake large batches of cookies, we need to consider the oven's capacity to handle large batches. Let's assume the oven can handle 4 batches of cookies at the same time. This means that the oven can bake 4 x 12 = 48 cookies per minute.
+
+8. **Calculate the baking time for large batches**: To calculate the baking time for large batches, we need to divide the total number of cookies (96) by the oven capacity (48) and multiply by the oven efficiency (0.8). This gives us a baking time of 96 / 48 x 0.8 = 7.68 minutes.
+
+In conclusion, the time required to bake 96 cookies can be calculated by considering the oven capacity and efficiency. The baking time can be calculated by dividing the total number of cookies by the oven capacity and multiplying by the oven efficiency. Additionally, the baking time can be further optimized by considering the oven's capacity to handle multiple batches and large batches."
+05,Llama-3.2-1B-Instruct,Llama-3,SMALL,91,635,486,Let,78.9,2458.0,535.92,1.268,"Imagine three friends, Mia, Noah, and Olivia, each running a race. Mia finishes ahead of Noah, and Noah finishes ahead of Olivia. Analyze the race results and elaborate on the relationship between Mia’s position and Olivia’s, discussing possible scenarios.(In 500 words)","Let's analyze the race results and explore the possible scenarios.
+
+Mia finishes ahead of Noah:
+Mia's position is 1st, Noah's position is 2nd, and Olivia's position is 3rd. This means that Mia is 1 second ahead of Noah, and Olivia is 1 minute and 30 seconds behind Mia.
+
+Noah finishes ahead of Olivia:
+Noah's position is 2nd, Olivia's position is 3rd, and Mia's position is 1st. This means that Noah is 1 minute and 30 seconds behind Olivia, and Mia is 1 second behind Noah.
+
+Now, let's analyze the relationship between Mia's position and Olivia's position.
+
+From the first scenario, we know that Mia is 1 second ahead of Noah, and Olivia is 1 minute and 30 seconds behind Mia. This means that Olivia is 1 minute and 30 seconds behind Noah, and Noah is 1 minute and 30 seconds behind Mia.
+
+From the second scenario, we know that Noah is 1 minute and 30 seconds behind Olivia, and Mia is 1 second behind Noah. This means that Olivia is 1 minute and 30 seconds behind Noah, and Noah is 1 minute and 30 seconds behind Mia.
+
+Now, let's explore some possible scenarios:
+
+Scenario 1: The three friends are running at the same pace. If this is the case, then Olivia would be 1 minute and 30 seconds behind Noah, and Noah would be 1 minute and 30 seconds behind Mia. This would mean that Olivia is 1 minute and 30 seconds behind Noah, and Noah is 1 minute and 30 seconds behind Mia.
+
+Scenario 2: The three friends are running at different paces. If this is the case, then Olivia would be 1 minute and 30 seconds behind Noah, and Noah would be 1 minute and 30 seconds behind Mia. This would mean that Olivia is 1 minute and 30 seconds behind Noah, and Noah is 1 minute and 30 seconds behind Mia.
+
+Scenario 3: The three friends are running at the same pace, but with some variation in their speeds. If this is the case, then Olivia would be 1 minute and 30 seconds behind Noah, and Noah would be 1 minute and 30 seconds behind Mia. This would mean that Olivia is 1 minute and 30 seconds behind Noah, and Noah is 1 minute and 30 seconds behind Mia.
+
+Scenario 4: The three friends are running at different paces, but with some variation in their speeds. If this is the case, then Olivia would be 1 minute and 30 seconds behind Noah, and Noah would be 1 minute and 30 seconds behind Mia. This would mean that Olivia is 1 minute and 30 seconds behind Noah, and Noah is 1 minute and 30 seconds behind Mia.
+
+In conclusion, the relationship between Mia's position and Olivia's position is complex and depends on the pace at which the friends are running. There are multiple possible scenarios, each with its own set of conditions and outcomes."
+06,Llama-3.2-1B-Instruct,Llama-3,SMALL,46,793,575,**,70.9,1591.9,534.11,1.56,Tell me about Global warming.(In 500 words),"**Global Warming: Understanding the Issue**
+
+Global warming, also known as climate change, is the gradual increase in the overall temperature of the Earth's atmosphere, primarily caused by human activities that release greenhouse gases (GHGs) into the atmosphere. The scientific consensus is clear: human activities are significantly contributing to the increase in global temperatures, leading to severe weather events, rising sea levels, and more frequent natural disasters.
+
+**Causes of Global Warming**
+
+The main causes of global warming are:
+
+1. **Carbon dioxide (CO2) emissions**: The burning of fossil fuels, such as coal, oil, and gas, releases CO2 into the atmosphere. This is the largest contributor to global warming.
+2. **Deforestation**: The clearing of forests for agriculture, urbanization, and other purposes releases carbon dioxide and other greenhouse gases into the atmosphere.
+3. **Methane (CH4) emissions**: The production of methane, a potent GHG, from agriculture, natural gas, and other sources.
+4. **Nitrous oxide (N2O) emissions**: The production of N2O from agriculture, industrial processes, and the burning of fossil fuels.
+5. **Fertilizer use**: The use of synthetic fertilizers in agriculture releases N2O into the atmosphere.
+
+**Effects of Global Warming**
+
+The effects of global warming are far-reaching and devastating:
+
+1. **Rising sea levels**: Thawing of polar ice caps and glaciers contributes to rising sea levels, leading to coastal erosion, flooding, and saltwater intrusion into freshwater sources.
+2. **Extreme weather events**: Global warming leads to more frequent and intense heatwaves, droughts, floods, and storms.
+3. **Water scarcity**: Changes in precipitation patterns and increased evaporation due to warmer temperatures lead to water scarcity and droughts.
+4. **Loss of biodiversity**: Rising temperatures and changing ecosystems lead to the extinction of many plant and animal species.
+5. **Food insecurity**: Changes in temperature and precipitation patterns affect agricultural productivity, leading to food insecurity and economic losses.
+
+**Consequences of Global Warming**
+
+The consequences of global warming are severe and far-reaching:
+
+1. **Increased risk of natural disasters**: Global warming leads to more frequent and intense natural disasters, such as hurricanes, wildfires, and floods.
+2. **Economic losses**: The economic costs of global warming are estimated to be in the trillions of dollars.
+3. **Human migration**: Rising sea levels and extreme weather events lead to human migration, social unrest, and conflict.
+4. **Healthcare costs**: Global warming leads to increased healthcare costs due to increased morbidity and mortality.
+5. **Social and cultural impacts**: Global warming has significant social and cultural impacts, including changes in social norms, cultural practices, and community cohesion.
+
+**Solutions to Global Warming**
+
+The only way to mitigate the effects of global warming is to reduce greenhouse gas emissions and transition to renewable energy sources. Some solutions include:
+
+1. **Transition to renewable energy**: Shift from fossil fuels to renewable energy sources, such as solar, wind, and hydroelectric power.
+2. **Energy efficiency**: Improve energy efficiency in buildings, transportation, and industry.
+3. **Carbon capture and storage**: Implement carbon capture and storage technologies to reduce emissions from industrial sources.
+4. **Sustainable land use**: Implement sustainable land use practices, such as reforestation and agroforestry.
+5. **Climate-resilient infrastructure**: Invest in climate-resilient infrastructure, such as sea walls, levees, and green roofs.
+
+**Conclusion**
+
+Global warming is a pressing issue that requires immediate attention and action. The causes, effects, and consequences of global warming are well-documented, and the only way to mitigate its impacts is to reduce greenhouse gas emissions and transition to renewable energy sources. By working together, we can mitigate the effects of global warming and create a more sustainable and equitable future for all."
+07,Llama-3.2-1B-Instruct,Llama-3,SMALL,46,1024,688,The,66.2,1768.4,527.63,2.011,Tell the History of USA.(In 500 words),"The United States of America (USA) has a rich and complex history that spans over two centuries. Here's a brief overview:
+
+**Pre-Columbian Era (Before 1492)**
+
+The first inhabitants of the Americas were Native American tribes, including the indigenous peoples of North, South, and Central America. These tribes developed complex societies, with their own languages, cultures, and traditions.
+
+**Colonial Era (1492-1776)**
+
+In 1492, Christopher Columbus landed in the Caribbean, marking the beginning of European exploration and colonization of the Americas. The Spanish, Portuguese, French, and British established colonies in the Americas, with the Spanish establishing the first permanent settlement in 1565.
+
+The 17th and 18th centuries saw the rise of the British colonies in North America, including the establishment of the Massachusetts Bay Colony in 1629. The colonies developed their own systems of government, laws, and economies.
+
+**American Revolution (1775-1783)**
+
+The American Revolution began in 1775, when the Thirteen Colonies declared independence from Great Britain. The Continental Army, led by George Washington, fought against the British Army, led by King George III. The Revolution ended with the signing of the Treaty of Paris in 1783, which recognized American independence.
+
+**Antebellum Era (1783-1861)**
+
+The 19th century saw the rise of the United States as a major power. The country expanded its territory through the Louisiana Purchase (1803) and the Mexican-American War (1846-1848). The Civil War (1861-1865) was fought over the issue of slavery, with the Union (the Northern states) fighting to preserve the institution, and the Confederacy (the Southern states) fighting to secede.
+
+**Civil War and Reconstruction (1861-1877)**
+
+The American Civil War was fought between the Union and the Confederacy, resulting in the deaths of an estimated 620,000 to 750,000 soldiers. The war ended with the defeat of the Confederacy, and the Reconstruction Era (1865-1877) saw the country attempt to rebuild and redefine itself.
+
+**Industrialization and Imperialism (1877-1914)**
+
+The late 19th and early 20th centuries saw the rise of industrialization and imperialism in the United States. The country expanded its territory through the annexation of Hawaii (1898) and the Philippines (1902), and the United States emerged as a global power.
+
+**World War I and the Roaring Twenties (1914-1929)**
+
+The United States entered World War I in 1917, and played a significant role in the Allied victory. The Roaring Twenties (1920-1929) saw the country experience a period of economic growth, cultural change, and social upheaval.
+
+**The Great Depression and World War II (1929-1945)**
+
+The Great Depression (1929-1939) saw the country experience widespread economic hardship, and the United States entered World War II in 1941, after the Japanese attack on Pearl Harbor.
+
+**The Cold War and Civil Rights (1945-1989)**
+
+The post-war period saw the United States emerge as a global superpower, but also experience the Cold War (1945-1991) with the Soviet Union. The Civil Rights Movement (1950s-1960s) saw the country fight for racial equality and social justice.
+
+**The Vietnam War and the Fall of the Berlin Wall (1959-1989)**
+
+The Vietnam War (1959-1975) saw the United States become increasingly involved in the conflict, while the Fall of the Berlin Wall (1989) marked the end of the Cold War and the beginning of a new era of globalization.
+
+**The Post-Cold War Era (1990-2001)**
+
+The post-Cold War era saw the United States emerge as a global leader, with the country playing a significant role in international affairs. The country also experienced the rise of the internet and the digital economy.
+
+**The War on Terror and the Global War on Drugs (2001-2009)**
+
+The War on Terror (2001-2009) saw the United States launch military operations in Afghanistan and Iraq, while the Global War on Drugs (2001-2009) saw the country fight against the production and trafficking of illicit substances.
+
+**The Financial Crisis and the Recovery (2009-2019)**
+
+The 2008 global financial crisis saw the United States experience widespread economic hardship, while the Recovery (2009-2019) saw the country emerge from the crisis with a new economic order.
+
+**The Trump Era and the Global Pandemic (2017-2020)**
+
+The Trump Era (2017-2020) saw the United States experience a period of economic growth, while the Global Pandemic (2020) saw the country experience widespread illness and death.
+
+**The Biden Era and the Global Pandemic (2021"
+08,Llama-3.2-1B-Instruct,Llama-3,SMALL,69,558,408,**,75.3,1992.3,542.41,1.108,"Draft a compelling advertisement for a new grocery store in a small town, including the store’s unique features, grand opening promotions, and community benefits.(In 500 words)","**Introducing Oakwood Market: Your New Home for Fresh, Local, and Community-Focused Groceries**
+
+Welcome to Oakwood Market, the ultimate destination for fresh, local, and community-focused groceries in our beloved small town! Our mission is to provide the best possible shopping experience, while fostering a sense of community and connection among our customers.
+
+**Unique Features:**
+
+* **Community Kitchen**: Join our weekly cooking classes, where local chefs and food enthusiasts share recipes and cooking techniques. Perfect for families, foodies, and anyone looking to spice up their meal routine.
+* **Farmers' Market**: Every Saturday, our market comes alive with fresh produce, artisanal goods, and handmade crafts. Come and discover the best of our local farmers and artisans.
+* **Meal Planning and Grocery Services**: Our expert team will help you plan your meals, shop for ingredients, and even cook your meals at home. We'll take care of the grocery shopping for you!
+
+**Grand Opening Promotions:**
+
+* **Free Meal**: Enjoy a complimentary meal at our community kitchen on Saturday, June 17th.
+* **Buy One, Get One Free**: Stock up on essentials and enjoy a BOGO deal on all groceries.
+* **Kids' Meal**: Treat your little ones to a special meal, complete with a fun activity or craft.
+
+**Community Benefits:**
+
+* **Local Food Drive**: Help us collect food for our local food bank by dropping off your donations at the market.
+* **Community Garden**: Join our community garden project, where you can grow your own fruits and veggies, and connect with fellow gardeners.
+* **Charity Partnerships**: We're proud to partner with local charities, donating a portion of our sales to support our community.
+
+**What We're All About:**
+
+At Oakwood Market, we're passionate about providing the best possible shopping experience. Our team is dedicated to helping you find the freshest produce, the best local products, and the most convenient shopping experience. We're committed to supporting our community, and we invite you to be a part of it.
+
+**Join the Oakwood Market Family:**
+
+Visit us today and discover the best of our small town! Our friendly staff, knowledgeable experts, and welcoming atmosphere will make you feel right at home. We can't wait to welcome you to Oakwood Market!
+
+**Mark Your Calendars:**
+
+Grand Opening: Saturday, June 17th
+Free Meal: Saturday, June 17th
+Buy One, Get One Free: Every Saturday
+Kids' Meal: Saturday, June 17th
+Community Garden: Ongoing
+Local Food Drive: Ongoing
+Charity Partnerships: Ongoing
+
+Come visit us, and let's start a new chapter in our small town's history!"
+09,Llama-3.2-1B-Instruct,Llama-3,SMALL,56,662,476,**,68.9,1900.5,538.23,1.303,"Explain the basic Blackjack game, including rules, logic, and example gameplay.(In 500 words)","**Basic Blackjack Game**
+
+Blackjack, also known as Twenty-One, is a popular casino banking game based on a single hand of 52-card deck and a set of rules. The objective of the game is to have a hand value closest to 21 without going over.
+
+**Rules:**
+
+1. **Initial Deal:** A standard deck of 52 cards is shuffled and dealt evenly among the players, with each player receiving 2-5 cards, depending on the player's age and the rules of the game.
+2. **Card Values:** Cards 2-10 are worth their face value, while Jacks, Queens, and Kings are worth 10 points each. An Ace can be worth either 1 or 11 points, depending on which is more beneficial to the player.
+3. **Doubling Down:** If a player's hand value is 18 or more, they can choose to double down, doubling their initial bet and receiving one more card.
+4. **Splitting Pairs:** If a player's initial two cards have the same value (e.g., two 8s), they can split them into two separate hands, with their initial bet applied to each hand.
+5. **Surrender:** If a player's hand value is 16 or less, they can choose to surrender their hand, giving up their bet and losing half of their bet.
+
+**Logic:**
+
+1. **Card Values:** The value of each card is determined by its face value.
+2. **Hand Value:** The total value of a player's hand is calculated by adding up the values of all their cards.
+3. **Blackjack:** If a player's hand value is 21 (e.g., two 10s, two 9s, etc.), they have a Blackjack, which is the best possible hand.
+4. **Busting:** If a player's hand value exceeds 21, they immediately lose half of their bet.
+
+**Example Gameplay:**
+
+Let's say we have two players, Alice and Bob.
+
+Alice starts with a hand value of 14 (2+10). She chooses to double down, doubling her initial bet and receiving one more card.
+
+Alice's hand now looks like this: 2, 10, 8, 6
+
+Bob starts with a hand value of 17 (9+8). He chooses to split his initial two cards into two separate hands.
+
+Bob's first hand looks like this: 9, 5
+Bob's second hand looks like this: 7, 2
+
+Now, let's say the dealer's hand value is 16 (10+6). The dealer chooses to surrender their hand, giving up their bet.
+
+The player with the highest hand value wins the game. In this case, Alice's hand value is 14, while Bob's hand value is 17. Since 17 is higher, Bob wins the game.
+
+**Conclusion:**
+
+Blackjack is a simple yet strategic game that requires players to understand basic card values and hand calculations. The rules and logic of the game are straightforward, making it easy to learn and play. However, the game also requires players to make informed decisions, such as when to double down or split pairs, which can be challenging for beginners."
+10,Llama-3.2-1B-Instruct,Llama-3,SMALL,57,957,602,The,69.2,1912.1,530.51,1.877,Breakdown the steering and breaking components of a Cessna 172N. (In 500 words),"The Cessna 172N is a popular and reliable training aircraft. Understanding its steering and breaking components is essential for pilots and instructors. Here's a breakdown of these critical systems:
+
+**Steering Components:**
+
+1. **Primary Flight Controls (PFCs):** The PFCs are the primary control surfaces for the 172N. They consist of:
+	* **Ailerons:** Located on the wings, the ailerons control roll and pitch. The ailerons on the 172N are:
+		+ Upper wing aileron: 30° to 40° from the vertical
+		+ Lower wing aileron: 30° to 40° from the vertical
+	* **Elevators:** Located on the tail, the elevators control pitch. The elevators on the 172N are:
+		+ Upper wing elevator: 10° to 20° from the vertical
+		+ Lower wing elevator: 10° to 20° from the vertical
+	* **Rudder:** Located on the tail, the rudder controls yaw. The rudder on the 172N is:
+		+ Upper wing rudder: 10° to 20° from the vertical
+		+ Lower wing rudder: 10° to 20° from the vertical
+2. **Flight Controls:** The flight controls are the secondary control surfaces for the 172N. They consist of:
+	* **Pitch Control:** Located on the horizontal stabilizer, the pitch control is used to control pitch. The pitch control on the 172N is:
+		+ Upper wing pitch control: 10° to 20° from the vertical
+		+ Lower wing pitch control: 10° to 20° from the vertical
+	* **Roll Control:** Located on the horizontal stabilizer, the roll control is used to control roll. The roll control on the 172N is:
+		+ Upper wing roll control: 30° to 40° from the vertical
+		+ Lower wing roll control: 30° to 40° from the vertical
+3. **Flight Controls System:** The flight controls system is the combination of the primary and secondary control surfaces. It is a complex system that requires precise control to maintain stable flight.
+
+**Breaking Components:**
+
+1. **Primary Flight Controls (PFCs):** The PFCs are the primary control surfaces for the 172N. They consist of:
+	* **Ailerons:** Located on the wings, the ailerons control roll and pitch. The ailerons on the 172N are:
+		+ Upper wing aileron: 30° to 40° from the vertical
+		+ Lower wing aileron: 30° to 40° from the vertical
+	* **Elevators:** Located on the tail, the elevators control pitch. The elevators on the 172N are:
+		+ Upper wing elevator: 10° to 20° from the vertical
+		+ Lower wing elevator: 10° to 20° from the vertical
+	* **Rudder:** Located on the tail, the rudder controls yaw. The rudder on the 172N is:
+		+ Upper wing rudder: 10° to 20° from the vertical
+		+ Lower wing rudder: 10° to 20° from the vertical
+2. **Flight Controls:** The flight controls are the secondary control surfaces for the 172N. They consist of:
+	* **Pitch Control:** Located on the horizontal stabilizer, the pitch control is used to control pitch. The pitch control on the 172N is:
+		+ Upper wing pitch control: 10° to 20° from the vertical
+		+ Lower wing pitch control: 10° to 20° from the vertical
+	* **Roll Control:** Located on the horizontal stabilizer, the roll control is used to control roll. The roll control on the 172N is:
+		+ Upper wing roll control: 30° to 40° from the vertical
+		+ Lower wing roll control: 30° to 40° from the vertical
+3. **Flight Controls System:** The flight controls system is the combination of the primary and secondary control surfaces. It is a complex system that requires precise control to maintain stable flight.
+
+In summary, the steering and breaking components of the Cessna 172N are complex systems that require precise control to maintain stable flight. Understanding these components is essential for pilots and instructors to ensure safe and efficient flight."

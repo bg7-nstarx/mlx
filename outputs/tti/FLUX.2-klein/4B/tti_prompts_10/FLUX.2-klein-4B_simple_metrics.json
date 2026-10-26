@@ -1,0 +1,165 @@
+{
+  "model": "FLUX.2-klein-4B",
+  "family": "FLUX.2-klein",
+  "size": "SMALL",
+  "repo": "black-forest-labs/FLUX.2-klein-4B",
+  "library": "mflux",
+  "parameters_billion": 4.0,
+  "precision": "8-bit",
+  "prompt_set": "tti_prompts_10",
+  "images_generated": 10,
+  "settings": {
+    "resolution_px": "1024x1024",
+    "steps": 4,
+    "guidance": 1.0,
+    "seed": 0
+  },
+  "speed": {
+    "model_load_seconds": 1.8,
+    "total_inference_seconds": 42.7,
+    "avg_seconds_per_image": 4.27,
+    "avg_ms_per_step": 1066.4,
+    "images_per_minute": 14.07,
+    "avg_time_to_first_step_ms": null,
+    "avg_decode_seconds": null
+  },
+  "memory": {
+    "download_gb": 23.72,
+    "peak_memory_gb": 18.66
+  },
+  "gpu": {
+    "avg_utilization_pct": 94.6,
+    "peak_utilization_pct": 100.0,
+    "avg_frequency_mhz": 1435,
+    "max_frequency_mhz": 1620,
+    "avg_power_watts": 59.0,
+    "peak_power_watts": 103.7,
+    "energy_joules": 2608.95,
+    "avg_temperature_c": 88.7,
+    "max_temperature_c": 96.3
+  },
+  "cpu": {
+    "avg_utilization_pct": 4.4,
+    "peak_utilization_pct": 17.2,
+    "super_cores": 6,
+    "super_cores_avg_utilization_pct": 8.8,
+    "super_cores_avg_frequency_mhz": 4129,
+    "performance_cores": 12,
+    "performance_cores_avg_utilization_pct": 2.2,
+    "performance_cores_avg_frequency_mhz": 1365,
+    "avg_power_watts": 3.5,
+    "peak_power_watts": 10.4,
+    "energy_joules": 154.09,
+    "avg_temperature_c": 75.0,
+    "max_temperature_c": 83.7
+  },
+  "npu": {
+    "name": "Apple Neural Engine (ANE)",
+    "used": false,
+    "avg_power_watts": 0.0,
+    "peak_power_watts": 0.0,
+    "energy_joules": 0.0,
+    "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+  },
+  "system_memory": {
+    "avg_power_watts": 4.9,
+    "energy_joules": 215.36,
+    "ram_total_gb": 51.5,
+    "avg_ram_used_gb": 22.4,
+    "peak_ram_used_gb": 27.3,
+    "peak_swap_used_gb": 8.34,
+    "note": "RAM used is for the whole Mac, including other apps, not just this model."
+  },
+  "whole_chip": {
+    "avg_power_watts": 67.4,
+    "peak_power_watts": 110.6,
+    "energy_joules": 2978.4,
+    "idle_power_watts": 0.66,
+    "note": "CPU + GPU + Neural Engine + memory."
+  },
+  "measured_seconds": 44.19,
+  "power_samples": 408,
+  "energy": {
+    "total_joules": 2957.4,
+    "avg_joules_per_image": 295.7,
+    "watt_hours_per_100_images": 8.21
+  },
+  "cost_usd": {
+    "api_fee": 0.0,
+    "electricity_whole_run": 0.000123,
+    "electricity_per_1000_images": 0.0123,
+    "electricity_price_per_kwh": 0.15
+  },
+  "per_image": [
+    {
+      "id": "01",
+      "seconds": 3.94,
+      "energy_joules": 360.71,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_01.png",
+      "caption": "The image features a vibrant, colorful fish with a large, expressive eye, swimming against a dark blue background."
+    },
+    {
+      "id": "02",
+      "seconds": 4.01,
+      "energy_joules": 334.19,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_02.png",
+      "caption": "The image shows a unique chair designed to resemble an avocado, with a green exterior and a yellow interior."
+    },
+    {
+      "id": "03",
+      "seconds": 4.02,
+      "energy_joules": 329.09,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_03.png",
+      "caption": "The image is a painting of a football player in a field, wearing a blue uniform with a helmet, holding a football. The background features swirling, starry skies with yellow suns."
+    },
+    {
+      "id": "04",
+      "seconds": 4.07,
+      "energy_joules": 319.12,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_04.png",
+      "caption": "The image is a colorful illustration of a futuristic cityscape featuring tall buildings, flying cars, and a bright sky."
+    },
+    {
+      "id": "05",
+      "seconds": 4.14,
+      "energy_joules": 304.43,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_05.png",
+      "caption": "The image features a glowing, abstract design resembling a compass rose, with lines extending from the center to form a star-like pattern. The overall effect is bright and colorful, with a blue and white color scheme."
+    },
+    {
+      "id": "06",
+      "seconds": 4.31,
+      "energy_joules": 281.45,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_06.png",
+      "caption": "The image features a cartoon cat dressed in a white shirt and blue shorts, holding a golf club and a golf ball on a grassy field with trees in the background."
+    },
+    {
+      "id": "07",
+      "seconds": 4.45,
+      "energy_joules": 264.91,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_07.png",
+      "caption": "The image depicts a sailboat sailing on the ocean with a beautiful sunset in the background, featuring a red flag and seagulls flying above."
+    },
+    {
+      "id": "08",
+      "seconds": 4.55,
+      "energy_joules": 255.57,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_08.png",
+      "caption": "A colorful hot air balloon with a rainbow-striped pattern floats over a serene lake, creating a picturesque scene."
+    },
+    {
+      "id": "09",
+      "seconds": 4.58,
+      "energy_joules": 253.4,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_09.png",
+      "caption": "A Formula One race car is driving on a track at night, with neon lights creating a vibrant, colorful atmosphere."
+    },
+    {
+      "id": "10",
+      "seconds": 4.6,
+      "energy_joules": 254.5,
+      "image_file": "outputs/tti/FLUX.2-klein/4B/tti_prompts_10/FLUX.2-klein-4B_image_10.png",
+      "caption": "A dinosaur is fishing in a pond surrounded by trees."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Dear Mr. Smith,
+
+I am writing to request a recommendation for a new job opportunity. I am currently working as a senior software developer at ABC Company, and I am looking to make a change. I have been with ABC Company for the past five years, and I have enjoyed my time there. However, I am ready for a new challenge and am looking for a new opportunity.
+
+I am confident that I have the skills and experience necessary to be successful in a new role. I have a strong background in software development, and I have experience working with a variety of programming languages and frameworks. I am also familiar with agile development methodologies and have experience working in a team environment.
+
+I am confident that I can make a positive contribution to any organization. I am a hard worker and am always looking for ways to improve my skills and knowledge. I am also a team player and am always willing to help out my teammates.
+
+I would appreciate the opportunity to discuss this further with you. I am available to meet with you at your convenience. Thank you for your time and consideration.
+
+Sincerely,
+
+<a href="mailto:<email address>"><email address></a>

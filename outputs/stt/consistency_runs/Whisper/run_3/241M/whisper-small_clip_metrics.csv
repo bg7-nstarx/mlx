@@ -1,0 +1,11 @@
+clip_id,model,family,size,voice,input_audio (s),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),inference_rate (tokens/s),inference_time (s),transcript
+01,whisper-small,Whisper,SMALL,Samantha,6.87,1500,21,18, D,100.4,209.2,0.1,"Draft a professional email to a manager requesting a recommendation for a new job opportunity, in 500 words."
+02,whisper-small,Whisper,SMALL,Daniel,9.76,1500,26,22, Prov,103.3,251.6,0.103,"Provide a brief background on the UK crime minister in 1995, highlighting key accomplishments and challenges during their tenure, in 500 words."
+03,whisper-small,Whisper,SMALL,Karen,6.92,1500,24,20, Explain,92.7,258.9,0.093,"Explain the current phase of the moon, its significance, and how it fits within the lunar cycle, in 500 words."
+04,whisper-small,Whisper,SMALL,Moira,8.86,1500,24,20, Des,104.2,230.4,0.104,"Describe the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency, in 500 words."
+05,whisper-small,Whisper,SMALL,Rishi,19.13,1500,59,42, Imagine,184.1,320.5,0.184,"Imagine three friends, Mia, Noa, and Olivia, each running a race. Mia finishes ahead of Noa, and Noa finishes ahead of Olivia. Analyze the race results and elaborate on the relationship between Maya's position and Olivia's, discussing possible scenarios, in 500 words."
+06,whisper-small,Whisper,SMALL,Samantha,3.08,1500,10,8, Tell,73.2,136.6,0.073,"Tell me about global warming, in 500 words."
+07,whisper-small,Whisper,SMALL,Daniel,3.32,1500,9,8, Tell,70.5,127.7,0.071,Tell the history of USA in 500 words.
+08,whisper-small,Whisper,SMALL,Karen,10.98,1500,34,27, D,124.0,274.3,0.124,"Draft a compelling advertisement for a new grocery store in a small town, including the store's unique features, grand opening promotions, and community benefits, in 500 words."
+09,whisper-small,Whisper,SMALL,Moira,7.27,1500,21,15, Explain,94.5,222.2,0.094,"Explain the basic blackjack game, including rules, logic, and example game play, in 500 words."
+10,whisper-small,Whisper,SMALL,Rishi,6.63,1500,18,13, Break,92.1,195.5,0.092,Break down the steering and braking components of ASESNA 172N in 500 words.

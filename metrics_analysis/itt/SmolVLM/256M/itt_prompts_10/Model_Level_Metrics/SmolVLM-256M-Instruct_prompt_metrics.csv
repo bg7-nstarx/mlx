@@ -1,0 +1,366 @@
+prompt_id,model,family,size,image_size (px),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),image,prompt,response
+01,SmolVLM-256M-Instruct,SmolVLM,SMALL,1024x1024,1141,1024,933,,246.5,8518.1,513.09,2.244,images/itt_prompts_10/01.png,Describe this image in detail.,"The image displays a person in a costume, specifically a space suit. The space suit has a white and blue color scheme, with the spacesuit being predominantly green and blue. The space suit has a visor on the head, which covers the eyes and protects the body from the sun. The space suit also includes a chest piece, which is a metallic structure that extends from the chest and attaches to the space suit. The space suit also includes a pair of boots, which are attached to the chest piece and are likely used to support the body while in the space suit. The space suit also includes a harness, which is a piece of clothing that attaches to the space suit and attaches to the body. The space suit also includes a backpack, which is a piece of clothing that attaches to the space suit and attaches to the body. The space suit also includes a helmet, which is a piece of clothing that attaches to the space suit and attaches to the body. The space suit also includes a pair of gloves, which are likely used to protect the body from the sun and protect the face from the sun. The space suit also includes a pair of boots, which are likely used to protect the body from the sun and protect the face from the sun. The space suit includes a harness, which is likely used to protect the body from the sun and protect the face from the sun. The space suit also includes a pair of boots, which are likely used to protect the body from the sun and protect the face from the sun. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a backpack, which is likely used to carry supplies or equipment while in the space suit. The space suit includes a harness, which is likely used to carry supplies"
+02,SmolVLM-256M-Instruct,SmolVLM,SMALL,270x187,876,1024,831,,191.0,8181.4,551.59,2.049,images/itt_prompts_10/02.png,Describe this image in detail.,"The chart shows the number of cars sold in three different showsrooms. The first is a Ford station wagon, followed by a Toyota station wagon, and then Audi. The second is a BMW station wagon, and the third is a Honda station wagon. The third is a Honda station wagon, and the fourth is a Ford station wagon. The fifth is a BMW station wagon, and the sixth is a Honda station wagon. The seventh is a Ford station wagon, and the eighth is a BMW station wagon. The ninth is a Honda station wagon, and the tenth is a Ford station wagon. The tenth is a BMW station wagon, and the eleventh is a Honda station wagon. The eleventh is a Ford station wagon, and the twelfth is a Honda station wagon. The twelfth is a BMW station wagon, and the thirteenth is a Honda station wagon. The thirteenth is a Ford station wagon, and the fourteenth is a Honda station wagon. The fourteenth is a BMW station wagon, and the fifteenth is a Honda station wagon. The sixteenth is a Ford station wagon, and the seventeenth is a Honda station wagon. The seventeenth is a BMW station wagon, and the eighteenth is a Honda station wagon. The eighteenth is a Ford station wagon, and the nineteenth is a Honda station wagon. The nineteenth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and the twentieth is a Honda station wagon. The twentieth is a Ford station wagon, and the twentieth is a Honda station wagon. The twentieth is a BMW station wagon, and"
+03,SmolVLM-256M-Instruct,SmolVLM,SMALL,352x339,1141,398,292,,247.4,8420.4,522.81,1.01,images/itt_prompts_10/03.png,Describe this image in detail.,"The image is a screenshot of a form. It includes the following elements:
+1. The title at the top reads ""Generate New Image"".
+2. Below the title, there is a section labeled ""Type the code from the image"".
+3. Below this, there is a button labeled ""Verify Code"".
+4. The form contains two input fields labeled ""Generated New Image"" and ""Type the code from the image"".
+5. The ""Generated New Image"" section includes a placeholder for the name or identifier of the image to be generated.
+6. The ""Type the code from the image"" section includes a placeholder for the name or identifier of the image to be generated.
+7. The ""Verify Code"" section includes a placeholder for the name or identifier of the image to be verified.
+
+The form is structured in a tabular format, with two columns:
+1. The first column lists the fields:
+2. The second column lists the labels:
+3. The labels are:
+4. Generated New Image:
+5. Type the code from the image:
+6. Verification Code:
+
+The form is designed to be user-friendly and easy to use. It includes a placeholder for the name or identifier of the image to be generated. The form also includes a placeholder for the name or identifier of the image to be verified. The form is structured in a tabular format, with two columns:
+1. The first column lists the fields:
+2. The second column lists the labels:
+3. The labels are:
+4. Generated New Image:
+5. Type the code from the image:
+6. Verification Code:
+
+The form is a standard form used to generate new images or images from user input. It is a simple and straightforward form that allows users to enter their own images and verify their identity."
+04,SmolVLM-256M-Instruct,SmolVLM,SMALL,2048x2048,1141,1024,890,,220.1,8658.9,533.63,2.141,images/itt_prompts_10/04.jpg,Describe this image in detail.,"The image features an animated cat dressed as a professional golfer. The cat is wearing an orange shirt and a blue and white cap. The cat is holding a golf club in its right hand, which it is using to swing at a golf ball. The cat is looking up and to the left, seemingly focused on the ball. The background is lush green with trees and the cat is in the middle of the image, standing on the grass. The cat is in the foreground, and the background is blurred. The cat is in the middle of the image, and it is looking up and to the left. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The cat is in the middle of the image, standing on the grass. The"
+05,SmolVLM-256M-Instruct,SmolVLM,SMALL,2048x1365,876,42,38,,200.7,8022.3,604.2,0.272,images/itt_prompts_10/05.jpg,Describe this image in detail.,"In the foreground of the image we can see one woman is sitting and she is holding a dog in her hands and she is smiling. In the background we can see the sky, water and the sand."
+06,SmolVLM-256M-Instruct,SmolVLM,SMALL,1920x1080,876,1024,683,,198.5,8582.8,531.97,2.125,images/itt_prompts_10/06.png,Describe this image in detail.,"The image is a table that lists various sections and subsections. The table is titled ""Scope"" and lists the following subsections:
+
+- Region: Indira, USA
+- Domain: Bio Science, Finance
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+- Resumes and JD
+-"
+07,SmolVLM-256M-Instruct,SmolVLM,SMALL,2240x1400,876,1024,345,,210.2,8025.5,537.82,2.116,images/itt_prompts_10/07.png,Describe this image in detail.,"The image contains a list of logos, each in a different color and design. The logos are arranged in a grid-like layout, with each row containing logos in a different color and design. The logos are:
+1. Coca-Cola
+2. U-Mast
+3. Visible
+4. Unilever
+5. Amazon
+6. FedEx
+7. Meta
+8. U-Mast
+9. Usborne
+10. Visible
+11. Unilever
+12. Visible
+13. Usable
+14. Usborne
+15. Usable
+16. Usable
+17. Visible
+18. Usable
+19. Usable
+20. Usable
+21. Usable
+22. Usable
+23. Usable
+24. Usable
+25. Usable
+26. Usable
+27. Usable
+28. Usable
+29. Usable
+30. Usable
+31. Usable
+32. Usable
+33. Usable
+34. Usable
+35. Usable
+36. Usable
+37. Usable
+38. Usable
+39. Usable
+40. Usable
+41. Usable
+42. Usable
+43. Usable
+44. Usable
+45. Usable
+46. Usable
+47. Usable
+48. Usable
+49. Usable
+50. Usable
+51. Usable
+52. Usable
+53. Usable
+54. Usable
+55. Usable
+56. Usable
+57. Usable
+58. Usable
+59. Usable
+60. Usable
+61. Usable
+62. Usable
+63. Usable
+64. Usable
+65. Usable
+66. Usable
+67. Usable
+68. Usable
+69. Usable
+70. Usable
+71. Usable
+72. Usable
+73. Usable
+74. Usable
+75. Usable
+76. Usable
+77. Usable
+78. Usable
+79. Usable
+80. Usable
+81. Usable
+82. Usable
+83. Usable
+84. Usable
+85. Usable
+86. Usable
+87. Usable
+88. Usable
+89. Usable
+90. Usable
+91. Usable
+92. Usable
+93. Usable
+94. Usable
+95. Usable
+96. Usable
+97. Usable
+98. Usable
+99. Usable
+100. Usable
+101. Usable
+102. Usable
+103. Usable
+104. Usable
+105. Usable
+106. Usable
+107. Usable
+108. Usable
+109. Usable
+110. Usable
+111. Usable
+112. Usable
+113. Usable
+114. Usable
+115. Usable
+116. Usable
+117. Usable
+118. Usable
+119. Usable
+120. Usable
+121. Usable
+122. Usable
+123. Usable
+124. Usable
+125. Usable
+126. Usable
+127. Usable
+128. Usable
+129. Usable
+130. Usable
+131. Usable
+132. Usable
+133. Usable
+134. Usable
+135. Usable
+136. Usable
+137. Usable
+138. Usable
+139. Usable
+140. Usable
+141. Usable
+142. Usable
+143. Usable
+144. Usable
+145. Usable
+146. Usable
+147. Usable
+148. Usable
+149. Usable
+150. Usable
+151. Usable
+152. Usable
+153. Usable
+154. Usable
+155."
+08,SmolVLM-256M-Instruct,SmolVLM,SMALL,299x168,876,1024,768,,190.8,7890.0,527.91,2.132,images/itt_prompts_10/08.jpg,Describe this image in detail.,"The image contains a white background with a mathematical question written in black text. The question reads: ""Math Olympiad Question"". The question is written in a sans-serif font, and the letter ""a"" appears multiple times in the question. The letter ""b"" appears multiple times in the question, and the letter ""c"" appears multiple times in the question. The letter ""d"" appears multiple times in the question. The letter ""e"" appears multiple times in the question. The letter ""f"" appears multiple times in the question. The letter ""g"" appears multiple times in the question. The letter ""h"" appears multiple times in the question. The letter ""i"" appears multiple times in the question. The letter ""j"" appears multiple times in the question. The letter ""k"" appears multiple times in the question. The letter ""l"" appears multiple times in the question. The letter ""m"" appears multiple times in the question. The letter ""n"" appears multiple times in the question. The letter ""o"" appears multiple times in the question. The letter ""p"" appears multiple times in the question. The letter ""q"" appears multiple times in the question. The letter ""r"" appears multiple times in the question. The letter ""s"" appears multiple times in the question. The letter ""t"" appears multiple times in the question. The letter ""u"" appears multiple times in the question. The letter ""v"" appears multiple times in the question. The letter ""w"" appears multiple times in the question. The letter ""x"" appears multiple times in the question. The letter ""y"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question. The letter ""z"" appears multiple times in the question."
+09,SmolVLM-256M-Instruct,SmolVLM,SMALL,2048x2688,1141,1024,799,,275.6,8468.1,529.65,2.211,images/itt_prompts_10/09.jpg,Describe this image in detail.,"The image displays a character, likely of the rabbit, standing alone in a natural, outdoor setting. The background consists of a verdant landscape, with rolling green hills and a variety of green fields, including some patches of grass and small bushes. The ground is uneven and composed of dirt and soil, with a mixture of brown and green hues.
+
+The character is dressed in a blue coat and a brown vest, which are typical of the attire of a character in a historical or fictional setting. The character is also wearing a brown bow tie, and their head is slightly tilted downwards, as if they are looking directly at the camera. The character’s left hand is visible, and their right hand is also visible, though it is not fully visible.
+
+The character is standing upright, with their left leg slightly bent, and their right leg extended forward, which suggests a stance or posture typical of a walking or standing pose. The character’s left arm is bent at the elbow, and their right arm is extended forward, which is typical of a hand gesture or an arm-waving gesture. The character’s left ear is visible, and their right ear is also visible, though it is not fully visible.
+
+The character’s body language and posture indicate that they are either looking or listening. The character’s left eye is visible, and their right eye is also visible. The character’s left ear is visible, and their right ear is also visible. The character’s head is tilted slightly, and their left arm is bent, while their right arm is extended forward. The character’s left hand is also bent, and their right hand is extended forward.
+
+The character’s left leg is bent, and their right leg is extended forward. The character’s left arm is bent, and their right arm is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left hand is bent, and their right hand is extended forward. The character’s right ear is visible, and their left ear is also visible. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left hand is bent, and their right hand is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left arm is bent, and their right arm is extended forward. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left hand is bent, and their right hand is extended forward. The character’s left arm is bent, and their right arm is extended forward. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left hand is bent, and their right hand is extended forward. The character’s left arm is bent, and their right arm is extended forward. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left hand is bent, and their right hand is extended forward. The character’s left arm is bent, and their right arm is extended forward. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left hand is bent, and their right hand is extended forward. The character’s left arm is bent, and their right arm is extended forward. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left ear is visible, and their right ear is also visible. The character’s left hand is bent, and their right arm is extended forward. The character’s left leg is bent, and their right leg is extended forward. The character’s right arm is bent, and their left arm is extended forward. The character’s left ear is visible, and their right ear is also visible"
+10,SmolVLM-256M-Instruct,SmolVLM,SMALL,251x200,1141,1024,922,,240.3,8726.3,542.2,2.131,images/itt_prompts_10/10.jpg,Describe this image in detail.,"The image is a painting in the style of Vincent van Gogh. The primary focus is on a starry sky with a dark silhouette of a tree in the lower left. The sky is painted with swirling yellow stars and other bright spots, creating a sense of depth and depth. The horizon is visible in the upper right, and the horizon is also visible in the lower left. The horizon is also visible in the upper right, with a silhouette of a building or structure. The sky is also painted with blue and white brush strokes, with yellow spots and other bright spots. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left. The horizon is also visible in the upper right. The horizon is also visible in the upper left."

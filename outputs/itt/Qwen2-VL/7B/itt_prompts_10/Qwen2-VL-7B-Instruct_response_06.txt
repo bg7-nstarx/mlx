@@ -1,0 +1,49 @@
+The image is a flowchart that outlines the scope of a project or process, broken down into various regions, domains, and categories. Here is a detailed description:
+
+### Top Level
+- **Scope**: The overarching category or focus of the project.
+
+### Region
+- **India**
+- **USA**
+- **Europe**
+- **East Asia/Aus**
+
+### Domain
+- **IT**
+  - **UI/UX**
+    - **Mobile Apps**
+    - **Web Applications**
+  - **AI**
+  - **Bio Science**
+  - **Finance**
+  - **Project Management**
+
+### Resumes and JD (Job Descriptions)
+- **Resumes and JD**: This section likely refers to the resumes and job descriptions used in the process.
+- **UI/UX**
+- **Mobile Apps**
+- **Web Applications**
+- **AI**
+- **Data Scientist**
+- **Data Engineer**
+- **ML Ops**
+- **Backend Developer**
+- **Dot Net**
+- **Python Developer**
+- **Project Management**
+
+### Resumes Segregation based on Gender
+- **Male**
+- **Female**
+- **Other**
+
+### Segregation based on Years
+- **0 - 3 Years**
+- **3 - 7 Years**
+- **7 Above**
+
+### Additional Information
+- **In one Region and within IT, if we have three resumes per category and also include role-specific resumes for different job descriptions, we end up with 1728 unique combinations.**
+
+This flowchart provides a structured way to categorize and manage resumes and job descriptions based on various criteria such as region, domain, gender, and years of experience.

@@ -1,0 +1,106 @@
+prompt_id,model,family,size,image_size (px),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),image,prompt,response
+01,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,1024x1024,1396,137,114,,719.6,2037.7,111.45,1.954,images/itt_prompts_10/01.png,Describe this image in detail.,"The image depicts a surreal and imaginative scene where an astronaut is riding a vibrant green horse. The astronaut is fully suited in a white spacesuit with a helmet, and they are holding a large, white, cylindrical object that resembles a backpack or a life support system. The horse is also green and appears to be in motion, with its legs raised as if it is galloping. The background features a stylized, circular, and somewhat abstract landscape with a light green and white color scheme, giving the impression of a futuristic or otherworldly setting. The overall style of the image is artistic and whimsical, blending elements of space exploration with a fantastical, natural setting."
+02,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,270x187,97,411,252,,97.6,1025.7,119.39,3.545,images/itt_prompts_10/02.png,Describe this image in detail.,"The image is a bar chart titled ""The number of five different cars sold in three different showrooms sold."" The chart compares the sales of five car brands (Ford, Toyota, BMW, Honda, and Audi) across three different showrooms (A, B, and C). Each car brand is represented by a different color: Ford is blue, Toyota is green, BMW is red, Honda is yellow, and Audi is purple. The y-axis represents the number of cars sold, ranging from 0 to 400. The x-axis lists the car brands.
+
+Here is a breakdown of the sales for each car brand across the three showrooms:
+
+- **Ford:**
+  - Showroom A: Approximately 250 cars sold.
+  - Showroom B: Approximately 150 cars sold.
+  - Showroom C: Approximately 100 cars sold.
+
+- **Toyota:**
+  - Showroom A: Approximately 150 cars sold.
+  - Showroom B: Approximately 250 cars sold.
+  - Showroom C: Approximately 100 cars sold.
+
+- **BMW:**
+  - Showroom A: Approximately 150 cars sold.
+  - Showroom B: Approximately 200 cars sold.
+  - Showroom C: Approximately 150 cars sold.
+
+- **Honda:**
+  - Showroom A: Approximately 200 cars sold.
+  - Showroom B: Approximately 250 cars sold.
+  - Showroom C: Approximately 150 cars sold.
+
+- **Audi:**
+  - Showroom A: Approximately 100 cars sold.
+  - Showroom B: Approximately 200 cars sold.
+  - Showroom C: Approximately 250 cars sold.
+
+The chart visually represents the varying sales performance of each car brand across the three showrooms, with Ford and Toyota showing higher sales in Showroom B, while BMW and Audi have higher sales in Showroom C."
+03,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,352x339,183,150,125,,120.3,1576.7,120.03,1.371,images/itt_prompts_10/03.png,Describe this image in detail.,"The image shows a CAPTCHA verification interface. At the top, there is a distorted text image that contains the characters ""4SZXT"". Below this image, there is a blue link labeled ""Generate New Image,"" which presumably allows the user to refresh the CAPTCHA if the current one is not readable. Below the link, there is a text input box where the user is expected to type the code from the image. Underneath the input box, there is a label that says ""Type the code from the image."" At the bottom, there is a button labeled ""Verify Code,"" which the user would click after entering the code to submit it for verification. The overall design is simple, with a light gray background and a white input box."
+04,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,2048x2048,5356,153,129,,3525.7,1562.7,107.69,4.951,images/itt_prompts_10/04.jpg,Describe this image in detail.,"The image depicts a whimsical scene featuring a cat dressed in a yellow polo shirt, holding a golf club as if it were a golf club. The cat is in the middle of a golf swing, with its body twisted and one arm extended, gripping the club. The cat's fur is a mix of white, black, and orange, with a distinctive pattern that includes black stripes and orange patches. The cat's expression is focused and determined, with wide, yellow eyes and a pink nose. The background is a blurred green, suggesting a golf course, with a few golf balls scattered around, one of which is in the foreground, close to the cat's feet. The overall scene is playful and humorous, blending the unexpected with the familiar sport of golf."
+05,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,2048x1365,3604,157,133,,2261.7,1646.5,110.53,3.687,images/itt_prompts_10/05.jpg,Describe this image in detail.,"The image depicts a serene beach scene during what appears to be either sunrise or sunset, as indicated by the warm, golden light casting a soft glow over the scene. A woman and a dog are sitting on the sandy beach, facing each other. The woman is dressed in a plaid shirt and dark pants, and she is smiling warmly at the dog. The dog, a light-colored breed, possibly a Labrador, is wearing a harness and is sitting upright, extending its paw towards the woman's hand, as if giving a high-five. The dog's leash lies on the sand next to it. The ocean is visible in the background, with gentle waves rolling in, and the sky is clear with a soft gradient of colors, enhancing the tranquil and joyful atmosphere of the moment."
+06,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,1920x1080,2718,461,301,,1658.4,1698.7,110.09,5.851,images/itt_prompts_10/06.png,Describe this image in detail.,"The image is a hierarchical flowchart that outlines a scope for analyzing resumes and job descriptions (JDs) based on various categories. Here is a detailed description of the flowchart:
+
+1. **Scope**:
+   - The topmost level of the flowchart is labeled ""Scope,"" which serves as the overarching category for the entire analysis.
+
+2. **Region**:
+   - The first level under ""Scope"" is ""Region,"" which is divided into four subcategories:
+     - India
+     - USA
+     - Europe
+     - East Asia/Aus
+
+3. **Domain**:
+   - The second level under ""Region"" is ""Domain,"" which is divided into three subcategories:
+     - IT
+     - Bio Science
+     - Finance
+
+4. **Resumes and JDs**:
+   - The third level under ""Domain"" is ""Resumes and JDs,"" which is divided into four subcategories:
+     - UI/UX
+     - Mobile Apps Web Applications
+     - AI
+     - Data Scientist Data Engineer ML Ops
+     - Backend Developer
+     - Dot Net Python Developer
+     - Project Management
+
+5. **Resumes Segregation based on Gender**:
+   - The fourth level under ""Resumes and JDs"" is ""Resumes Segregation based on Gender,"" which is divided into three subcategories:
+     - Male
+     - Female
+     - Other
+
+6. **Segregation based on Years**:
+   - The fifth level under ""Resumes Segregation based on Gender"" is ""Segregation based on Years,"" which is divided into three subcategories:
+     - 0 - 3 Years
+     - 3 - 7 Years
+     - 7 Above
+
+7. **Calculation**:
+   - The flowchart includes a note at the bottom right corner that states: ""In one Region and within IT, if we have three resumes per category and also include role-specific resumes for different job descriptions, we end up with 1728 unique combinations.""
+
+This flowchart is used to organize and analyze a large dataset of resumes and job descriptions by breaking it down into regions, domains, specific job roles, gender, and years of experience, ultimately leading to a detailed segmentation of the data."
+07,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,2240x1400,4027,411,295,,2599.5,1592.6,107.33,6.434,images/itt_prompts_10/07.png,Describe this image in detail.,"The image is a grid of logos from various well-known companies, each placed in a separate cell of the grid. The grid is structured in three rows and four columns, with a white background and a light gray grid pattern. Here is a detailed description of each logo:
+
+1. **Coca-Cola**: Located in the top-left cell, the logo features the iconic red script font with the word ""Coca-Cola"" written in a cursive style.
+2. **Google**: In the top-right cell, the logo consists of the word ""Google"" in a multicolored font, with each letter in a different color: blue, red, yellow, and green.
+3. **VISA**: In the second row, the left cell contains the word ""VISA"" in a bold, blue font.
+4. **FedEx**: In the bottom-left cell, the logo features the word ""FedEx"" in a bold, purple and orange font.
+5. **Unilever**: In the second row, the middle cell contains the logo for Unilever, which includes a stylized blue ""U"" and the word ""Unilever"" written in a cursive blue font.
+6. **McDonald's**: In the second row, the right cell contains the logo for McDonald's, which features a yellow ""M"" on a white background.
+7. **Shell**: In the third row, the left cell contains the logo for Shell, which features a red and yellow shell design.
+8. **Apple**: In the third row, the middle cell contains the logo for Apple, which features a black apple with a bite taken out of it.
+9. **Amazon**: In the third row, the right cell contains the logo for Amazon, which features the word ""amazon"" in black font with an orange arrow curving underneath.
+10. **Meta**: In the bottom-right cell, the logo features the word ""Meta"" in a bold, black font with a blue infinity symbol to the left of the text."
+08,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,299x168,93,140,106,,101.7,942.3,115.34,1.321,images/itt_prompts_10/08.jpg,Describe this image in detail.,"The image is a math olympiad question presented in a simple, text-based format. The question is written in black text on a white background. It states:
+
+""Math Olympiad Question
+\( a^3 + a^2 = 36 \)
+
+Solution:
+\( a = ? \)""
+
+The text is clear and straightforward, focusing on solving the equation \( a^3 + a^2 = 36 \) for the variable \( a \). The question is designed to test the solver's ability to manipulate algebraic expressions and find the value of \( a \). The image does not contain any additional visual elements or illustrations, keeping the focus solely on the mathematical problem."
+09,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,2048x2688,7035,212,173,,5103.7,1413.8,103.82,7.15,images/itt_prompts_10/09.jpg,Describe this image in detail.,"The image depicts a charming scene set in a picturesque countryside. In the foreground, there is a rabbit dressed in a formal outfit, including a blue coat, a brown vest, and a white shirt with a brown bow tie. The rabbit is standing on a dirt path, which is flanked by lush greenery and wildflowers. The flowers are a mix of white, pink, and purple, adding a vibrant touch to the scene. The rabbit appears to be holding a small, round object, possibly a basket, in its left hand.
+
+In the background, there is a quaint stone house with a thatched roof, typical of rural settings. The house has a rustic charm, with a small porch and a door that is slightly ajar. The house is surrounded by more greenery and trees, enhancing the idyllic countryside atmosphere. Beyond the house, the landscape opens up to rolling hills and a clear sky, suggesting a serene and peaceful environment. The overall scene evokes a sense of nostalgia and tranquility, reminiscent of a classic countryside setting."
+10,Qwen2.5-VL-7B-Instruct,Qwen2.5-VL,MEDIUM,251x200,90,262,216,,96.7,959.2,118.48,2.313,images/itt_prompts_10/10.jpg,Describe this image in detail.,"The image is a famous painting titled ""Starry Night"" by the Dutch post-impressionist painter Vincent van Gogh. It depicts a swirling night sky filled with a multitude of stars and a crescent moon, rendered in a vibrant and dynamic style. The stars are depicted as bright, yellowish-white dots, some of which appear to be in motion, creating a sense of energy and movement across the canvas. The moon is a large, crescent-shaped yellow light that contrasts sharply with the dark blue and green hues of the night sky.
+
+Below the sky, there is a village with a prominent church steeple in the center, which is illuminated by a warm, yellow light, suggesting the glow of a streetlamp or the light from the church itself. The village is nestled among rolling hills, and the foreground features a tall, dark, cypress tree that rises sharply from the ground, its branches reaching upwards and outwards in a dramatic, almost organic pattern. The colors used in the painting are predominantly dark blues and greens, with splashes of yellow and white, creating a striking contrast that emphasizes the night scene. The overall effect is one of a serene yet dynamic night landscape, with the cypress tree and the village serving as focal points that draw the viewer's eye into the composition."

@@ -1,0 +1,11 @@
+id,audio,voice,reference
+01,prompts/audio_stt_prompts/stt_prompts_10/01.wav,Samantha,Draft a professional email to a manager requesting a recommendation for a new job opportunity. (In 500 words)
+02,prompts/audio_stt_prompts/stt_prompts_10/02.wav,Daniel,"Provide a brief background on the UK Prime Minister in 1995, highlighting key accomplishments and challenges during their tenure.(In 500 words)"
+03,prompts/audio_stt_prompts/stt_prompts_10/03.wav,Karen,"Explain the current phase of the moon, its significance, and how it fits within the lunar cycle.(In 500 words)"
+04,prompts/audio_stt_prompts/stt_prompts_10/04.wav,Moira,"Describe the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency.(In 500 words)"
+05,prompts/audio_stt_prompts/stt_prompts_10/05.wav,Rishi,"Imagine three friends, Mia, Noah, and Olivia, each running a race. Mia finishes ahead of Noah, and Noah finishes ahead of Olivia. Analyze the race results and elaborate on the relationship between Mia’s position and Olivia’s, discussing possible scenarios.(In 500 words)"
+06,prompts/audio_stt_prompts/stt_prompts_10/06.wav,Samantha,Tell me about Global warming.(In 500 words)
+07,prompts/audio_stt_prompts/stt_prompts_10/07.wav,Daniel,Tell the History of USA.(In 500 words)
+08,prompts/audio_stt_prompts/stt_prompts_10/08.wav,Karen,"Draft a compelling advertisement for a new grocery store in a small town, including the store’s unique features, grand opening promotions, and community benefits.(In 500 words)"
+09,prompts/audio_stt_prompts/stt_prompts_10/09.wav,Moira,"Explain the basic Blackjack game, including rules, logic, and example gameplay.(In 500 words)"
+10,prompts/audio_stt_prompts/stt_prompts_10/10.wav,Rishi,Breakdown the steering and breaking components of a Cessna 172N. (In 500 words)

@@ -1,0 +1,15 @@
+The Cessna 172N, a popular single-engine aircraft, features a conventional landing gear configuration with a steerable nose wheel and non-steerable main wheels. The steering and braking systems are integral to the safe operation of the aircraft on the ground. This breakdown will cover the key components of the Cessna 172N's steering and braking systems.
+
+Steering System:
+
+The primary steering component of the Cessna 172N is the nose wheel. The nose wheel is connected to the aircraft's control column through a series of mechanical linkages. When the pilot turns the control column to the left or right, the mechanical linkages transmit the steering input to the nose wheel steering mechanism.
+
+The nose wheel steering mechanism consists of a hydraulic power pack, a steering control valve, and a steering linkage. The hydraulic power pack generates the necessary hydraulic pressure to move the steering linkage. The steering control valve regulates the flow of hydraulic fluid to the steering linkage, allowing the pilot to control the direction of the nose wheel.
+
+Braking System:
+
+The Cessna 172N's braking system consists of two independent hydraulic circuits, each with its own brake control valve and brake linkage. The brake control valves regulate the flow of hydraulic fluid to the brake linkages, allowing the pilot to control the braking force applied to the main wheels.
+
+The main wheels of the Cessna 172N are equipped with disc brakes. The disc brakes consist of a brake rotor, a brake caliper, and brake pads. When the pilot applies the brakes, the brake control valve directs hydraulic fluid to the brake caliper, which in turn applies pressure to the brake pads. The brake pads clamp onto the brake rotor, creating friction and slowing down the aircraft.
+
+In conclusion, the steering and braking systems of the Cessna 172N are essential components of the aircraft's ground operations. The nose wheel steering mechanism and hydraulic power pack allow the pilot to control the direction of the aircraft, while the independent hydraulic circuits and disc brakes provide the necessary braking force to slow down and stop the aircraft.

@@ -1,0 +1,31 @@
+# Text-to-Text (TTT) on Apple Silicon only (MLX, float16) — ttt_small.py, ttt_medium.py, ttt_large.py (run with ../run_test.py)
+# Python 3.12, macOS on Apple Silicon (M-series). Versions are the ones this project was run with.
+#
+#   SMALL   Phi-3-mini-128k-instruct  (3.8B)  microsoft/Phi-3-mini-128k-instruct  -> models/Phi-3-mini-128k-instruct-fp16
+#   MEDIUM  Llama-2-7b-hf             (6.7B)  NousResearch/Llama-2-7b-hf           -> models/Llama-2-7b-hf-fp16
+#   LARGE   Qwen3.5-9B                (9.7B)  Qwen/Qwen3.5-9B                      -> models/Qwen3.5-9B-fp16
+#
+# All three use the same packages: mlx-lm runs Phi-3 (phi3), Llama-2 (llama) and Qwen3.5 (qwen3_5, needs mlx-lm >= 0.31)
+# and converts each original checkpoint to float16 MLX on first use.
+
+# Inference (Apple GPU)
+mlx==0.32.2
+mlx-metal==0.32.2
+mlx-lm==0.31.3
+
+# Tokenizers, chat templates and model download
+transformers==5.17.0
+tokenizers==0.23.2
+sentencepiece==0.2.2      # Llama-2 / Phi-3 tokenizer models
+protobuf==7.36.2
+Jinja2==3.1.6             # chat templates
+huggingface_hub==1.32.0
+safetensors==0.8.0
+
+# Prompts, results and system metrics
+numpy==2.5.3
+pandas==3.0.6
+pydantic==2.13.5          # macmon_metrics
+psutil==7.2.2
+
+# Not a pip package: per-prompt CPU / GPU / NPU / power metrics need macmon (no sudo):  brew install macmon

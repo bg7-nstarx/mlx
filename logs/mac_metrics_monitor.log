@@ -1,0 +1,280 @@
+2026-09-30 17:15:34,359 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:15:34,360 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:17:22,229 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:17:22,230 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:18:41,349 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:18:41,349 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:18:51,581 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:18:51,581 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:19:39,628 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:19:39,628 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:19:56,746 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:19:56,746 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:20:10,946 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:20:10,946 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:37:09,802 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:37:09,802 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:37:59,239 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:37:59,239 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:41:42,949 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:41:42,949 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:44:37,147 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:44:37,147 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-09-30 17:49:00,388 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-09-30 17:49:00,388 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 13:11:15,831 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 13:11:15,831 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 15:19:02,015 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 15:19:02,015 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 16:20:05,873 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 16:20:05,874 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 16:20:23,181 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 16:20:23,181 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 16:20:37,704 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 16:20:37,704 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 16:31:52,154 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 16:31:52,154 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:07:08,388 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:07:08,388 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:07:59,046 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:07:59,046 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:11:45,254 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:11:45,255 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:14:45,810 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:14:45,811 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:19:17,164 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:19:17,165 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:56:06,772 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:56:06,772 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:57:47,453 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:57:47,453 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 22:58:23,734 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 22:58:23,735 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:06:36,604 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:06:36,604 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:08:34,638 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:08:34,638 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:11:06,045 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:11:06,045 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:11:42,929 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:11:42,929 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:19:22,222 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:19:22,222 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:21:20,622 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:21:20,622 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:23:39,825 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:23:39,825 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:24:47,260 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:24:47,260 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:25:28,507 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:25:28,507 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:38:00,991 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:38:00,991 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:40:36,115 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:40:36,115 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:42:30,800 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:42:30,800 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-05 23:42:42,445 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-05 23:42:42,445 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 00:05:55,780 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 00:05:55,780 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 00:08:01,713 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 00:08:01,713 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 00:27:49,255 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 00:27:49,256 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 00:29:39,544 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 00:29:39,544 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 00:48:38,295 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 00:48:38,295 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 00:55:35,356 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 00:55:35,356 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 01:01:19,185 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 01:01:19,185 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 07:42:54,574 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 07:42:54,574 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 08:37:34,323 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 08:37:34,323 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 08:43:46,396 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 08:43:46,396 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 08:46:47,411 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 08:46:47,411 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 08:52:47,195 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 08:52:47,195 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 08:53:58,125 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 08:53:58,126 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 09:31:11,092 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 09:31:11,092 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 09:32:30,589 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 09:32:30,589 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 09:33:16,239 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 09:33:16,240 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 09:34:34,857 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 09:34:34,858 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 09:40:34,910 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 09:40:34,910 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 12:34:00,369 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 12:34:00,369 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 13:12:13,231 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 13:12:13,231 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-06 14:41:51,762 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-06 14:41:51,763 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-13 15:32:07,227 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-13 15:32:07,227 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-13 15:34:01,322 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-13 15:34:01,322 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-13 15:35:52,623 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-13 15:35:52,623 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 09:26:49,889 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 09:26:49,889 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 09:28:00,511 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 09:28:00,511 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 09:29:13,872 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 09:29:13,872 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 09:35:35,356 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 09:35:35,357 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 09:41:37,624 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 09:41:37,624 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 09:47:51,610 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 09:47:51,610 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 10:08:32,826 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 10:08:32,826 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 10:19:35,640 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 10:19:35,640 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 10:30:41,586 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 10:30:41,586 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 11:51:16,111 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 11:51:16,111 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 11:53:44,395 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 11:53:44,395 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 11:56:11,165 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 11:56:11,166 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 12:04:06,106 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 12:04:06,106 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 12:04:25,633 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 12:04:25,634 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-14 12:04:44,867 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-14 12:04:44,868 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:03:13,686 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:03:13,686 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:13:05,109 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:13:05,109 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:23:29,748 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:23:29,748 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:26:19,485 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:26:19,485 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:29:55,575 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:29:55,575 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:30:05,140 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:30:05,140 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:30:20,809 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:30:20,809 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:39:03,827 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:39:03,827 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:45:05,210 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:45:05,210 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:46:57,898 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:46:57,898 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:47:25,227 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:47:25,227 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:48:01,734 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:48:01,734 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:49:57,556 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:49:57,556 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:53:09,661 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:53:09,661 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:53:53,282 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:53:53,282 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 09:54:24,098 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 09:54:24,098 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 10:00:03,912 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 10:00:03,912 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 10:07:32,039 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 10:07:32,039 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 10:09:38,350 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 10:09:38,350 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 10:09:53,646 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 10:09:53,646 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 10:32:15,351 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 10:32:15,352 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 11:02:45,301 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 11:02:45,303 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 11:06:05,476 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 11:06:05,476 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 11:06:35,470 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 11:06:35,470 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 11:11:58,129 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 11:11:58,129 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 11:18:16,440 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 11:18:16,441 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 14:43:07,103 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 14:43:07,104 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:01:26,092 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:01:26,092 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:05:21,853 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:05:21,853 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:13:47,699 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:13:47,700 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:13:51,458 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:13:51,458 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:13:56,322 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:13:56,322 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:14:02,837 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:14:02,837 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:14:12,224 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:14:12,224 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:14:16,904 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:14:16,904 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:14:22,107 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:14:22,108 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:14:27,311 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:14:27,311 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:14:36,317 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:14:36,317 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:14:55,881 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:14:55,881 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:15:51,379 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:15:51,382 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:17:19,913 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:17:19,914 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:19:10,673 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:19:10,673 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:19:14,845 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:19:14,845 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:19:21,689 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:19:21,689 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:19:31,591 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:19:31,592 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:19:36,102 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:19:36,102 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:19:42,499 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:19:42,499 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:19:51,784 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:19:51,784 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:20:01,138 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:20:01,140 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:20:11,238 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:20:11,239 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:20:23,828 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:20:23,828 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:20:39,928 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:20:39,930 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:30:52,939 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:30:52,942 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:31:08,793 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:31:08,793 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:31:31,260 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:31:31,261 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-22 16:35:01,417 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-22 16:35:01,418 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-26 15:29:58,193 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-26 15:29:58,197 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-26 15:32:37,488 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-26 15:32:37,489 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-26 15:34:58,694 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-26 15:34:58,694 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-26 15:57:01,515 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-26 15:57:01,515 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-26 15:59:42,009 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-26 15:59:42,009 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon
+2026-10-26 16:02:04,693 [mac-metrics] INFO base_dir_path--------->>>>>>, /Users/genailab
+2026-10-26 16:02:04,693 [mac-metrics] INFO bundled macmon not found, using /opt/homebrew/bin/macmon

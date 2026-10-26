@@ -1,0 +1,140 @@
+prompt_id,model,family,size,image_size (px),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),image,prompt,response
+01,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,1024x1024,1396,110,91,,983.8,1472.8,114.85,1.946,prompts/images_itt_prompts/itt_prompts_10/01.png,Describe this image in detail.,"The image depicts an astronaut riding a green horse in a surreal and whimsical scene. The astronaut is wearing a white spacesuit with a helmet, and the horse is also green, with a detailed harness and saddle. The background features a landscape with rolling hills and a sky filled with stars, giving the impression of a space-themed setting. The overall color palette is dominated by shades of green and white, with a soft, pastel-like quality to the illustration. The scene combines elements of space exploration with a fantastical, almost dreamlike atmosphere."
+02,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,270x187,97,489,307,,88.1,1139.3,117.78,4.245,prompts/images_itt_prompts/itt_prompts_10/02.png,Describe this image in detail.,"This image is a bar chart that represents the number of five different cars sold in three different showrooms. The x-axis of the chart lists the types of cars: Ford, Toyota, BMW, Honda, and Audi. The y-axis represents the number of cars sold, ranging from 0 to 400.
+
+Each car type has three bars corresponding to three different showrooms labeled A, B, and C. The bars are color-coded as follows:
+- Red for showroom A
+- Blue for showroom B
+- Green for showroom C
+
+Here is a detailed breakdown of the data represented in the chart:
+
+1. **Ford**:
+   - Showroom A: Approximately 350 cars
+   - Showroom B: Approximately 300 cars
+   - Showroom C: Approximately 250 cars
+
+2. **Toyota**:
+   - Showroom A: Approximately 250 cars
+   - Showroom B: Approximately 350 cars
+   - Showroom C: Approximately 200 cars
+
+3. **BMW**:
+   - Showroom A: Approximately 200 cars
+   - Showroom B: Approximately 250 cars
+   - Showroom C: Approximately 300 cars
+
+4. **Honda**:
+   - Showroom A: Approximately 150 cars
+   - Showroom B: Approximately 200 cars
+   - Showroom C: Approximately 100 cars
+
+5. **Audi**:
+   - Showroom A: Approximately 200 cars
+   - Showroom B: Approximately 250 cars
+   - Showroom C: Approximately 300 cars
+
+### Analysis:
+- **Ford** is the most popular car across all showrooms, with showroom A selling the highest number of Ford cars.
+- **Toyota** shows a significant variation in sales across the showrooms, with showroom B selling the most.
+- **BMW** has a relatively even distribution of sales across the showrooms.
+- **Honda** has the lowest sales across all showrooms, with showroom C selling the fewest Honda cars.
+- **Audi** has a similar pattern to BMW, with showroom C selling the most Audi cars.
+
+This chart provides a clear comparison of the sales performance of different car models across three showrooms, highlighting the popularity and distribution of each car type."
+03,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,352x339,183,144,118,,122.1,1552.2,119.02,1.337,prompts/images_itt_prompts/itt_prompts_10/03.png,Describe this image in detail.,"The image shows a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) challenge. The CAPTCHA consists of a distorted text that reads ""4SZXT"" and a background with a pattern of small black dots on a light blue background. Below the CAPTCHA, there is a text box labeled ""Type the code from the image"" where users are supposed to enter the text they see. At the bottom of the image, there is a button labeled ""Verify Code"" which users need to click after entering the code. Additionally, there is a link labeled ""Generate New Image"" which likely allows users to generate a new CAPTCHA if the current one is too distorted or difficult to read."
+04,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,2048x2048,5356,139,119,,8400.2,644.5,107.77,9.695,prompts/images_itt_prompts/itt_prompts_10/04.jpg,Describe this image in detail.,"The image depicts a cartoon cat playing golf. The cat is standing on a grassy field, which appears to be a golf course. The cat is wearing a yellow shirt and has a golf club in its right paw, which is raised in a swinging motion. The cat's left paw is on the ground, providing stability. There are two golf balls on the ground in front of the cat, with one closer to the foreground and another slightly further away. The background is a blurred green, suggesting a natural outdoor setting with bokeh effects, giving the image a soft and dreamy appearance. The cat's expression is focused and determined, as if it is concentrating on hitting the golf ball."
+05,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,2048x1365,3604,163,137,,4209.0,870.2,110.99,5.683,prompts/images_itt_prompts/itt_prompts_10/05.jpg,Describe this image in detail.,"The image depicts a serene beach scene at sunset. A woman and her dog are sitting on the sandy beach, facing each other. The woman is wearing a plaid shirt and dark pants, and she has long, dark hair. She is smiling and appears to be engaging in a playful interaction with her dog, which is a light-colored dog, possibly a Labrador Retriever. The dog is wearing a harness and is extending its front paw towards the woman's hand, as if giving her a high-five. The woman is holding the dog's paw with her own hand. The ocean is visible in the background, with gentle waves rolling in. The lighting is warm and golden, indicating that the photo was taken during the golden hour, just before sunset. The overall atmosphere of the image is peaceful and joyful."
+06,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,1920x1080,2718,334,218,,2652.5,1043.0,112.29,5.632,prompts/images_itt_prompts/itt_prompts_10/06.png,Describe this image in detail.,"The image is a flowchart that outlines the scope of a project or process, broken down into various regions, domains, and categories. Here is a detailed description:
+
+### Top Level
+- **Scope**: The overarching category or focus of the project.
+
+### Region
+- **India**
+- **USA**
+- **Europe**
+- **East Asia/Aus**
+
+### Domain
+- **IT**
+  - **UI/UX**
+    - **Mobile Apps**
+    - **Web Applications**
+  - **AI**
+  - **Bio Science**
+  - **Finance**
+  - **Project Management**
+
+### Resumes and JD (Job Descriptions)
+- **Resumes and JD**: This section likely refers to the resumes and job descriptions used in the process.
+- **UI/UX**
+- **Mobile Apps**
+- **Web Applications**
+- **AI**
+- **Data Scientist**
+- **Data Engineer**
+- **ML Ops**
+- **Backend Developer**
+- **Dot Net**
+- **Python Developer**
+- **Project Management**
+
+### Resumes Segregation based on Gender
+- **Male**
+- **Female**
+- **Other**
+
+### Segregation based on Years
+- **0 - 3 Years**
+- **3 - 7 Years**
+- **7 Above**
+
+### Additional Information
+- **In one Region and within IT, if we have three resumes per category and also include role-specific resumes for different job descriptions, we end up with 1728 unique combinations.**
+
+This flowchart provides a structured way to categorize and manage resumes and job descriptions based on various criteria such as region, domain, gender, and years of experience."
+07,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,2240x1400,4027,435,315,,4894.5,834.5,109.74,8.864,prompts/images_itt_prompts/itt_prompts_10/07.png,Describe this image in detail.,"The image displays a grid with the logos of various well-known companies arranged in a 3x3 grid pattern. Here is a detailed description of each logo:
+
+1. **Coca-Cola**: The logo consists of the word ""Coca-Cola"" written in a cursive, red font with a white outline. The letters are stylized to give a sense of movement and energy.
+
+2. **Google**: The logo features the word ""Google"" in a colorful font. The letters are in a gradient of colors: blue, red, yellow, and green, with the ""o"" in ""Google"" being blue.
+
+3. **Visa**: The logo is a stylized ""V"" with a blue outline and a blue fill. The design is simple and modern.
+
+4. **Unilever**: The logo consists of the word ""Unilever"" in a blue font with a white outline. The letters are stylized with a pattern that resembles a floral or paisley design.
+
+5. **McDonald's**: The logo is a yellow ""M"" with a red outline. The design is iconic and easily recognizable.
+
+6. **Amazon**: The logo is a stylized ""smiling"" logo with the word ""Amazon"" written in a bold, black font. The smile is represented by a yellow curve.
+
+7. **Apple**: The logo is a black apple with a bite taken out of it. The design is simple and iconic.
+
+8. **Shell**: The logo consists of a red and yellow shell with a yellow outline. The design is simple and recognizable.
+
+9. **FedEx**: The logo is a stylized ""FedEx"" in a purple and orange font. The letters are bold and modern.
+
+10. **Meta**: The logo is a stylized ""M"" with a blue outline and a blue fill. The design is simple and modern.
+
+11. **Amazon**: (Note: There is a duplicate entry for Amazon, but it is likely a mistake. The correct logos for Amazon are already listed.)
+
+This image showcases the logos of major global companies, each with a unique design that represents their brand identity."
+08,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,299x168,93,124,101,,89.6,1074.9,120.56,1.123,prompts/images_itt_prompts/itt_prompts_10/08.jpg,Describe this image in detail.,"The image shows a mathematical problem related to a math olympiad question. The problem is presented in a simple equation format:
+
+\[ a^3 + a^2 = 36 \]
+
+Below the equation, there is a solution written as:
+
+\[ a = ? \]
+
+The hand holding the pen is pointing to the equation, indicating that the problem is being solved or explained. The background is white, and the text is written in black, making it easy to read. The problem seems to be a cubic equation, and the goal is to find the value of \( a \) that satisfies the equation."
+09,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,2048x2688,7035,163,132,,13683.8,518.5,104.78,15.244,prompts/images_itt_prompts/itt_prompts_10/09.jpg,Describe this image in detail.,"The image depicts a charming scene set in a picturesque, rural village. The main subject is a anthropomorphic rabbit, dressed in a blue coat and a brown vest over a white shirt, with a bow tie. The rabbit is standing on a dirt path that winds through a lush, green landscape. The path is flanked by vibrant wildflowers, including daisies and other colorful blooms, adding a touch of nature to the scene.
+
+In the background, there is a traditional stone cottage with a thatched roof, nestled among rolling hills and green fields. The cottage has a rustic charm, with visible windows and a chimney. The sky is clear and blue, suggesting a bright, sunny day. The overall atmosphere of the image is serene and idyllic, evoking a sense of peace and tranquility."
+10,Qwen2-VL-7B-Instruct,Qwen2-VL,LARGE,251x200,90,289,236,,89.0,1044.2,118.77,2.527,prompts/images_itt_prompts/itt_prompts_10/10.jpg,Describe this image in detail.,"This image is a famous painting titled ""The Starry Night"" by the Dutch post-impressionist artist Vincent van Gogh. The painting depicts a swirling night sky filled with stars and a bright crescent moon, creating a sense of movement and energy. The stars are depicted in various shades of blue, yellow, and white, with some appearing as bright, almost circular shapes, while others are more elongated and twisted.
+
+Below the sky, there is a small village with several buildings, including a church with a prominent steeple. The village is set against a backdrop of rolling hills and mountains, which are painted in deep blues and purples, adding to the overall sense of depth and atmosphere.
+
+In the foreground, there is a tall, dark tree, which stands out against the bright night sky. The tree's branches are depicted with a sense of movement, adding to the dynamic quality of the painting. The overall composition of the painting is balanced, with the night sky occupying the upper two-thirds of the canvas and the village and landscape occupying the lower third.
+
+The use of color and brushwork in ""The Starry Night"" is characteristic of van Gogh's post-impressionist style, with bold, swirling lines and vibrant colors that convey a sense of emotion and movement. The painting is renowned for its use of color and its depiction of the night sky, which has become an iconic image in the history of art."

@@ -1,0 +1,11 @@
+clip_id,model,family,size,voice,input_audio (s),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),inference_rate (tokens/s),inference_time (s),transcript
+01,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Samantha,6.87,86,47,18, D,95.2,493.5,0.095,"Draft a professional email to a manager requesting a recommendation for a new job opportunity, in 500 words."
+02,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Daniel,9.76,123,65,22, P,106.1,612.8,0.106,"Provide a brief background on the UK Prime Minister in 1995, highlighting key accomplishments and challenges during their tenure, in 500 words."
+03,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Karen,6.92,87,48,20, E,87.0,551.4,0.087,"Explain the current phase of the moon, its significance, and how it fits within the lunar cycle, in 500 words."
+04,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Moira,8.86,111,54,20, D,89.4,604.2,0.089,"Describe the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency, in 500 words."
+05,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Rishi,19.13,240,115,42, I,155.4,739.8,0.155,"Imagine three friends, Mia, Noah, and Olivia, each running a race, Mia finishes ahead of Noah, and Noah finishes ahead of Olivia. Analyze the race results and elaborate on the relationship between Maya's position and Olivia's, discussing possible scenarios, in 500 words."
+06,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Samantha,3.08,39,20,8, T,67.1,297.9,0.067,Tell me about global warming in 500 words.
+07,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Daniel,3.32,42,19,8, T,68.9,275.9,0.069,Tell the history of USA in 500 words.
+08,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Karen,10.98,138,77,27, D,115.3,668.0,0.115,"Draft a compelling advertisement for a new grocery store in a small town, including the store's unique features, grand opening promotions, and community benefits, in 500 words."
+09,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Moira,7.27,91,43,14, E,86.4,497.7,0.086,"Explain the basic blackjack game, including rules, logic, and example gameplay, in 500 words."
+10,parakeet-tdt-0.6b-v2,Parakeet,MEDIUM,Rishi,6.63,83,35,13, B,81.7,428.6,0.082,Break down the steering and braking components of Acesna 172N in 500 words.

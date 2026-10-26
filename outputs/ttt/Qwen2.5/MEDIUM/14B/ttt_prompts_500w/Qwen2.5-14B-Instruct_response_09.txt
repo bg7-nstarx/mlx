@@ -1,0 +1,53 @@
+Blackjack, also known as 21, is a popular card game played in casinos and online. The game is played with one or more decks of 52 cards, and the objective is to have a hand total closer to 21 than the dealer's hand without going over 21. Here's a detailed breakdown of the rules, logic, and an example of gameplay.
+
+### Basic Rules
+
+1. **Objective**: The goal is to have a hand value closer to 21 than the dealer's hand without exceeding 21.
+
+2. **Card Values**:
+   - Number cards (2-10) are worth their face value.
+   - Aces can be worth 1 or 11, whichever is more beneficial to the player.
+   - Face cards (Jack, Queen, King) are each worth 10.
+
+3. **Hand Values**:
+   - A hand's value is the sum of the card values.
+   - A hand with an Ace can be valued at either 1 or 11, depending on which value is more advantageous.
+   - A hand with a value over 21 is called a "bust" and loses automatically.
+
+4. **Betting**: Players place bets before receiving cards. The minimum and maximum bet limits are set by the casino.
+
+5. **Dealing**: The dealer deals two cards to each player and two to themselves, one face up and one face down.
+
+6. **Player Actions**:
+   - **Hit**: Take another card.
+   - **Stand**: Keep the current hand and end the turn.
+   - **Double Down**: Double the bet and receive one more card.
+   - **Split**: If the first two cards are of the same value, split them into two separate hands, doubling the bet.
+   - **Surrender**: Give up half the bet and forfeit the hand.
+
+7. **Dealer's Actions**: The dealer must follow strict rules:
+   - If the dealer's face-up card is 7 or lower, they must hit until their hand is 17 or higher.
+   - If the dealer's face-up card is 8 or higher, they must stand on a hand of 17 or higher.
+
+8. **Winning**: A player wins if their hand is closer to 21 than the dealer's hand without going over 21. If the player's hand exceeds 21, it's a bust and loses automatically. If both the player and the dealer have the same value, it's a push (tie).
+
+### Logic of the Game
+
+The logic behind Blackjack revolves around probability and strategy. Players aim to make decisions that maximize their chances of winning. Key strategies include:
+
+- **Basic Strategy**: A set of rules that dictate the optimal action based on the player's hand and the dealer's upcard. This strategy minimizes the house edge.
+- **Card Counting**: Advanced players track the ratio of high cards to low cards remaining in the deck to adjust their bets and playing decisions. This is more complex and less commonly used.
+
+### Example Gameplay
+
+Let's walk through a simple round of Blackjack:
+
+1. **Deal**: The dealer deals two cards to each player and themselves. Player A receives a 7 and a King (total of 17), while the dealer shows a 10 face up.
+
+2. **Player's Turn**: Player A decides to stand since their hand is already strong.
+
+3. **Dealer's Turn**: The dealer reveals their face-down card, which is a 6 (total of 16). According to the rules, the dealer must hit. They draw another card, which is a 5, bringing their total to 21.
+
+4. **Outcome**: In this scenario, both Player A and the dealer have a hand value of 21. This is a push, and Player A gets their bet back.
+
+This example illustrates the basic flow of a Blackjack game, where players make decisions based on their hand and the dealer's visible card, aiming to beat the dealer's hand without busting.

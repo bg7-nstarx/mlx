@@ -1,0 +1,341 @@
+prompt_id,model,family,size,input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),prompt,response
+01,Llama-3.2-3B-Instruct,Llama-3,SMALL,57,456,392,Subject,79.8,1409.6,235.21,2.025,Draft a professional email to a manager requesting a recommendation for a new job opportunity. (In 500 words),"Subject: Request for Professional Recommendation for Upcoming Job Opportunity
+
+Dear [Manager's Name],
+
+I hope this email finds you well. As I continue to explore new career opportunities, I am writing to request your professional recommendation to support my job applications. Your endorsement would carry significant weight, and I would be grateful for your support.
+
+Over the past [X] years, I have had the privilege of working under your guidance and leadership at [Company Name]. During my tenure, I have consistently demonstrated my skills, work ethic, and dedication to delivering high-quality results. Your guidance and mentorship have been instrumental in my professional growth, and I am confident that your recommendation would help me stand out in the job market.
+
+The job opportunity I am currently considering is [Job Title] at [Company Name]. This role aligns with my long-term career goals and provides a unique opportunity to [briefly describe the role and how it aligns with your career goals]. I am confident that my skills and experience make me an ideal candidate for this position, and I would be honored to have your recommendation to support my application.
+
+Your recommendation would carry significant weight, as it would provide a firsthand account of my skills, work ethic, and dedication to delivering high-quality results. Your endorsement would also help to alleviate any concerns that the hiring manager may have about my qualifications or fit for the role.
+
+I would be more than happy to provide any additional information or answer any questions you may have about the job opportunity or my qualifications. I have attached my resume and a brief summary of my qualifications for your review.
+
+If you are willing to provide a recommendation, please let me know, and I will provide you with the necessary information and materials. I have also included a template letter that you can use to write your recommendation.
+
+Thank you for considering my request. I appreciate your time and support, and I look forward to hearing from you soon.
+
+Best regards,
+
+[Your Name]
+
+Attachments:
+
+* Resume
+* Brief summary of qualifications
+* Recommendation template letter
+
+Note: Make sure to customize the email to fit your specific situation and needs. Also, be sure to give your manager enough time to provide a recommendation, as it may take a few days or weeks for them to write and submit the letter."
+02,Llama-3.2-3B-Instruct,Llama-3,SMALL,63,600,440,In,73.6,1934.5,223.34,2.767,"Provide a brief background on the UK Prime Minister in 1995, highlighting key accomplishments and challenges during their tenure.(In 500 words)","In 1995, the UK Prime Minister was John Major. He served as the Prime Minister of the United Kingdom from November 28, 1990, to May 2, 1997.
+
+Background:
+John Major was born on March 29, 1943, in East Ham, London. He studied at the University of London and later became a barrister. Major entered politics in 1979, serving as a Member of Parliament (MP) for Huntingdon. He rose through the ranks, becoming the Chancellor of the Exchequer in 1987 and the Leader of the Conservative Party in 1989.
+
+Key Accomplishments:
+
+1. **Maastricht Treaty**: Major played a key role in negotiating the Maastricht Treaty, which created the European Union (EU). The treaty was signed in 1992, and Major's leadership helped to secure its ratification by the UK Parliament.
+2. **Black Wednesday**: In 1992, Major's government faced a major financial crisis when the pound sterling was devalued, leading to a period of economic instability known as Black Wednesday. Major's government implemented a series of economic reforms, including the introduction of the National Minimum Wage, to stabilize the economy.
+3. **European Union**: Major's government implemented several key reforms to the EU, including the introduction of the single currency (the euro) and the creation of the European Central Bank.
+4. **Northern Ireland Peace Process**: Major's government played a key role in the Northern Ireland peace process, which led to the signing of the Good Friday Agreement in 1998.
+
+Challenges:
+
+1. **Black Wednesday**: The financial crisis in 1992 was a major challenge for Major's government, and it was seen as a failure of his economic policies.
+2. **Maastricht Treaty**: The treaty was met with opposition from many Britons, who were concerned about the loss of sovereignty and the potential for EU regulations to override UK laws.
+3. **Economic Downturn**: The UK economy experienced a downturn in the early 1990s, which was exacerbated by the Black Wednesday crisis. Major's government implemented several economic reforms, but the economy remained sluggish.
+4. **Scottish Devolution**: In 1997, the Labour Party won a landslide victory in the general election, and Major's government was forced to negotiate with the Scottish National Party (SNP) on devolution. The negotiations ultimately led to the establishment of the Scottish Parliament in 1999.
+
+Legacy:
+John Major's tenure as Prime Minister was marked by significant challenges, but he also achieved several key accomplishments. His leadership during the Maastricht Treaty negotiations and the Northern Ireland peace process helped to secure a lasting peace in Northern Ireland. However, his government's handling of the Black Wednesday crisis and the economic downturn of the early 1990s were widely criticized. Despite this, Major's legacy as a pragmatic and effective leader has endured."
+03,Llama-3.2-3B-Instruct,Llama-3,SMALL,61,1024,804,The,83.3,1392.2,217.81,4.792,"Explain the current phase of the moon, its significance, and how it fits within the lunar cycle.(In 500 words)","The current phase of the moon varies depending on the time of year and the location on Earth. However, I can provide information on the current phase of the moon and its significance.
+
+As of my knowledge cutoff in 2023, the current phase of the moon is the Waning Gibbous phase. This phase occurs when the moon is more than half full and is decreasing in brightness.
+
+The Waning Gibbous phase is significant because it marks the beginning of the moon's decline in brightness as it moves away from full moon. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+The Waning Gibbous phase fits within the lunar cycle, which is approximately 29.5 days. The lunar cycle is divided into eight distinct phases, which are:
+
+1. New Moon: The moon is positioned between the Earth and the sun, making it invisible from our planet.
+2. Waxing Crescent: The moon appears to be growing larger as it moves away from the new moon phase.
+3. First Quarter: The moon is half-illuminated, with the right half visible from Earth.
+4. Waxing Gibbous: The moon continues to appear larger as it approaches full moon.
+5. Full Moon: The entire face of the moon is illuminated by the sun.
+6. Waning Gibbous: The moon appears to be decreasing in brightness as it moves away from full moon.
+7. Last Quarter: The left half of the moon is illuminated, with the right half in shadow.
+8. Waning Crescent: The moon appears to be decreasing in brightness as it moves towards the new moon phase.
+
+The Waning Gibbous phase is an important part of the lunar cycle, as it marks the beginning of the moon's decline in brightness and its gravitational pull on the Earth's oceans. This phase is also associated with the moon's influence on the tides and the behavior of the ocean's waves.
+
+In terms of significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In many cultures, the Waning Gibbous phase is associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of spiritual and cultural significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In many cultures, the Waning Gibbous phase is associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of practical significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of spiritual and cultural significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of practical significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of spiritual and cultural significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of practical significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of spiritual and cultural significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's gravitational pull on the Earth's oceans, causing the tides to decrease.
+
+In terms of practical significance, the Waning Gibbous phase is often associated with the moon's influence on the tides and the behavior of the ocean's waves. This phase is also associated with the moon's"
+04,Llama-3.2-3B-Instruct,Llama-3,SMALL,60,480,349,Calcul,80.5,1627.3,220.24,2.267,"Describe the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency.(In 500 words)","Calculating the time required to bake 96 cookies involves considering the oven's capacity and efficiency. Here's a step-by-step approach to determine the baking time:
+
+1.  **Oven Capacity:** Determine the oven's capacity in terms of baking sheets or trays. For example, if the oven has a capacity of 12-16 cookies per sheet, you'll need to calculate the number of sheets required to bake 96 cookies.
+
+2.  **Batch Size:** Divide the total number of cookies (96) by the oven's capacity to determine the batch size. In this case, let's assume the oven can handle 12 cookies per sheet.
+
+    *   96 cookies ÷ 12 cookies per sheet = 8 sheets
+
+3.  **Baking Time per Sheet:** Research the baking time for a single sheet of cookies. This can vary depending on the type of cookies, oven temperature, and other factors. For example, if the cookies require 10-12 minutes to bake per sheet, you can use this as a starting point.
+
+4.  **Total Baking Time:** Multiply the number of sheets by the baking time per sheet to determine the total baking time. In this case:
+
+    *   8 sheets × 11 minutes per sheet (avg. of 10-12 minutes) = 88 minutes
+
+5.  **Oven Efficiency:** Consider the oven's efficiency in terms of heat retention and distribution. If the oven has a high efficiency rating, you may need to adjust the baking time downward to prevent overcooking or undercooking.
+
+6.  **Additional Factors:** Take into account any additional factors that may affect the baking time, such as:
+
+    *   **Temperature:** If the oven is preheated to a higher temperature, the cookies may bake faster.
+    *   **Humidity:** High humidity can slow down the baking process.
+    *   **Cookie Size:** Larger cookies may require longer baking times.
+
+7.  **Final Calculation:** Based on the above factors, adjust the total baking time to ensure the cookies are baked to perfection. In this case, you may need to add 10-20 minutes to the total baking time to account for any additional factors.
+
+By following these steps, you can accurately calculate the time required to bake 96 cookies, taking into account the oven's capacity and efficiency."
+05,Llama-3.2-3B-Instruct,Llama-3,SMALL,91,527,445,The,82.7,2075.0,223.57,2.447,"Imagine three friends, Mia, Noah, and Olivia, each running a race. Mia finishes ahead of Noah, and Noah finishes ahead of Olivia. Analyze the race results and elaborate on the relationship between Mia’s position and Olivia’s, discussing possible scenarios.(In 500 words)","The race results reveal a fascinating dynamic between the three friends, Mia, Noah, and Olivia. Given that Mia finishes ahead of Noah, and Noah finishes ahead of Olivia, we can deduce a few possible scenarios.
+
+Scenario 1: Mia and Noah are neck and neck
+In this scenario, Mia and Noah are extremely close, with only a fraction of a second separating them. This could be due to their competitive nature, as they push each other to their limits. Olivia, on the other hand, finishes last, which could be due to a variety of factors such as fatigue, lack of training, or simply not being as invested in the competition.
+
+Scenario 2: Mia and Noah have a significant gap
+In this scenario, Mia and Noah have a substantial lead over Olivia, indicating that they have a significant advantage over her. This could be due to their training and preparation, as well as their overall fitness level. Olivia, on the other hand, may be struggling to keep up, which could be due to a lack of experience, poor training, or simply not being as dedicated to the sport.
+
+Scenario 3: Mia and Noah have a close finish, but Olivia is closer to Noah than Mia
+In this scenario, Mia and Noah are close, but Olivia is closer to Noah than Mia. This could be due to Olivia's determination and perseverance, as she manages to stay ahead of Noah despite being behind Mia. This scenario highlights the importance of mental toughness and resilience in competitive sports.
+
+In all three scenarios, the relationship between Mia's position and Olivia's is one of contrast. While Mia finishes ahead of Noah, Olivia finishes behind both of them. This contrast highlights the competitive nature of the three friends and the varying levels of performance they exhibit.
+
+It's also worth noting that the relationship between Mia's position and Olivia's is not just about their individual performances, but also about the dynamics between them. The fact that Mia finishes ahead of Noah, and Noah finishes ahead of Olivia, suggests that there is a level of competition and rivalry between the three friends. This could be due to their individual personalities, their competitive nature, or simply the fact that they are all passionate about the sport.
+
+In conclusion, the analysis of the race results reveals a complex and nuanced relationship between Mia's position and Olivia's. The three scenarios highlight the varying levels of performance, the competitive nature of the friends, and the dynamics between them. Ultimately, the relationship between Mia's position and Olivia's is one of contrast, and it serves as a reminder that competition can be both motivating and demotivating, depending on the individual's perspective."
+06,Llama-3.2-3B-Instruct,Llama-3,SMALL,46,622,489,Global,80.3,1328.9,220.99,2.902,Tell me about Global warming.(In 500 words),"Global warming, also known as climate change, is the gradual increase in the overall temperature of the Earth's atmosphere, primarily caused by human activities that release greenhouse gases, such as carbon dioxide and methane, into the atmosphere. This phenomenon has been extensively studied and documented, and its effects are being felt worldwide.
+
+Causes of Global Warming:
+
+1. Burning of fossil fuels: The burning of fossil fuels, such as coal, oil, and gas, for energy releases carbon dioxide into the atmosphere, contributing to global warming.
+2. Deforestation: The clearing of forests for agriculture, urbanization, and other purposes releases carbon dioxide and reduces the ability of forests to absorb carbon dioxide.
+3. Industrial agriculture: The production of meat, especially beef, and other animal products leads to the release of methane and nitrous oxide, potent greenhouse gases.
+4. Population growth: As the global population grows, so does the demand for energy, food, and other resources, leading to increased greenhouse gas emissions.
+
+Effects of Global Warming:
+
+1. Rising sea levels: The melting of polar ice caps and glaciers contributes to sea level rise, threatening coastal communities and ecosystems.
+2. Extreme weather events: Global warming is linked to an increase in extreme weather events, such as heatwaves, droughts, and heavy rainfall.
+3. Changes in precipitation patterns: Global warming alters the patterns of rainfall and snowfall, leading to droughts in some areas and floods in others.
+4. Loss of biodiversity: Rising temperatures and changing ecosystems lead to the loss of biodiversity, as plants and animals are unable to adapt to the new conditions.
+5. Negative impacts on human health: Global warming increases the spread of diseases, heat stress, and other health problems.
+
+Consequences of Global Warming:
+
+1. Food insecurity: Changes in climate patterns and rising temperatures affect agricultural productivity, leading to food insecurity and economic losses.
+2. Water scarcity: Changes in precipitation patterns and increased evaporation due to warmer temperatures lead to water scarcity, affecting human consumption and industry.
+3. Economic disruption: Global warming disrupts global supply chains, leading to economic losses and instability.
+4. Human migration: Rising sea levels and extreme weather events force people to migrate, leading to social and economic disruption.
+
+Solutions to Global Warming:
+
+1. Transition to renewable energy: Shift from fossil fuels to renewable energy sources, such as solar and wind power, to reduce greenhouse gas emissions.
+2. Energy efficiency: Improve energy efficiency in buildings, transportation, and industry to reduce energy consumption.
+3. Electrify transportation: Promote the adoption of electric vehicles to reduce emissions from transportation.
+4. Carbon capture and storage: Implement carbon capture and storage technologies to reduce emissions from industrial sources.
+5. Sustainable land use: Implement sustainable land use practices, such as reforestation and agroforestry, to sequester carbon dioxide.
+
+In conclusion, global warming is a pressing issue that requires immediate attention and action. By understanding the causes, effects, and consequences of global warming, we can work towards mitigating its impacts and creating a more sustainable future for all."
+07,Llama-3.2-3B-Instruct,Llama-3,SMALL,46,981,702,The,72.3,1386.9,215.25,4.637,Tell the History of USA.(In 500 words),"The history of the United States of America (USA) spans over four centuries, from its early colonial days to the present day. Here is a brief overview of the major events and periods that have shaped the country's history:
+
+**Colonial Era (1607-1776)**
+
+The first European settlers arrived in what is now the USA in 1607, when the English established Jamestown, Virginia. Over the next several decades, other European powers, including the Dutch, French, and Spanish, established colonies along the eastern seaboard. The 13 colonies, which included Virginia, Massachusetts, New York, and others, were established by the British and were governed by the British monarchy.
+
+**American Revolution (1775-1783)**
+
+Tensions between the colonies and Great Britain had been building for years, and in 1775, the first shots of the American Revolution were fired at Lexington and Concord. The Continental Army, led by George Washington, fought against the British Army, and in 1783, the Treaty of Paris was signed, ending the war and recognizing American independence.
+
+**Early National Period (1783-1828)**
+
+After the Revolution, the United States became a sovereign nation, with a federal government and a system of checks and balances. The Constitution, written in 1787, established the framework for the federal government, and the Bill of Rights, written in 1791, protected individual liberties. The early national period was marked by significant economic growth, westward expansion, and the rise of industry.
+
+**Westward Expansion (1828-1860)**
+
+As the country expanded westward, conflicts with Native American tribes and the Mexican-American War (1846-1848) led to the acquisition of new territories, including present-day California, Arizona, New Mexico, and Texas. The Kansas-Nebraska Act (1854) and the Dred Scott decision (1857) contributed to the growing tensions leading up to the Civil War.
+
+**Civil War and Reconstruction (1861-1877)**
+
+The Civil War, fought between the Union (the northern states) and the Confederacy (the southern states), was a brutal and devastating conflict that lasted from 1861 to 1865. The war was fought over the issue of slavery, and the Union ultimately prevailed. The Reconstruction period that followed saw the passage of the 13th, 14th, and 15th Amendments to the Constitution, which abolished slavery, granted citizenship to former slaves, and protected their right to vote.
+
+**Industrialization and Imperialism (1878-1914)**
+
+The late 19th and early 20th centuries saw significant industrialization and economic growth, as the country became a major world power. The United States also expanded its influence abroad, through the Spanish-American War (1898) and the annexation of Hawaii (1898). The rise of big business and the robber barons, such as Andrew Carnegie and John D. Rockefeller, led to significant social and economic changes.
+
+**World War I and the Roaring Twenties (1914-1929)**
+
+The United States entered World War I in 1917, and the country played a significant role in the Allied victory. The Roaring Twenties, which followed the war, saw significant cultural and social changes, including the rise of jazz, the Harlem Renaissance, and the women's suffrage movement.
+
+**The Great Depression and World War II (1929-1945)**
+
+The Great Depression, which began in 1929, was a severe economic downturn that lasted for over a decade. The New Deal, implemented by President Franklin D. Roosevelt, helped to alleviate the suffering, but the country was still severely affected. The United States entered World War II in 1941, and the country played a significant role in the Allied victory.
+
+**Cold War and Civil Rights (1945-1989)**
+
+The post-war period saw the rise of the Cold War, a decades-long conflict between the United States and the Soviet Union. The Civil Rights Movement, led by figures such as Martin Luther King Jr. and Rosa Parks, fought for the rights of African Americans, including the right to vote, equal education, and fair housing.
+
+**Modern Era (1990-present)**
+
+The modern era has seen significant changes, including the fall of the Berlin Wall (1989), the end of the Cold War (1991), and the rise of globalization. The United States has continued to play a significant role in international affairs, and the country has faced significant challenges, including the September 11 attacks (2001), the War on Terror (2001-present), and the COVID-19 pandemic (2020-present).
+
+This brief history of the United States is just a glimpse into the complex and fascinating story of the country's development over the past four centuries."
+08,Llama-3.2-3B-Instruct,Llama-3,SMALL,69,556,404,**,75.3,1909.0,220.83,2.6,"Draft a compelling advertisement for a new grocery store in a small town, including the store’s unique features, grand opening promotions, and community benefits.(In 500 words)","**Introducing Harvest Home Grocery - Your New Neighborhood Hub!**
+
+We are thrilled to announce the grand opening of Harvest Home Grocery, the ultimate destination for foodies and families alike in our small town. Our store is designed to bring the community together, offering a unique shopping experience that combines quality products, exceptional service, and a commitment to supporting local farmers and artisans.
+
+**Unique Features:**
+
+* **Farmers' Market**: Every Saturday, our store will feature a bustling farmers' market, where you can sample fresh produce, artisanal cheeses, and baked goods from local farmers and producers.
+* **In-Store Cooking Classes**: Our culinary experts will lead cooking classes and demonstrations, teaching you how to prepare delicious meals using fresh, seasonal ingredients.
+* **Community Kitchen**: Our state-of-the-art kitchen will host cooking events, workshops, and classes for kids and adults, promoting healthy eating and community engagement.
+* **Local Artisan Showcase**: Our store will feature a rotating selection of local artisans, showcasing their handmade products, from jewelry to home decor.
+
+**Grand Opening Promotions:**
+
+* **Buy One, Get One Free**: On all store brands and local products during our grand opening weekend.
+* **Free Gift Baskets**: For the first 50 customers, receive a complimentary gift basket filled with local goodies and store brands.
+* **Enter to Win**: Be entered to win a year's supply of groceries and a $500 gift card to Harvest Home Grocery.
+
+**Community Benefits:**
+
+* **Supporting Local Farmers**: By shopping at Harvest Home Grocery, you'll be directly supporting local farmers and producers, helping to build a stronger, more sustainable food system.
+* **Community Events**: Our store will host regular community events, including farmers' markets, cooking classes, and charity fundraisers, promoting social connections and community engagement.
+* **Job Creation**: Harvest Home Grocery will create new job opportunities for local residents, contributing to the economic growth and development of our town.
+
+**Join the Harvest Home Grocery Community:**
+
+Visit us today and experience the best of small-town shopping. Our friendly and knowledgeable staff will be happy to assist you in finding the perfect products for your family. We look forward to serving you and building a stronger, more connected community.
+
+**Grand Opening Details:**
+
+Date: Saturday, March 17th
+Time: 8:00 AM - 8:00 PM
+Location: 123 Main St, Anytown, USA
+
+**Follow Us:**
+
+Stay up-to-date on the latest news, promotions, and events by following us on social media:
+
+Facebook: @HarvestHomeGrocery
+Instagram: @HarvestHomeGrocery
+Twitter: @HarvestHomeGrocery
+
+We can't wait to welcome you to Harvest Home Grocery!"
+09,Llama-3.2-3B-Instruct,Llama-3,SMALL,56,749,537,Black,73.9,1585.9,218.72,3.506,"Explain the basic Blackjack game, including rules, logic, and example gameplay.(In 500 words)","Blackjack is a popular casino banking game played with one or more decks of 52 cards. The objective is to have a hand value that is closer to 21 than the dealer's hand without exceeding 21.
+
+**Basic Rules:**
+
+1. The game starts with each player being dealt two cards, face up.
+2. The dealer is also dealt two cards, but one of their cards is face down (known as the ""hole card"").
+3. Numbered cards are worth their face value, while face cards (Kings, Queens, Jacks) are worth 10 points.
+4. An Ace can be worth either 1 or 11 points, depending on which is more beneficial to the player.
+5. If a player's hand value exceeds 21, they ""bust"" and lose the game.
+6. Players can choose to ""hit"" (take another card) or ""stand"" (keep their current hand).
+7. If a player's hand value is higher than the dealer's hand without exceeding 21, they win the game.
+
+**Logic and Strategy:**
+
+1. **Card values:** Understand the point values of each card to make informed decisions.
+2. **Hit or stand:** Weigh the risks and rewards of taking another card versus standing with your current hand.
+3. **Insurance:** If the dealer's upcard is an Ace, players can take insurance, which is a side bet that the dealer has a Blackjack (Ace and a 10-point card).
+4. **Double down:** Double your initial bet and receive one more card, but you cannot hit again.
+5. **Split:** If your initial two cards have the same value, you can split them into two separate hands, but you'll need to place a second bet.
+
+**Example Gameplay:**
+
+Let's say you're playing a game of Blackjack with a standard 52-card deck.
+
+**Player's Hand:** 9 of Hearts, 5 of Diamonds
+
+Your hand value is 14. The dealer's upcard is a 7 of Spades.
+
+**Decision:** You choose to ""hit"" and take another card.
+
+**New Card:** 6 of Clubs
+
+Your hand now is: 9 of Hearts, 5 of Diamonds, 6 of Clubs
+
+Your hand value is now 20. The dealer's upcard is still a 7 of Spades.
+
+**Decision:** You choose to ""stand"" with a hand value of 20.
+
+The dealer reveals their hole card, which is a 9 of Clubs. Their hand value is 16 (7 of Spades + 9 of Clubs). The dealer must draw another card because their hand value is less than 17.
+
+**New Card:** 4 of Spades
+
+The dealer's hand now is: 7 of Spades, 9 of Clubs, 4 of Spades
+
+The dealer's hand value is now 20, matching yours. This is a ""push,"" and your initial bet is returned to you.
+
+**Tips and Variations:**
+
+1. **Basic strategy:** Use a chart or strategy guide to determine the best course of action based on your hand and the dealer's upcard.
+2. **Progressive betting:** Increase your bet as you win, but be cautious not to bet more than you can afford to lose.
+3. **Variations:** Some games offer variations, such as ""Blackjack Switch"" or ""Double Exposure,"" which can change the rules and strategy.
+
+Remember, Blackjack is a game of chance, and there's always an element of luck involved. However, by understanding the rules, logic, and strategy, you can make informed decisions and increase your chances of winning."
+10,Llama-3.2-3B-Instruct,Llama-3,SMALL,57,721,540,The,90.0,1633.6,212.34,3.493,Breakdown the steering and breaking components of a Cessna 172N. (In 500 words),"The Cessna 172N is a popular single-engine, four-seat, high-wing aircraft widely used for training and personal flying. The steering and braking systems of the Cessna 172N are designed to provide safe and efficient control of the aircraft.
+
+**Steering System:**
+
+The Cessna 172N has a three-axis flight control system, which includes a primary flight control system (FFCS) and a secondary flight control system (SFCS). The primary flight control system is responsible for controlling the aircraft's pitch, roll, and yaw.
+
+1. **Primary Flight Control System (FFCS):**
+The FFCS consists of a yoke, a control stick, and a trim wheel. The yoke is the primary control surface, and it is used to control the aircraft's pitch and roll. The control stick is used to control the aircraft's yaw.
+2. **Secondary Flight Control System (SFCS):**
+The SFCS is a mechanical system that provides a backup to the FFCS. It consists of a trim wheel and a trim lever. The trim wheel is used to adjust the aircraft's pitch and roll, while the trim lever is used to adjust the aircraft's yaw.
+
+**Braking System:**
+
+The Cessna 172N has a dual-brake system, which provides safe and efficient braking.
+
+1. **Main Rotor Brake (MRB):**
+The MRB is a mechanical system that applies the brakes to the main rotor. It consists of a brake pedal, a brake lever, and a brake cable. The brake pedal is used to apply the brakes, while the brake lever is used to adjust the brake cable.
+2. **Tail Rotor Brake (TRB):**
+The TRB is a mechanical system that applies the brakes to the tail rotor. It consists of a tail rotor brake pedal and a tail rotor brake lever. The tail rotor brake pedal is used to apply the brakes, while the tail rotor brake lever is used to adjust the brake cable.
+
+**Brake System Components:**
+
+The Cessna 172N's brake system consists of the following components:
+
+1. **Brake Pedals:** The brake pedals are located on the floor of the cockpit and are used to apply the brakes to the main rotor and tail rotor.
+2. **Brake Levers:** The brake levers are located on the center console of the cockpit and are used to adjust the brake cable.
+3. **Brake Cables:** The brake cables are used to connect the brake levers to the brake pedals.
+4. **Brake Pads:** The brake pads are located on the main rotor and tail rotor and are used to apply the brakes.
+
+**Braking Procedure:**
+
+To brake the Cessna 172N, follow these steps:
+
+1. **Apply the brakes:** Press the brake pedal firmly to apply the brakes to the main rotor and tail rotor.
+2. **Adjust the brake cable:** Use the brake lever to adjust the brake cable and fine-tune the braking performance.
+3. **Monitor the aircraft's speed:** Monitor the aircraft's speed and adjust the braking performance as needed.
+
+In summary, the steering and braking components of the Cessna 172N are designed to provide safe and efficient control of the aircraft. The primary flight control system and secondary flight control system work together to provide precise control of the aircraft's pitch, roll, and yaw. The dual-brake system provides safe and efficient braking, and the brake system components work together to apply the brakes to the main rotor and tail rotor."

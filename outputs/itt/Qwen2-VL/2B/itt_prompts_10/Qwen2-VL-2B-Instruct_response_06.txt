@@ -1,0 +1,30 @@
+The image is a flowchart that represents a job scope analysis. The flowchart is divided into three main sections: Region, Domain, and Resumes and JD.
+
+1. **Region**:
+   - India
+   - USA
+   - Europe
+   - East Asia/Aus
+
+2. **Domain**:
+   - IT
+   - Bio Science
+   - Finance
+
+3. **Resumes and JD**:
+   - UI/UX
+   - AI
+   - Backend Developer
+   - Project Management
+
+4. **Segregation based on Gender**:
+   - Male
+   - Female
+   - Other
+
+5. **Segregation based on Years**:
+   - 0 - 3 Years
+   - 3 - 7 Years
+   - 7 Above
+
+The flowchart uses a hierarchical structure to represent the job scope analysis, with each level representing a different category or segment of the job. The flowchart includes specific job categories and their associated regions, domains, and gender segregation.

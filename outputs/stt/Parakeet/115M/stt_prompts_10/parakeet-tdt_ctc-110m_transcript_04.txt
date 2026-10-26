@@ -1,0 +1,1 @@
+Describe the logic used to calculate the time for baking ninety six cookies, considering oven capacity and efficiency, in five hundred words.

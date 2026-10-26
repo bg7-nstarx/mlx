@@ -1,0 +1,11 @@
+clip_id,model,family,size,voice,input_audio (s),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),inference_rate (tokens/s),inference_time (s),transcript
+01,whisper-medium,Whisper,MEDIUM,Samantha,6.87,1500,21,18, D,182.1,115.3,0.182,Draft a professional email to a manager requesting a recommendation for a new job opportunity. In 500 words.
+02,whisper-medium,Whisper,MEDIUM,Daniel,9.76,1500,26,22, Prov,194.7,133.6,0.195,"Provide a brief background on the UK Prime Minister in 1995, highlighting key accomplishments and challenges during their tenure, in 500 words."
+03,whisper-medium,Whisper,MEDIUM,Karen,6.92,1500,24,20, Explain,196.1,122.4,0.196,"Explain the current phase of the moon, its significance, and how it fits within the lunar cycle, in 500 words."
+04,whisper-medium,Whisper,MEDIUM,Moira,8.86,1500,24,20, Des,195.6,122.7,0.196,"Describe the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency, in 500 words."
+05,whisper-medium,Whisper,MEDIUM,Rishi,19.13,1500,56,42, Imagine,338.8,165.3,0.339,"Imagine three friends, Mia, Noah, and Olivia, each running a race. Mia finishes ahead of Noah and Noah finishes ahead of Olivia. Analyze the race results and elaborate on the relationship between Maya's position and Olivia's. Discussing possible scenarios in 500 words."
+06,whisper-medium,Whisper,MEDIUM,Samantha,3.08,1500,9,8, Tell,125.5,71.7,0.126,Tell me about global warming in 500 words.
+07,whisper-medium,Whisper,MEDIUM,Daniel,3.32,1500,9,8, Tell,125.4,71.8,0.125,Tell the history of USA in 500 words.
+08,whisper-medium,Whisper,MEDIUM,Karen,10.98,1500,34,27, D,228.9,148.5,0.229,"Draft a compelling advertisement for a new grocery store in a small town, including the store's unique features, grand opening promotions, and community benefits, in 500 words."
+09,whisper-medium,Whisper,MEDIUM,Moira,7.27,1500,20,14, Explain,180.8,110.6,0.181,"Explain the basic Blackjack game, including rules, logic, and example gameplay, in 500 words."
+10,whisper-medium,Whisper,MEDIUM,Rishi,6.63,1500,19,14, Break,181.4,104.8,0.181,Break down the steering and braking components of a Cessna 172N in 500 words.

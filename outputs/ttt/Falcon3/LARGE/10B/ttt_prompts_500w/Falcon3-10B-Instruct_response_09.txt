@@ -1,0 +1,31 @@
+Blackjack, also known as 21, is a popular card game played in casinos worldwide. The objective of the game is to have a hand total closer to 21 than the dealer's hand without exceeding 21. The game is played with one or more decks of 52 cards, and each player competes individually against the dealer.
+
+**Basic Rules:**
+
+1. **Dealing Cards:** The dealer shuffles the deck(s) and deals two cards to each player and two cards to themselves. One of the dealer's cards is face up, while the other is face down.
+
+2. **Card Values:** Cards 2-10 are worth their face value. Jacks, Queens, and Kings are worth 10 points each. Aces can be worth either 1 or 11 points, depending on which value benefits the player's hand without causing it to exceed 21.
+
+3. **Player Actions:** Players can choose to "hit" (take another card), "stand" (keep their current hand), "double down" (double their bet and take only one more card), "split" (if they have two cards of the same rank, they can split them into two separate hands), or "surrender" (give up half their bet and fold their hand).
+
+4. **Dealer Actions:** The dealer must hit until their hand total is 17 or higher. If the dealer's hand exceeds 21, they bust, and all players with a hand total under 21 win.
+
+5. **Winning:** Players win if their hand total is closer to 21 than the dealer's without going over 21. If both the player and the dealer have the same total, it's a tie (push), and the player gets their bet back.
+
+**Example Gameplay:**
+
+Let's say you're playing a game of Blackjack. You're dealt a 10 and a 6, giving you a total of 16. The dealer shows a 7.
+
+1. **Decision:** You decide to hit because 16 is a weak hand against the dealer's 7. You draw a 5, bringing your total to 21.
+
+2. **Dealer's Turn:** The dealer, with a 7, must hit. They draw a 9, bringing their total to 16. They draw another card, a 4, making their total 20.
+
+3. **Outcome:** Since your hand total (21) is closer to 21 than the dealer's (20), you win the hand.
+
+**Logic and Strategy:**
+
+The logic behind Blackjack involves understanding probabilities and making strategic decisions based on the cards you have and the dealer's visible card. Basic strategy charts are available to guide players on the optimal move in every situation. For example, if you have a hard 16 (no Aces) and the dealer shows a 10, the basic strategy suggests standing because the dealer has a high probability of busting.
+
+**Conclusion:**
+
+Blackjack combines elements of luck and strategy, making it an engaging and dynamic game. Understanding the rules, card values, and basic strategy can significantly improve a player's chances of winning. Whether played in a casino or among friends, Blackjack offers an exciting blend of skill and chance that continues to attract players worldwide.

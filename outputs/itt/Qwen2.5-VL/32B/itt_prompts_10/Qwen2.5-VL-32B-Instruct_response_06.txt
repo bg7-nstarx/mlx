@@ -1,0 +1,62 @@
+The image presents a hierarchical structure that outlines a detailed scope for a project or system, breaking it down into various categories and subcategories. The structure is organized into multiple levels, each representing a different dimension or aspect of the scope. Here is a detailed description of the image:
+
+### **Top Level: Scope**
+- The topmost box is labeled **"Scope"**, indicating the overall scope of the project or system being described.
+
+### **Second Level: Region**
+- The scope is divided into four regions:
+  1. **India**
+  2. **USA**
+  3. **Europe**
+  4. **East Asia/Aus**
+- These regions represent the geographical areas where the project or system will be applicable or relevant.
+
+### **Third Level: Domain**
+- Under each region, the scope is further divided into domains. For the **USA** region (as an example), the domains listed are:
+  1. **IT**
+  2. **Bio Science**
+  3. **Finance**
+- These domains represent the specific fields or industries within each region.
+
+### **Fourth Level: Resumes and JD (Job Descriptions)**
+- Under each domain, the scope is further segmented into specific roles or job categories. For the **IT** domain (under the USA region), the roles listed are:
+  1. **UI/UX**
+  2. **Mobile Apps**
+  3. **Web Applications**
+  4. **AI**
+  5. **Data Scientist**
+  6. **Data Engineer**
+  7. **ML Ops**
+  8. **Backend Developer**
+  9. **Dot Net**
+  10. **Python Developer**
+  11. **Project Management**
+- These roles represent the specific job categories or skills relevant to the IT domain.
+
+### **Fifth Level: Resumes Segregation Based on Gender**
+- The resumes are further segmented based on gender:
+  1. **Male**
+  2. **Female**
+  3. **Other**
+- This level categorizes the resumes or job descriptions based on gender identity.
+
+### **Sixth Level: Segregation Based on Years of Experience**
+- Finally, the resumes are segmented based on years of experience:
+  1. **0-3 Years**
+  2. **3-7 Years**
+  3. **7 Above**
+- This level categorizes the resumes or job descriptions based on the candidate's experience level.
+
+### **Additional Note**
+- At the bottom right of the image, there is a note that provides context for the number of unique combinations:
+  - **"In one Region and within IT, if we have three resumes per category and also include role-specific resumes for different job descriptions, we end up with 1728 unique combinations."**
+  - This indicates that the system or project is designed to handle a large number of combinations based on the specified criteria.
+
+### **Overall Structure**
+- The image uses a hierarchical tree structure to illustrate how the scope is broken down into increasingly specific categories. Each level adds more granularity to the overall scope, starting from the broadest category (Region) and moving to the most specific (Years of Experience).
+- The use of different colors (purple, light blue, green, and pink) helps visually distinguish between the levels and categories.
+
+### **Purpose**
+- This structure is likely used for organizing and managing data related to resumes and job descriptions, ensuring that the system can handle a wide variety of combinations based on region, domain, role, gender, and experience level. It is particularly useful for recruitment or HR systems where detailed segmentation is necessary for efficient processing and matching. 
+
+This detailed breakdown ensures that the system can handle a diverse set of criteria and combinations, making it robust and adaptable to various scenarios.

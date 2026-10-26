@@ -1,0 +1,479 @@
+prompt_id,model,family,size,image_size (px),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),image,prompt,response
+01,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,1024x1024,1141,1024,891,,280.2,7376.7,440.03,2.609,images/itt_prompts_10/01.png,Describe this image in detail.,"The image is a surreal illustration of an astronaut on a green horse. The astronaut is in the foreground, riding on the back of the horse. The horse is in the center of the image, with its legs extended in the air. The background features a landscape with hills and a sky filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few clouds scattered around. The landscape is a light green color with hills and a few trees. The landscape is filled with electricity-like lines. The sky is a light green color with a few"
+02,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,270x187,876,1024,702,,213.6,7410.1,444.76,2.518,images/itt_prompts_10/02.png,Describe this image in detail.,"The image is a bar chart that presents data on the number of different cars sold in three different showrooms. The chart is divided into three horizontal bars, each representing a different car. The bars are colored in blue, red, and green. The chart is titled ""The number of five different cars sold in three different showrooms.""
+
+### The Data
+#### The x-axis represents the number of cars sold in each showroom. The y-axis represents the number of cars sold in each showroom.
+
+#### The bars in the chart are color-coded:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue: Ford
+- Red: Toyota
+- Green: Audi
+
+#### The chart is divided into three horizontal bars, each representing a different car. The bars are color-coded as follows:
+- Blue:"
+03,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,352x339,1141,1024,866,,262.1,7689.2,431.41,2.637,images/itt_prompts_10/03.png,Describe this image in detail.,"The image is a web page that contains a code and a code verification box. The code is written in a bold, black font with a white background. The code is structured in a vertical format with each line having a number. The lines are numbered from 1 to 4. The code is written in a clear, legible, and readable manner.
+
+The code verification box is located below the code. The box is also in a clear, legible, and readable manner. The box contains two buttons: ""Type the code from the image"" and ""Verify Code"". The buttons are in a white background with a black border. The buttons are in a clear, legible, and readable manner.
+
+The background of the image is white with a light blue border. The border is in a clear, legible, and readable manner. The background is white with a light blue border. The border is in a clear, legible, and readable manner.
+
+The image is in a clean, professional, and clear style. The image is well-organized with clear instructions and buttons. The image is designed to be easy to read and understand.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible, and readable manner.
+
+The image is a screenshot of a web page. The page is designed to be used for creating new images. The image is a code that can be entered into the code verification box. The code is a series of numbers that can be entered into the code verification box. The code can be entered in a clear, legible"
+04,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,2048x2048,1141,507,417,,238.3,7821.5,433.25,1.41,images/itt_prompts_10/04.jpg,Describe this image in detail.,"The image features an animated cat wearing a yellow t-shirt and a striped orange and white skirt. The cat is standing on a green lawn and holding a golf club in its right paw. The cat is positioned in the foreground, with the golf ball in the middle ground. The background is blurred, with a green gradient that transitions from light green to darker green. The background is also blurred, with no clear details.
+
+The cat is holding the golf club with both hands, with the club resting on the cat’s left paw. The cat is wearing a white golf glove on its left hand. The cat is wearing a white, orange, and black striped t-shirt on its chest. The cat is wearing a white, orange, and black striped skirt on its right side. The cat is wearing white shoes on its left foot.
+
+The cat is in a pose that suggests it is ready to play golf. The cat’s body is slightly bent forward, with its head looking slightly to the right. The cat’s eyes are wide open, and the cat is looking at the golf ball. The cat’s ears are pointed, and the cat’s nose is black. The cat’s tail is long and fluffy, and it is moving slightly to the right.
+
+The golf ball is white with a black stripe on the top. The golf ball is located in the middle ground. The golf ball is slightly blurred, with the green background blurred as well.
+
+The image is animated, with a cartoon style. The cat is the main subject of the image, and it is conveying a playful and athletic pose. The background is blurred, with no clear details, which helps the viewer focus on the cat. The image is well-lit, with no harsh shadows, which makes the cat look realistic.
+
+The image is likely intended to be humorous, as the cat is dressed in a golf outfit, which is a playful and exaggerated interpretation of a golf game. The cat’s pose and the golf ball suggest that the cat is ready to play golf. The image is likely intended to be humorous, as the cat is dressed in a golf outfit, which is a playful and exaggerated interpretation of a golf game.
+
+The image does not contain any other objects, such as people, trees, or buildings. The image is focused on the cat and the golf ball. The image is a cartoon-style illustration, with a playful and exaggerated interpretation of a golf game."
+05,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,2048x1365,876,417,343,,208.9,7722.9,452.47,1.132,images/itt_prompts_10/05.jpg,Describe this image in detail.,"The image features a serene beach scene with two main subjects: a dog and a woman. The dog is a large, golden-brown dog with a black collar and a leash. The dog is sitting on the sandy beach, facing the woman, who is seated on the sandy beach. The woman is smiling and appears to be engaged in conversation with the dog. The dog is looking at the woman, and the woman is looking back at the dog. The sun is casting a warm glow over the scene, indicating a bright, sunny day.
+
+The background of the image is a beach with the ocean visible in the distance. The beach is sandy with scattered footprints and a few pieces of beach debris. The ocean is calm with gentle waves, suggesting a peaceful day. The sky is clear with a hint of the sun peeking through the horizon, indicating a bright, sunny day.
+
+The dog is wearing a colorful collar with a floral design, which is a common fashion trend in 2020. The woman is wearing a light-colored, long-sleeve, button-up shirt. The woman is sitting on the sandy beach, facing the dog, and appears to be engaged in conversation. The dog is looking back at the woman, and the woman is looking forward at the dog. The sun is casting a warm glow over the scene, indicating a bright, sunny day.
+
+The overall atmosphere of the image is warm, happy, and serene. The dog and the woman are enjoying each other's company, and the warm sun and sandy beach create a perfect setting for a pleasant day out. The image captures a moment of connection and happiness between a dog and a woman, suggesting a positive and joyful experience.
+
+The image does not contain any other objects, such as a beach ball, beach towels, or beach toys. The focus is solely on the dog and the woman, and the natural elements of the beach and the sun. The image is a perfect representation of a peaceful beach day, with a warm and happy atmosphere."
+06,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,1920x1080,876,1024,586,,211.8,7482.3,444.63,2.517,images/itt_prompts_10/06.png,Describe this image in detail.,"The image is a data visualization that is structured to show the scope of a project. The image is divided into three main sections: Region, Domain, and Data Science.
+
+**Region Section:**
+- The Region section is further divided into three sub-sections:
+  - **India**
+  - **Europe**
+  - **East Asia/Aus**
+
+**Domain Section:**
+- The Domain section is divided into three sub-sections:
+  - **Mobile Apps**
+  - **Data Science**
+  - **Web & Mobile**
+
+**Data Science Section:**
+- The Data Science section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Project Management Section:**
+- The Project Management section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Management Section:**
+- The Data Management section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into three sub-sections:
+  - **Data Engineer**
+  - **Data Scientist**
+  - **Data Engineer**
+
+**Data Engineering Section:**
+- The Data Engineering section is divided into"
+07,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,2240x1400,876,1024,280,,214.3,7857.4,443.13,2.527,images/itt_prompts_10/07.png,Describe this image in detail.,"The image features a grid-like background with various logos and text elements. The background is a light gray color with a grid pattern that is uniform across the image. The grid pattern is made up of small squares, each containing a small white line. The grid pattern is evenly spaced across the image.
+
+The image contains logos and text elements in the following order from top to bottom:
+
+1. **Coca-Cola**
+2. **Unilever**
+3. **Google**
+4. **Amazon**
+5. **FedEx**
+6. **M&M**
+7. **Apple**
+8. **M&M**
+9. **M&M**
+10. **M&M**
+11. **M&M**
+12. **M&M**
+13. **M&M**
+14. **M&M**
+15. **M&M**
+16. **M&M**
+17. **M&M**
+18. **M&M**
+19. **M&M**
+20. **M&M**
+21. **M&M**
+22. **M&M**
+23. **M&M**
+24. **M&M**
+25. **M&M**
+26. **M&M**
+27. **M&M**
+28. **M&M**
+29. **M&M**
+30. **M&M**
+31. **M&M**
+32. **M&M**
+33. **M&M**
+34. **M&M**
+35. **M&M**
+36. **M&M**
+37. **M&M**
+38. **M&M**
+39. **M&M**
+40. **M&M**
+41. **M&M**
+42. **M&M**
+43. **M&M**
+44. **M&M**
+45. **M&M**
+46. **M&M**
+47. **M&M**
+48. **M&M**
+49. **M&M**
+50. **M&M**
+51. **M&M**
+52. **M&M**
+53. **M&M**
+54. **M&M**
+55. **M&M**
+56. **M&M**
+57. **M&M**
+58. **M&M**
+59. **M&M**
+60. **M&M**
+61. **M&M**
+62. **M&M**
+63. **M&M**
+64. **M&M**
+65. **M&M**
+66. **M&M**
+67. **M&M**
+68. **M&M**
+69. **M&M**
+70. **M&M**
+71. **M&M**
+72. **M&M**
+73. **M&M**
+74. **M&M**
+75. **M&M**
+76. **M&M**
+77. **M&M**
+78. **M&M**
+79. **M&M**
+80. **M&M**
+81. **M&M**
+82. **M&M**
+83. **M&M**
+84. **M&M**
+85. **M&M**
+86. **M&M**
+87. **M&M**
+88. **M&M**
+89. **M&M**
+90. **M&M**
+91. **M&M**
+92. **M&M**
+93. **M&M**
+94. **M&M**
+95. **M&M**
+96. **M&M**
+97. **M&M**
+98. **M&M**
+99. **M&M**
+100. **M&M**
+101. **M&M**
+102. **M&M**
+103. **M&M**
+104. **M&M**
+105. **M&M**
+106. **M&M"
+08,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,299x168,876,1024,856,,207.7,7074.8,447.31,2.499,images/itt_prompts_10/08.jpg,Describe this image in detail.,"The image is a mathematical question from the Math Olympiad. The question is written in a clear, standard font on a white background. The question reads:
+
+""Math Olympiad Question
+a^3 + a^2 = 36
+
+Solution:
+a = ?
+a = ?""
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The hand is holding a pencil, with the question written in a clear, standard font on a white background. The question is written in a clear, standard font on a white background.
+
+The image is a photograph of a hand holding a pencil, with the question written in a clear, standard font on a white background. The"
+09,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,2048x2688,1141,380,318,,291.9,7701.5,442.12,1.153,images/itt_prompts_10/09.jpg,Describe this image in detail.,"The image features a vibrant scene set in a picturesque countryside landscape. The foreground is dominated by a young, brown-haired rabbit wearing a light blue jacket over a tan-colored shirt. The rabbit is standing on a dirt path, flanked by green grass and flowers, which include white, yellow, and purple flowers. The rabbit is smiling, with its eyes looking directly at the camera.
+
+In the midground, there is a quaint, old-fashioned house with a stone exterior and a thatched roof. The house is surrounded by lush greenery, including trees and grass. The house has a traditional, rustic appearance with a steep roof and a chimney. The windows are framed with stone or brickwork.
+
+The background of the image features rolling hills and a mountain range in the distance. The hills are covered with green grass and dotted with trees. The sky is clear with a few scattered clouds. The overall atmosphere is warm and inviting, suggesting a peaceful countryside setting.
+
+The image is rendered in a realistic style, with detailed textures and lighting effects that enhance the visual appeal. The lighting is natural, with soft shadows and warm sunlight illuminating the scene. The image is likely a promotional image for a film or a TV series, as it is detailed and visually appealing.
+
+The rabbit in the foreground is the main focus, and it is clear that the image is meant to capture the innocence and charm of a young rabbit. The house in the midground adds a touch of warmth and tradition to the scene, while the natural landscape and clear sky provide a sense of peace and tranquility.
+
+The overall composition of the image is well-balanced, with the rabbit and the house placed in the center, and the natural landscape and clear sky providing a sense of harmony and balance. The image is likely intended to evoke a sense of nostalgia and a connection to nature."
+10,SmolVLM-500M-Instruct,SmolVLM,MEDIUM,251x200,1141,1024,769,,256.0,7701.6,436.72,2.603,images/itt_prompts_10/10.jpg,Describe this image in detail.,"The image is a painting that depicts a starry night sky. The sky is predominantly blue with swirling white, yellow, and black streaks, which are typical of a starry night sky. There are many stars scattered across the sky, each with a different color. The Milky Way is visible in the upper left corner of the painting. There are two prominent stars in the sky, one in the upper left and one in the upper right. The sun is visible in the upper right corner of the painting. There are two hills in the foreground, one on the left and one on the right. There are buildings in the middle ground. The buildings are dark-colored. There are many hills in the background. The hills are dark-colored. There are many trees in the foreground. The trees are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in the background. The hills are dark-colored. There are many hills in"

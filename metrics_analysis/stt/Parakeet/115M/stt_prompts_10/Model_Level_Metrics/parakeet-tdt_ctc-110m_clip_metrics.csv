@@ -1,0 +1,11 @@
+clip_id,model,family,size,voice,input_audio (s),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),inference_rate (tokens/s),inference_time (s),transcript
+01,parakeet-tdt_ctc-110m,Parakeet,SMALL,Samantha,6.87,86,42,19, D,82.1,511.6,0.082,"Draft a professional email to a manager requesting a recommendation for a new job opportunity, in five hundred words."
+02,parakeet-tdt_ctc-110m,Parakeet,SMALL,Daniel,9.76,123,61,25, P,97.4,626.4,0.097,"Provide a brief background on the UK Prime Minister in nineteen ninety five, highlighting key accomplishments and challenges during their tenure. In five hundred words."
+03,parakeet-tdt_ctc-110m,Parakeet,SMALL,Karen,6.92,87,44,21, E,85.3,515.7,0.085,"Explain the current phase of the Moon, its significance, and how it fits within the lunar cycle, in five hundred words."
+04,parakeet-tdt_ctc-110m,Parakeet,SMALL,Moira,8.86,111,50,22, D,94.4,529.5,0.094,"Describe the logic used to calculate the time for baking ninety six cookies, considering oven capacity and efficiency, in five hundred words."
+05,parakeet-tdt_ctc-110m,Parakeet,SMALL,Rishi,19.13,240,113,43, I,159.4,708.7,0.159,"Imagine three friends, Miia, Noah, and Olivia, each running a race, Mia finishes ahead of Noah, and Noah finishes ahead of Olivier. Analyze the race results and elaborate on the relationship between Maya's position and Olivia's, discussing possible scenarios, in five hundred words."
+06,parakeet-tdt_ctc-110m,Parakeet,SMALL,Samantha,3.08,39,18,9, T,60.4,298.2,0.06,"Tell me about global warming, in five hundred words."
+07,parakeet-tdt_ctc-110m,Parakeet,SMALL,Daniel,3.32,42,17,9, T,60.1,282.7,0.06,Tell the history of USA in five hundred words.
+08,parakeet-tdt_ctc-110m,Parakeet,SMALL,Karen,10.98,138,72,28, D,106.9,673.8,0.107,"Draft a compelling advertisement for a new grocery store in a small town, including the store's unique features, grand opening promotions, and community benefits, in five hundred words."
+09,parakeet-tdt_ctc-110m,Parakeet,SMALL,Moira,7.27,91,39,15, E,81.4,479.1,0.081,"Explain the basic blackjack game, including rules, logic, and example gameplay, in five hundred words."
+10,parakeet-tdt_ctc-110m,Parakeet,SMALL,Rishi,6.63,83,35,18, B,83.0,421.5,0.083,Break down the steering and braking components of AceNA one hundred and seventy two N five hundred words.

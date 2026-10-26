@@ -1,0 +1,195 @@
+{
+  "model": "OuteTTS-1.0-1B",
+  "family": "OuteTTS",
+  "size": "MEDIUM",
+  "repo": "mlx-community/Llama-OuteTTS-1.0-1B-fp16",
+  "parameters_million": 1248,
+  "architecture": "Llama-3.2 LM + DAC codec",
+  "precision": "16-bit",
+  "voices": {
+    "male": "default",
+    "female": "default"
+  },
+  "prompt_set": "tts_prompts_described",
+  "prompts_run": 10,
+  "input": {
+    "total_words": 271,
+    "total_characters": 1635
+  },
+  "audio_output": {
+    "total_seconds": 112.6,
+    "avg_seconds_per_prompt": 11.3,
+    "shortest_seconds": 10.0,
+    "longest_seconds": 15.1,
+    "sample_rate_hz": 24000
+  },
+  "intelligibility": {
+    "word_error_rate_pct": 0.0,
+    "word_accuracy_pct": 100.0,
+    "word_errors": 0,
+    "prompt_words": 273,
+    "perfect_prompts": 10,
+    "worst_prompt_id": "01",
+    "worst_prompt_word_error_rate_pct": 0.0,
+    "checked_with": "mlx-community/whisper-large-v3-mlx"
+  },
+  "speed": {
+    "model_load_seconds": 4.9,
+    "total_inference_seconds": 122.89,
+    "avg_seconds_per_prompt": 12.29,
+    "avg_time_to_first_audio_ms": 11171,
+    "inference_rate_audio_seconds_per_second": 0.92,
+    "real_time_factor": 1.091,
+    "minutes_to_generate_1_hour_of_audio": 65.5
+  },
+  "memory": {
+    "weights_gb": 2.5,
+    "peak_memory_gb": 7.69
+  },
+  "gpu": {
+    "avg_utilization_pct": 94.2,
+    "peak_utilization_pct": 100.0,
+    "avg_frequency_mhz": 1124,
+    "max_frequency_mhz": 1429,
+    "avg_power_watts": 7.5,
+    "peak_power_watts": 38.9,
+    "energy_joules": 928.85,
+    "avg_temperature_c": 63.4,
+    "max_temperature_c": 64.6
+  },
+  "cpu": {
+    "avg_utilization_pct": 6.1,
+    "peak_utilization_pct": 21.1,
+    "super_cores": 6,
+    "super_cores_avg_utilization_pct": 12.1,
+    "super_cores_avg_frequency_mhz": 3804,
+    "performance_cores": 12,
+    "performance_cores_avg_utilization_pct": 3.1,
+    "performance_cores_avg_frequency_mhz": 1354,
+    "avg_power_watts": 3.8,
+    "peak_power_watts": 9.1,
+    "energy_joules": 467.45,
+    "avg_temperature_c": 60.1,
+    "max_temperature_c": 61.1
+  },
+  "npu": {
+    "name": "Apple Neural Engine (ANE)",
+    "used": false,
+    "avg_power_watts": 0.0,
+    "peak_power_watts": 0.0,
+    "energy_joules": 0.0,
+    "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+  },
+  "system_memory": {
+    "avg_power_watts": 11.6,
+    "energy_joules": 1428.54,
+    "ram_total_gb": 51.5,
+    "avg_ram_used_gb": 13.2,
+    "peak_ram_used_gb": 20.3,
+    "peak_swap_used_gb": 9.32,
+    "note": "RAM used is for the whole Mac, including other apps, not just this model."
+  },
+  "whole_chip": {
+    "avg_power_watts": 22.8,
+    "peak_power_watts": 44.8,
+    "energy_joules": 2824.85,
+    "idle_power_watts": 0.37,
+    "note": "CPU + GPU + Neural Engine + memory."
+  },
+  "measured_seconds": 123.67,
+  "power_samples": 1135,
+  "energy": {
+    "total_joules": 2821.5,
+    "avg_joules_per_prompt": 282.2,
+    "per_audio_second_joules": 25.06,
+    "per_audio_hour_watt_hours": 25.06
+  },
+  "cost_usd": {
+    "api_fee": 0.0,
+    "electricity_whole_run": 0.0001176,
+    "electricity_per_1000_audio_hours": 3.7584,
+    "electricity_price_per_kwh": 0.15
+  },
+  "per_prompt": [
+    {
+      "id": "01",
+      "audio_seconds": 15.07,
+      "inference_seconds": 16.272,
+      "time_to_first_audio_ms": 9950,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 366.19
+    },
+    {
+      "id": "02",
+      "audio_seconds": 10.08,
+      "inference_seconds": 10.896,
+      "time_to_first_audio_ms": 10891,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 252.23
+    },
+    {
+      "id": "03",
+      "audio_seconds": 10.81,
+      "inference_seconds": 11.847,
+      "time_to_first_audio_ms": 11839,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 271.73
+    },
+    {
+      "id": "04",
+      "audio_seconds": 9.97,
+      "inference_seconds": 11.109,
+      "time_to_first_audio_ms": 11104,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 255.17
+    },
+    {
+      "id": "05",
+      "audio_seconds": 11.12,
+      "inference_seconds": 12.064,
+      "time_to_first_audio_ms": 12055,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 276.3
+    },
+    {
+      "id": "06",
+      "audio_seconds": 10.13,
+      "inference_seconds": 11.112,
+      "time_to_first_audio_ms": 11107,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 255.84
+    },
+    {
+      "id": "07",
+      "audio_seconds": 12.97,
+      "inference_seconds": 14.365,
+      "time_to_first_audio_ms": 9564,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 332.55
+    },
+    {
+      "id": "08",
+      "audio_seconds": 10.8,
+      "inference_seconds": 11.781,
+      "time_to_first_audio_ms": 11773,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 270.05
+    },
+    {
+      "id": "09",
+      "audio_seconds": 10.93,
+      "inference_seconds": 11.769,
+      "time_to_first_audio_ms": 11761,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 274.55
+    },
+    {
+      "id": "10",
+      "audio_seconds": 10.72,
+      "inference_seconds": 11.673,
+      "time_to_first_audio_ms": 11664,
+      "word_error_rate_pct": 0.0,
+      "energy_joules": 266.93
+    }
+  ]
+}

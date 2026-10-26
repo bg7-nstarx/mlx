@@ -1,0 +1,25 @@
+The Cessna 172N is a popular single-engine, high-wing aircraft known for its reliability and ease of operation. It is widely used for flight training and personal flying. The steering and braking systems in the Cessna 172N are crucial for the safe handling and control of the aircraft during takeoff, landing, and in-flight maneuvers.
+
+**Steering System:**
+
+The steering system in the Cessna 172N is primarily controlled by the pilot through the control yoke, which is connected to the elevator and aileron systems. The control yoke allows the pilot to manipulate the pitch and roll of the aircraft.
+
+1. **Elevator:** The elevator is located at the rear of the horizontal stabilizer and is responsible for controlling the pitch of the aircraft. When the pilot pulls back on the control yoke, the elevator moves upward, causing the nose to pitch up. Conversely, pushing the yoke forward moves the elevator downward, causing the nose to pitch down.
+
+2. **Ailerons:** The ailerons are located on the trailing edge of the wings and are used to control the roll of the aircraft. When the pilot moves the control yoke to the left or right, the corresponding aileron moves up while the other moves down. This differential movement creates a rolling moment, causing the aircraft to bank to the left or right.
+
+3. **Rudder:** The rudder is located on the vertical stabilizer and is used to control the yaw of the aircraft. The rudder is controlled by the rudder pedals, which the pilot operates with their feet. Moving the rudder pedals to the left or right causes the rudder to move in the opposite direction, which in turn yaws the aircraft to the left or right.
+
+**Braking System:**
+
+The braking system in the Cessna 172N is designed to slow down the aircraft during landing and to maintain control during ground operations.
+
+1. **Main Braking System:** The primary braking system in the Cessna 172N is the wheel brakes. These are hydraulic brakes that are applied by the pilot using the brake pedals. When the brake pedals are depressed, hydraulic pressure is applied to the brake calipers, which press the brake pads against the rotors of the wheels, creating friction and slowing the aircraft.
+
+2. **Anti-Skid System:** The Cessna 172N is equipped with an anti-skid system that prevents the wheels from locking during braking. This system monitors the brake pressure and wheel rotation, and if it detects that a wheel is about to lock, it momentarily releases brake pressure to allow the wheel to rotate freely. This helps maintain directional control during braking.
+
+3. **Parking Brake:** In addition to the main braking system, the Cessna 172N has a parking brake. This is a mechanical brake that can be engaged by the pilot to secure the aircraft on the ground. The parking brake is typically used when the aircraft is parked to prevent it from rolling.
+
+**Summary:**
+
+The steering and braking systems in the Cessna 172N are integral to the safe operation of the aircraft. The steering system, controlled by the control yoke and rudder pedals, allows the pilot to maneuver the aircraft in all three axes: pitch, roll, and yaw. The braking system, which includes wheel brakes, an anti-skid system, and a parking brake, ensures the aircraft can be safely slowed down and secured on the ground. Understanding these systems is crucial for pilots to operate the Cessna 172N effectively and safely.

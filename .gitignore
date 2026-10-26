@@ -1,0 +1,13 @@
+# Model weights (hundreds of GB)
+models/
+
+# Virtual environments
+.venv/
+.venv-lance/
+ttt_venv/
+
+# Python / OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

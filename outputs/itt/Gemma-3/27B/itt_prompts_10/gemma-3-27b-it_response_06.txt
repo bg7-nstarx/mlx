@@ -1,0 +1,49 @@
+Here's a detailed description of the image you sent:
+
+**Overall Structure:**
+
+The image is a flowchart or diagram illustrating a complex segmentation scheme, likely for a data analysis or market research project. It appears to be categorizing resumes or job applicants based on multiple criteria. The diagram uses a tree-like structure, branching out from broad categories to increasingly specific ones. The overall theme is "Scope" as indicated at the top.
+
+**Levels of Segmentation (Top to Bottom):**
+
+1.  **Region:** The first level divides the data into four regions:
+    *   India
+    *   USA
+    *   Europe
+    *   East Asia/Aus
+
+2.  **Domain:** The next level categorizes by professional domain:
+    *   IT
+    *   Bio Science
+    *   Finance
+
+3.  **Job Role/Skillset:** This level breaks down the "IT" domain into specific job roles/skills:
+    *   UI/UX
+    *   Mobile Apps/Web Applications
+    *   AI
+    *   Data Scientist/Data Engineer/ML Ops
+    *   Backend Developer
+    *   Dot Net/Python Developer
+    *   Project Management
+
+4.  **Resume Segmentation based on Gender:** This level categorizes by gender:
+    *   Male
+    *   Female
+    *   Other
+
+5.  **Resume Segmentation based on Years of Experience:** This level categorizes by years of experience:
+    *   0-3 Years
+    *   3-7 Years
+    *   7 Above
+
+**Additional Information/Text:**
+
+*   **Right-Side Text Box:** A text box on the right side explains that combining these categories results in a large number of unique combinations. Specifically, it states that with three resumes per category in each region and within IT, the total number of unique combinations reaches 1728.
+
+**Visual Style:**
+
+*   The diagram uses a clean, minimalist style with rectangular boxes and connecting lines.
+*   The boxes are color-coded (light blue, light green, light purple, light orange) to visually separate the different levels of segmentation.
+*   The flowchart is laid out horizontally, making it easy to follow the branching structure.
+
+**In essence, the diagram illustrates a multi-faceted segmentation strategy for analyzing a dataset of resumes, likely to identify patterns, trends, or opportunities within different demographic and professional groups.**

@@ -1,0 +1,11 @@
+clip_id,model,family,size,voice,input_audio (s),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),inference_rate (tokens/s),inference_time (s),transcript
+01,whisper-medium.en,Whisper.en,LARGE,Samantha,6.87,1500,20,18, Draft,177.4,112.7,0.177,"Draft a professional email to a manager requesting a recommendation for a new job opportunity, in 500 words."
+02,whisper-medium.en,Whisper.en,LARGE,Daniel,9.76,1500,25,22, Provide,190.6,131.2,0.191,"Provide a brief background on the UK Prime Minister in 1995, highlighting key accomplishments and challenges during their tenure, in 500 words."
+03,whisper-medium.en,Whisper.en,LARGE,Karen,6.92,1500,24,20, explain,194.8,123.2,0.195,"explain the current phase of the moon, its significance, and how it fits within the lunar cycle, in 500 words."
+04,whisper-medium.en,Whisper.en,LARGE,Moira,8.86,1500,23,20, described,193.0,119.2,0.193,"described the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency, in 500 words."
+05,whisper-medium.en,Whisper.en,LARGE,Rishi,19.13,1500,55,42, Imagine,352.8,155.9,0.353,"Imagine three friends, Mia, Noah, and Olivier, each running a race. Mia finishes ahead of Noah, and Noah finishes ahead of Olivier. Analyze the race results and elaborate on the relationship between Maya's position and Olivia's, discussing possible scenarios, in 500 words."
+06,whisper-medium.en,Whisper.en,LARGE,Samantha,3.08,1500,10,8, Tell,126.4,79.1,0.126,"Tell me about global warming, in 500 words."
+07,whisper-medium.en,Whisper.en,LARGE,Daniel,3.32,1500,9,8, Tell,123.5,72.9,0.123,Tell the history of USA in 500 words.
+08,whisper-medium.en,Whisper.en,LARGE,Karen,10.98,1500,33,27, Draft,232.0,142.3,0.232,"Draft a compelling advertisement for a new grocery store in a small town, including the store's unique features, grand opening promotions, and community benefits, in 500 words."
+09,whisper-medium.en,Whisper.en,LARGE,Moira,7.27,1500,20,14, explain,169.1,118.3,0.169,"explain the basic blackjack game, including rules, logic, and example gameplay, in 500 words."
+10,whisper-medium.en,Whisper.en,LARGE,Rishi,6.63,1500,18,14, Break,159.7,112.7,0.16,Break down the steering and braking components of a Cessna 172N in 500 words.

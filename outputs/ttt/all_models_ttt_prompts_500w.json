@@ -1,0 +1,1461 @@
+{
+  "prompt_set": "ttt_prompts_500w",
+  "models": [
+    {
+      "model": "Phi-3-mini-128k-instruct",
+      "family": "Phi-3",
+      "size": "SMALL",
+      "parameters": "3.8B",
+      "repo": "mlx-community/Phi-3-mini-128k-instruct-4bit",
+      "parameters_billion": 3.82,
+      "quantization": "4-bit",
+      "context_window_tokens": 131072,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 351,
+        "output_total": 10027,
+        "input_avg_per_prompt": 35,
+        "output_avg_per_prompt": 1003,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 684,
+        "min_words": 504,
+        "max_words": 797,
+        "target_words": 500,
+        "avg_pct_of_target": 137,
+        "prompts_within_10pct_of_target": 1,
+        "prompts_cut_off_at_token_limit": 9
+      },
+      "speed": {
+        "model_load_seconds": 0.8,
+        "total_generation_seconds": 56.2,
+        "avg_seconds_per_prompt": 5.62,
+        "avg_time_to_first_token_ms": 46,
+        "prompt_reading_tokens_per_second": 753,
+        "generation_tokens_per_second": 180.5,
+        "ms_per_output_token": 5.54,
+        "words_per_second": 121.8
+      },
+      "memory": {
+        "weights_gb": 2.15,
+        "peak_memory_gb": 2.73,
+        "kv_cache_kb_per_token": 384,
+        "kv_cache_mb_largest_request": 432.9,
+        "context_window_used_max_pct": 0.84
+      },
+      "gpu": {
+        "avg_utilization_pct": 98.6,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1473,
+        "max_frequency_mhz": 1620,
+        "avg_power_watts": 23.6,
+        "peak_power_watts": 35.0,
+        "energy_joules": 1344.79,
+        "avg_temperature_c": 73.8,
+        "max_temperature_c": 75.4
+      },
+      "cpu": {
+        "avg_utilization_pct": 7.3,
+        "peak_utilization_pct": 25.5,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 13.1,
+        "super_cores_avg_frequency_mhz": 4427,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 4.3,
+        "performance_cores_avg_frequency_mhz": 1358,
+        "avg_power_watts": 5.2,
+        "peak_power_watts": 13.5,
+        "energy_joules": 293.85,
+        "avg_temperature_c": 68.2,
+        "max_temperature_c": 69.1
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 11.9,
+        "energy_joules": 674.28,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 29.9,
+        "peak_ram_used_gb": 31.2,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 40.7,
+        "peak_power_watts": 55.5,
+        "energy_joules": 2312.92,
+        "idle_power_watts": 0.98,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 56.87,
+      "power_samples": 520,
+      "energy": {
+        "total_joules": 2297.8,
+        "total_watt_hours": 0.638,
+        "avg_joules_per_prompt": 229.8,
+        "per_input_token_millijoules": 20.996,
+        "per_output_token_millijoules": 228.429,
+        "per_1000_words_joules": 335.7
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 9.6e-05,
+        "electricity_per_1m_input_tokens": 0.00087,
+        "electricity_per_1m_output_tokens": 0.00952,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Phi-3-small-128k-instruct",
+      "family": "Phi-3",
+      "size": "MEDIUM",
+      "parameters": "7B",
+      "repo": "models/Phi-3-small-128k-instruct-4bit",
+      "parameters_billion": 7.39,
+      "quantization": "4-bit",
+      "context_window_tokens": 131072,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 326,
+        "output_total": 4306,
+        "input_avg_per_prompt": 33,
+        "output_avg_per_prompt": 431,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 346,
+        "min_words": 278,
+        "max_words": 411,
+        "target_words": 500,
+        "avg_pct_of_target": 69,
+        "prompts_within_10pct_of_target": 0,
+        "prompts_cut_off_at_token_limit": 0
+      },
+      "speed": {
+        "model_load_seconds": 0.4,
+        "total_generation_seconds": 42.7,
+        "avg_seconds_per_prompt": 4.27,
+        "avg_time_to_first_token_ms": 70,
+        "prompt_reading_tokens_per_second": 463,
+        "generation_tokens_per_second": 102.8,
+        "ms_per_output_token": 9.73,
+        "words_per_second": 81.2
+      },
+      "memory": {
+        "weights_gb": 4.16,
+        "peak_memory_gb": 4.4,
+        "kv_cache_kb_per_token": 128,
+        "kv_cache_mb_largest_request": 75.6,
+        "context_window_used_max_pct": 0.44
+      },
+      "gpu": {
+        "avg_utilization_pct": 97.9,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1410,
+        "max_frequency_mhz": 1561,
+        "avg_power_watts": 23.9,
+        "peak_power_watts": 34.2,
+        "energy_joules": 1041.65,
+        "avg_temperature_c": 71.4,
+        "max_temperature_c": 73.4
+      },
+      "cpu": {
+        "avg_utilization_pct": 6.2,
+        "peak_utilization_pct": 19.2,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 11.5,
+        "super_cores_avg_frequency_mhz": 4425,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 3.6,
+        "performance_cores_avg_frequency_mhz": 1354,
+        "avg_power_watts": 4.8,
+        "peak_power_watts": 12.0,
+        "energy_joules": 210.48,
+        "avg_temperature_c": 65.9,
+        "max_temperature_c": 67.7
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 11.9,
+        "energy_joules": 518.41,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 31.3,
+        "peak_ram_used_gb": 31.9,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 40.7,
+        "peak_power_watts": 52.7,
+        "energy_joules": 1770.54,
+        "idle_power_watts": 0.98,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 43.52,
+      "power_samples": 400,
+      "energy": {
+        "total_joules": 1753.8,
+        "total_watt_hours": 0.487,
+        "avg_joules_per_prompt": 175.4,
+        "per_input_token_millijoules": 44.31,
+        "per_output_token_millijoules": 403.931,
+        "per_1000_words_joules": 506.3
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 7.3e-05,
+        "electricity_per_1m_input_tokens": 0.00185,
+        "electricity_per_1m_output_tokens": 0.01683,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Phi-3-medium-128k-instruct",
+      "family": "Phi-3",
+      "size": "LARGE",
+      "parameters": "14B",
+      "repo": "models/Phi-3-medium-128k-instruct-4bit",
+      "parameters_billion": 13.96,
+      "quantization": "4-bit",
+      "context_window_tokens": 131072,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 351,
+        "output_total": 9743,
+        "input_avg_per_prompt": 35,
+        "output_avg_per_prompt": 974,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 667,
+        "min_words": 520,
+        "max_words": 750,
+        "target_words": 500,
+        "avg_pct_of_target": 133,
+        "prompts_within_10pct_of_target": 1,
+        "prompts_cut_off_at_token_limit": 6
+      },
+      "speed": {
+        "model_load_seconds": 0.7,
+        "total_generation_seconds": 159.0,
+        "avg_seconds_per_prompt": 15.9,
+        "avg_time_to_first_token_ms": 106,
+        "prompt_reading_tokens_per_second": 326,
+        "generation_tokens_per_second": 61.8,
+        "ms_per_output_token": 16.18,
+        "words_per_second": 42.0
+      },
+      "memory": {
+        "weights_gb": 7.85,
+        "peak_memory_gb": 8.2,
+        "kv_cache_kb_per_token": 200,
+        "kv_cache_mb_largest_request": 219.5,
+        "context_window_used_max_pct": 0.82
+      },
+      "gpu": {
+        "avg_utilization_pct": 99.4,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1180,
+        "max_frequency_mhz": 1396,
+        "avg_power_watts": 18.9,
+        "peak_power_watts": 43.2,
+        "energy_joules": 3016.68,
+        "avg_temperature_c": 71.9,
+        "max_temperature_c": 73.9
+      },
+      "cpu": {
+        "avg_utilization_pct": 5.9,
+        "peak_utilization_pct": 27.6,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 9.5,
+        "super_cores_avg_frequency_mhz": 4369,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 4.0,
+        "performance_cores_avg_frequency_mhz": 1355,
+        "avg_power_watts": 4.0,
+        "peak_power_watts": 10.2,
+        "energy_joules": 635.21,
+        "avg_temperature_c": 66.8,
+        "max_temperature_c": 68.9
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 13.9,
+        "energy_joules": 2225.02,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 35.5,
+        "peak_ram_used_gb": 36.1,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 36.8,
+        "peak_power_watts": 57.0,
+        "energy_joules": 5876.91,
+        "idle_power_watts": 0.98,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 159.82,
+      "power_samples": 1461,
+      "energy": {
+        "total_joules": 5861.3,
+        "total_watt_hours": 1.628,
+        "avg_joules_per_prompt": 586.1,
+        "per_input_token_millijoules": 84.117,
+        "per_output_token_millijoules": 598.558,
+        "per_1000_words_joules": 878.6
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 0.000244,
+        "electricity_per_1m_input_tokens": 0.0035,
+        "electricity_per_1m_output_tokens": 0.02494,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Llama-3.2-1B-Instruct",
+      "family": "Llama-3",
+      "size": "SMALL",
+      "parameters": "1B",
+      "repo": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+      "parameters_billion": 1.24,
+      "quantization": "4-bit",
+      "context_window_tokens": 131072,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 606,
+        "output_total": 7448,
+        "input_avg_per_prompt": 61,
+        "output_avg_per_prompt": 745,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 544,
+        "min_words": 370,
+        "max_words": 830,
+        "target_words": 500,
+        "avg_pct_of_target": 109,
+        "prompts_within_10pct_of_target": 3,
+        "prompts_cut_off_at_token_limit": 1
+      },
+      "speed": {
+        "model_load_seconds": 0.7,
+        "total_generation_seconds": 14.5,
+        "avg_seconds_per_prompt": 1.45,
+        "avg_time_to_first_token_ms": 23,
+        "prompt_reading_tokens_per_second": 2503,
+        "generation_tokens_per_second": 539.5,
+        "ms_per_output_token": 1.85,
+        "words_per_second": 375.8
+      },
+      "memory": {
+        "weights_gb": 0.7,
+        "peak_memory_gb": 0.84,
+        "kv_cache_kb_per_token": 32,
+        "kv_cache_mb_largest_request": 35.6,
+        "context_window_used_max_pct": 0.83
+      },
+      "gpu": {
+        "avg_utilization_pct": 91.2,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1433,
+        "max_frequency_mhz": 1594,
+        "avg_power_watts": 23.1,
+        "peak_power_watts": 29.4,
+        "energy_joules": 358.88,
+        "avg_temperature_c": 58.1,
+        "max_temperature_c": 64.7
+      },
+      "cpu": {
+        "avg_utilization_pct": 7.3,
+        "peak_utilization_pct": 14.4,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 16.7,
+        "super_cores_avg_frequency_mhz": 4497,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 2.5,
+        "performance_cores_avg_frequency_mhz": 1355,
+        "avg_power_watts": 6.9,
+        "peak_power_watts": 8.4,
+        "energy_joules": 106.78,
+        "avg_temperature_c": 54.7,
+        "max_temperature_c": 60.1
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 9.8,
+        "energy_joules": 151.27,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 12.2,
+        "peak_ram_used_gb": 12.6,
+        "peak_swap_used_gb": 9.01,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 39.8,
+        "peak_power_watts": 47.6,
+        "energy_joules": 616.93,
+        "idle_power_watts": 0.55,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 15.51,
+      "power_samples": 144,
+      "energy": {
+        "total_joules": 597.4,
+        "total_watt_hours": 0.166,
+        "avg_joules_per_prompt": 59.7,
+        "per_input_token_millijoules": 6.672,
+        "per_output_token_millijoules": 79.667,
+        "per_1000_words_joules": 109.9
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 2.5e-05,
+        "electricity_per_1m_input_tokens": 0.00028,
+        "electricity_per_1m_output_tokens": 0.00332,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Llama-3.2-3B-Instruct",
+      "family": "Llama-3",
+      "size": "SMALL",
+      "parameters": "3B",
+      "repo": "mlx-community/Llama-3.2-3B-Instruct-4bit",
+      "parameters_billion": 3.21,
+      "quantization": "4-bit",
+      "context_window_tokens": 131072,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 606,
+        "output_total": 6716,
+        "input_avg_per_prompt": 61,
+        "output_avg_per_prompt": 672,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 510,
+        "min_words": 349,
+        "max_words": 804,
+        "target_words": 500,
+        "avg_pct_of_target": 102,
+        "prompts_within_10pct_of_target": 3,
+        "prompts_cut_off_at_token_limit": 1
+      },
+      "speed": {
+        "model_load_seconds": 1.0,
+        "total_generation_seconds": 31.4,
+        "avg_seconds_per_prompt": 3.14,
+        "avg_time_to_first_token_ms": 36,
+        "prompt_reading_tokens_per_second": 1630,
+        "generation_tokens_per_second": 219.7,
+        "ms_per_output_token": 4.55,
+        "words_per_second": 162.3
+      },
+      "memory": {
+        "weights_gb": 1.81,
+        "peak_memory_gb": 2.08,
+        "kv_cache_kb_per_token": 112,
+        "kv_cache_mb_largest_request": 124.4,
+        "context_window_used_max_pct": 0.83
+      },
+      "gpu": {
+        "avg_utilization_pct": 97.5,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1360,
+        "max_frequency_mhz": 1620,
+        "avg_power_watts": 20.6,
+        "peak_power_watts": 35.2,
+        "energy_joules": 658.91,
+        "avg_temperature_c": 68.2,
+        "max_temperature_c": 69.8
+      },
+      "cpu": {
+        "avg_utilization_pct": 11.1,
+        "peak_utilization_pct": 36.6,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 18.1,
+        "super_cores_avg_frequency_mhz": 4174,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 7.6,
+        "performance_cores_avg_frequency_mhz": 1493,
+        "avg_power_watts": 5.8,
+        "peak_power_watts": 21.6,
+        "energy_joules": 185.37,
+        "avg_temperature_c": 63.9,
+        "max_temperature_c": 66.4
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 11.5,
+        "energy_joules": 369.2,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 30.7,
+        "peak_ram_used_gb": 31.9,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 37.9,
+        "peak_power_watts": 54.9,
+        "energy_joules": 1213.48,
+        "idle_power_watts": 0.92,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 32.04,
+      "power_samples": 293,
+      "energy": {
+        "total_joules": 1202.0,
+        "total_watt_hours": 0.334,
+        "avg_joules_per_prompt": 120.2,
+        "per_input_token_millijoules": 22.785,
+        "per_output_token_millijoules": 176.909,
+        "per_1000_words_joules": 235.6
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 5e-05,
+        "electricity_per_1m_input_tokens": 0.00095,
+        "electricity_per_1m_output_tokens": 0.00737,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Llama-3.1-8B-Instruct",
+      "family": "Llama-3",
+      "size": "MEDIUM",
+      "parameters": "8B",
+      "repo": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
+      "parameters_billion": 8.03,
+      "quantization": "4-bit",
+      "context_window_tokens": 131072,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 606,
+        "output_total": 6423,
+        "input_avg_per_prompt": 61,
+        "output_avg_per_prompt": 642,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 488,
+        "min_words": 403,
+        "max_words": 588,
+        "target_words": 500,
+        "avg_pct_of_target": 98,
+        "prompts_within_10pct_of_target": 4,
+        "prompts_cut_off_at_token_limit": 0
+      },
+      "speed": {
+        "model_load_seconds": 1.0,
+        "total_generation_seconds": 59.9,
+        "avg_seconds_per_prompt": 5.99,
+        "avg_time_to_first_token_ms": 81,
+        "prompt_reading_tokens_per_second": 738,
+        "generation_tokens_per_second": 109.6,
+        "ms_per_output_token": 9.12,
+        "words_per_second": 81.5
+      },
+      "memory": {
+        "weights_gb": 4.52,
+        "peak_memory_gb": 4.76,
+        "kv_cache_kb_per_token": 128,
+        "kv_cache_mb_largest_request": 113.0,
+        "context_window_used_max_pct": 0.66
+      },
+      "gpu": {
+        "avg_utilization_pct": 97.7,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1227,
+        "max_frequency_mhz": 1367,
+        "avg_power_watts": 19.5,
+        "peak_power_watts": 36.7,
+        "energy_joules": 1190.1,
+        "avg_temperature_c": 69.9,
+        "max_temperature_c": 71.5
+      },
+      "cpu": {
+        "avg_utilization_pct": 6.5,
+        "peak_utilization_pct": 20.5,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 10.4,
+        "super_cores_avg_frequency_mhz": 4494,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 4.5,
+        "performance_cores_avg_frequency_mhz": 1347,
+        "avg_power_watts": 4.5,
+        "peak_power_watts": 10.2,
+        "energy_joules": 272.74,
+        "avg_temperature_c": 64.9,
+        "max_temperature_c": 65.7
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 12.9,
+        "energy_joules": 784.5,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 33.1,
+        "peak_ram_used_gb": 33.7,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 36.9,
+        "peak_power_watts": 53.0,
+        "energy_joules": 2247.34,
+        "idle_power_watts": 0.92,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 60.92,
+      "power_samples": 557,
+      "energy": {
+        "total_joules": 2229.0,
+        "total_watt_hours": 0.619,
+        "avg_joules_per_prompt": 222.9,
+        "per_input_token_millijoules": 40.214,
+        "per_output_token_millijoules": 343.241,
+        "per_1000_words_joules": 456.4
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 9.3e-05,
+        "electricity_per_1m_input_tokens": 0.00168,
+        "electricity_per_1m_output_tokens": 0.0143,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Falcon3-3B-Instruct",
+      "family": "Falcon3",
+      "size": "SMALL",
+      "parameters": "3B",
+      "repo": "mlx-community/Falcon3-3B-Instruct-4bit",
+      "parameters_billion": 3.23,
+      "quantization": "4-bit",
+      "context_window_tokens": 32768,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 391,
+        "output_total": 6877,
+        "input_avg_per_prompt": 39,
+        "output_avg_per_prompt": 688,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 496,
+        "min_words": 254,
+        "max_words": 668,
+        "target_words": 500,
+        "avg_pct_of_target": 99,
+        "prompts_within_10pct_of_target": 6,
+        "prompts_cut_off_at_token_limit": 1
+      },
+      "speed": {
+        "model_load_seconds": 0.7,
+        "total_generation_seconds": 28.8,
+        "avg_seconds_per_prompt": 2.88,
+        "avg_time_to_first_token_ms": 38,
+        "prompt_reading_tokens_per_second": 1092,
+        "generation_tokens_per_second": 246.0,
+        "ms_per_output_token": 4.07,
+        "words_per_second": 172.4
+      },
+      "memory": {
+        "weights_gb": 1.82,
+        "peak_memory_gb": 2.05,
+        "kv_cache_kb_per_token": 88,
+        "kv_cache_mb_largest_request": 94.4,
+        "context_window_used_max_pct": 3.2
+      },
+      "gpu": {
+        "avg_utilization_pct": 95.6,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1502,
+        "max_frequency_mhz": 1613,
+        "avg_power_watts": 27.3,
+        "peak_power_watts": 34.0,
+        "energy_joules": 812.76,
+        "avg_temperature_c": 74.7,
+        "max_temperature_c": 76.0
+      },
+      "cpu": {
+        "avg_utilization_pct": 7.8,
+        "peak_utilization_pct": 31.0,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 12.2,
+        "super_cores_avg_frequency_mhz": 4389,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 5.6,
+        "performance_cores_avg_frequency_mhz": 1354,
+        "avg_power_watts": 4.9,
+        "peak_power_watts": 10.9,
+        "energy_joules": 146.01,
+        "avg_temperature_c": 68.4,
+        "max_temperature_c": 68.8
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 11.3,
+        "energy_joules": 336.21,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 29.2,
+        "peak_ram_used_gb": 29.7,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 43.5,
+        "peak_power_watts": 52.2,
+        "energy_joules": 1294.98,
+        "idle_power_watts": 1.07,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 29.75,
+      "power_samples": 272,
+      "energy": {
+        "total_joules": 1272.0,
+        "total_watt_hours": 0.353,
+        "avg_joules_per_prompt": 127.2,
+        "per_input_token_millijoules": 17.627,
+        "per_output_token_millijoules": 183.96,
+        "per_1000_words_joules": 256.3
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 5.3e-05,
+        "electricity_per_1m_input_tokens": 0.00073,
+        "electricity_per_1m_output_tokens": 0.00766,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Falcon3-7B-Instruct",
+      "family": "Falcon3",
+      "size": "MEDIUM",
+      "parameters": "7B",
+      "repo": "mlx-community/Falcon3-7B-Instruct-4bit",
+      "parameters_billion": 7.46,
+      "quantization": "4-bit",
+      "context_window_tokens": 32768,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 391,
+        "output_total": 6838,
+        "input_avg_per_prompt": 39,
+        "output_avg_per_prompt": 684,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 500,
+        "min_words": 424,
+        "max_words": 560,
+        "target_words": 500,
+        "avg_pct_of_target": 100,
+        "prompts_within_10pct_of_target": 6,
+        "prompts_cut_off_at_token_limit": 0
+      },
+      "speed": {
+        "model_load_seconds": 1.0,
+        "total_generation_seconds": 60.5,
+        "avg_seconds_per_prompt": 6.05,
+        "avg_time_to_first_token_ms": 66,
+        "prompt_reading_tokens_per_second": 577,
+        "generation_tokens_per_second": 115.2,
+        "ms_per_output_token": 8.68,
+        "words_per_second": 82.6
+      },
+      "memory": {
+        "weights_gb": 4.19,
+        "peak_memory_gb": 4.38,
+        "kv_cache_kb_per_token": 112,
+        "kv_cache_mb_largest_request": 99.8,
+        "context_window_used_max_pct": 2.66
+      },
+      "gpu": {
+        "avg_utilization_pct": 98.3,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1370,
+        "max_frequency_mhz": 1491,
+        "avg_power_watts": 23.2,
+        "peak_power_watts": 35.9,
+        "energy_joules": 1419.42,
+        "avg_temperature_c": 72.1,
+        "max_temperature_c": 74.3
+      },
+      "cpu": {
+        "avg_utilization_pct": 5.8,
+        "peak_utilization_pct": 17.7,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 9.6,
+        "super_cores_avg_frequency_mhz": 4417,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 3.9,
+        "performance_cores_avg_frequency_mhz": 1349,
+        "avg_power_watts": 4.2,
+        "peak_power_watts": 9.3,
+        "energy_joules": 258.84,
+        "avg_temperature_c": 66.1,
+        "max_temperature_c": 67.7
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 12.9,
+        "energy_joules": 787.18,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 31.3,
+        "peak_ram_used_gb": 31.9,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 40.3,
+        "peak_power_watts": 48.0,
+        "energy_joules": 2465.44,
+        "idle_power_watts": 1.07,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 61.19,
+      "power_samples": 561,
+      "energy": {
+        "total_joules": 2449.9,
+        "total_watt_hours": 0.681,
+        "avg_joules_per_prompt": 245.0,
+        "per_input_token_millijoules": 50.993,
+        "per_output_token_millijoules": 355.365,
+        "per_1000_words_joules": 490.3
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 0.000102,
+        "electricity_per_1m_input_tokens": 0.00212,
+        "electricity_per_1m_output_tokens": 0.01481,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Falcon3-10B-Instruct",
+      "family": "Falcon3",
+      "size": "LARGE",
+      "parameters": "10B",
+      "repo": "mlx-community/Falcon3-10B-Instruct-4bit",
+      "parameters_billion": 10.31,
+      "quantization": "4-bit",
+      "context_window_tokens": 32768,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 391,
+        "output_total": 6228,
+        "input_avg_per_prompt": 39,
+        "output_avg_per_prompt": 623,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 450,
+        "min_words": 322,
+        "max_words": 640,
+        "target_words": 500,
+        "avg_pct_of_target": 90,
+        "prompts_within_10pct_of_target": 3,
+        "prompts_cut_off_at_token_limit": 0
+      },
+      "speed": {
+        "model_load_seconds": 1.2,
+        "total_generation_seconds": 77.7,
+        "avg_seconds_per_prompt": 7.77,
+        "avg_time_to_first_token_ms": 92,
+        "prompt_reading_tokens_per_second": 415,
+        "generation_tokens_per_second": 81.6,
+        "ms_per_output_token": 12.25,
+        "words_per_second": 57.9
+      },
+      "memory": {
+        "weights_gb": 5.8,
+        "peak_memory_gb": 6.04,
+        "kv_cache_kb_per_token": 160,
+        "kv_cache_mb_largest_request": 164.3,
+        "context_window_used_max_pct": 3.06
+      },
+      "gpu": {
+        "avg_utilization_pct": 98.3,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1369,
+        "max_frequency_mhz": 1492,
+        "avg_power_watts": 23.1,
+        "peak_power_watts": 42.7,
+        "energy_joules": 1820.95,
+        "avg_temperature_c": 74.0,
+        "max_temperature_c": 75.8
+      },
+      "cpu": {
+        "avg_utilization_pct": 7.0,
+        "peak_utilization_pct": 19.1,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 10.5,
+        "super_cores_avg_frequency_mhz": 4412,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 5.2,
+        "performance_cores_avg_frequency_mhz": 1360,
+        "avg_power_watts": 4.3,
+        "peak_power_watts": 11.3,
+        "energy_joules": 335.73,
+        "avg_temperature_c": 68.0,
+        "max_temperature_c": 68.7
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 12.9,
+        "energy_joules": 1013.62,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 33.2,
+        "peak_ram_used_gb": 34.0,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 40.3,
+        "peak_power_watts": 53.7,
+        "energy_joules": 3170.29,
+        "idle_power_watts": 1.07,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 78.68,
+      "power_samples": 720,
+      "energy": {
+        "total_joules": 3149.4,
+        "total_watt_hours": 0.875,
+        "avg_joules_per_prompt": 314.9,
+        "per_input_token_millijoules": 79.458,
+        "per_output_token_millijoules": 500.697,
+        "per_1000_words_joules": 699.7
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 0.000131,
+        "electricity_per_1m_input_tokens": 0.00331,
+        "electricity_per_1m_output_tokens": 0.02086,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Qwen2.5-3B-Instruct",
+      "family": "Qwen2.5",
+      "size": "SMALL",
+      "parameters": "3B",
+      "repo": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+      "parameters_billion": 3.09,
+      "quantization": "4-bit",
+      "context_window_tokens": 32768,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 571,
+        "output_total": 7374,
+        "input_avg_per_prompt": 57,
+        "output_avg_per_prompt": 737,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 552,
+        "min_words": 352,
+        "max_words": 783,
+        "target_words": 500,
+        "avg_pct_of_target": 110,
+        "prompts_within_10pct_of_target": 4,
+        "prompts_cut_off_at_token_limit": 1
+      },
+      "speed": {
+        "model_load_seconds": 0.6,
+        "total_generation_seconds": 35.3,
+        "avg_seconds_per_prompt": 3.53,
+        "avg_time_to_first_token_ms": 47,
+        "prompt_reading_tokens_per_second": 1191,
+        "generation_tokens_per_second": 215.2,
+        "ms_per_output_token": 4.65,
+        "words_per_second": 156.5
+      },
+      "memory": {
+        "weights_gb": 1.74,
+        "peak_memory_gb": 1.96,
+        "kv_cache_kb_per_token": 36,
+        "kv_cache_mb_largest_request": 39.3,
+        "context_window_used_max_pct": 3.25
+      },
+      "gpu": {
+        "avg_utilization_pct": 96.9,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1557,
+        "max_frequency_mhz": 1620,
+        "avg_power_watts": 30.9,
+        "peak_power_watts": 36.2,
+        "energy_joules": 1110.81,
+        "avg_temperature_c": 88.2,
+        "max_temperature_c": 90.6
+      },
+      "cpu": {
+        "avg_utilization_pct": 8.8,
+        "peak_utilization_pct": 32.2,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 15.7,
+        "super_cores_avg_frequency_mhz": 4582,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 5.3,
+        "performance_cores_avg_frequency_mhz": 1362,
+        "avg_power_watts": 6.8,
+        "peak_power_watts": 14.0,
+        "energy_joules": 244.16,
+        "avg_temperature_c": 81.4,
+        "max_temperature_c": 83.1
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 10.7,
+        "energy_joules": 384.07,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 31.6,
+        "peak_ram_used_gb": 32.1,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 48.4,
+        "peak_power_watts": 61.4,
+        "energy_joules": 1739.04,
+        "idle_power_watts": 0.55,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 35.92,
+      "power_samples": 330,
+      "energy": {
+        "total_joules": 1725.1,
+        "total_watt_hours": 0.479,
+        "avg_joules_per_prompt": 172.5,
+        "per_input_token_millijoules": 32.014,
+        "per_output_token_millijoules": 231.462,
+        "per_1000_words_joules": 312.5
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 7.2e-05,
+        "electricity_per_1m_input_tokens": 0.00133,
+        "electricity_per_1m_output_tokens": 0.00964,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Qwen2.5-7B-Instruct",
+      "family": "Qwen2.5",
+      "size": "MEDIUM",
+      "parameters": "7B",
+      "repo": "mlx-community/Qwen2.5-7B-Instruct-4bit",
+      "parameters_billion": 7.62,
+      "quantization": "4-bit",
+      "context_window_tokens": 32768,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 571,
+        "output_total": 7292,
+        "input_avg_per_prompt": 57,
+        "output_avg_per_prompt": 729,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 545,
+        "min_words": 390,
+        "max_words": 750,
+        "target_words": 500,
+        "avg_pct_of_target": 109,
+        "prompts_within_10pct_of_target": 6,
+        "prompts_cut_off_at_token_limit": 1
+      },
+      "speed": {
+        "model_load_seconds": 1.0,
+        "total_generation_seconds": 61.5,
+        "avg_seconds_per_prompt": 6.15,
+        "avg_time_to_first_token_ms": 71,
+        "prompt_reading_tokens_per_second": 808,
+        "generation_tokens_per_second": 121.1,
+        "ms_per_output_token": 8.26,
+        "words_per_second": 88.6
+      },
+      "memory": {
+        "weights_gb": 4.28,
+        "peak_memory_gb": 4.5,
+        "kv_cache_kb_per_token": 56,
+        "kv_cache_mb_largest_request": 61.1,
+        "context_window_used_max_pct": 3.25
+      },
+      "gpu": {
+        "avg_utilization_pct": 97.9,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1449,
+        "max_frequency_mhz": 1602,
+        "avg_power_watts": 31.2,
+        "peak_power_watts": 43.8,
+        "energy_joules": 1943.02,
+        "avg_temperature_c": 88.7,
+        "max_temperature_c": 95.0
+      },
+      "cpu": {
+        "avg_utilization_pct": 6.2,
+        "peak_utilization_pct": 16.9,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 10.5,
+        "super_cores_avg_frequency_mhz": 4444,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 4.1,
+        "performance_cores_avg_frequency_mhz": 1352,
+        "avg_power_watts": 4.8,
+        "peak_power_watts": 10.5,
+        "energy_joules": 300.1,
+        "avg_temperature_c": 80.3,
+        "max_temperature_c": 85.6
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 13.7,
+        "energy_joules": 854.9,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 34.1,
+        "peak_ram_used_gb": 34.7,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 49.7,
+        "peak_power_watts": 59.2,
+        "energy_joules": 3098.02,
+        "idle_power_watts": 0.55,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 62.32,
+      "power_samples": 573,
+      "energy": {
+        "total_joules": 3082.4,
+        "total_watt_hours": 0.856,
+        "avg_joules_per_prompt": 308.2,
+        "per_input_token_millijoules": 59.727,
+        "per_output_token_millijoules": 418.03,
+        "per_1000_words_joules": 565.9
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 0.000128,
+        "electricity_per_1m_input_tokens": 0.00249,
+        "electricity_per_1m_output_tokens": 0.01742,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Qwen2.5-14B-Instruct",
+      "family": "Qwen2.5",
+      "size": "MEDIUM",
+      "parameters": "14B",
+      "repo": "mlx-community/Qwen2.5-14B-Instruct-4bit",
+      "parameters_billion": 14.77,
+      "quantization": "4-bit",
+      "context_window_tokens": 32768,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 571,
+        "output_total": 6908,
+        "input_avg_per_prompt": 57,
+        "output_avg_per_prompt": 691,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 547,
+        "min_words": 367,
+        "max_words": 684,
+        "target_words": 500,
+        "avg_pct_of_target": 109,
+        "prompts_within_10pct_of_target": 4,
+        "prompts_cut_off_at_token_limit": 0
+      },
+      "speed": {
+        "model_load_seconds": 1.4,
+        "total_generation_seconds": 115.0,
+        "avg_seconds_per_prompt": 11.5,
+        "avg_time_to_first_token_ms": 108,
+        "prompt_reading_tokens_per_second": 526,
+        "generation_tokens_per_second": 60.9,
+        "ms_per_output_token": 16.42,
+        "words_per_second": 47.6
+      },
+      "memory": {
+        "weights_gb": 8.31,
+        "peak_memory_gb": 8.57,
+        "kv_cache_kb_per_token": 192,
+        "kv_cache_mb_largest_request": 190.5,
+        "context_window_used_max_pct": 2.96
+      },
+      "gpu": {
+        "avg_utilization_pct": 98.6,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1183,
+        "max_frequency_mhz": 1379,
+        "avg_power_watts": 20.4,
+        "peak_power_watts": 41.3,
+        "energy_joules": 2367.27,
+        "avg_temperature_c": 75.8,
+        "max_temperature_c": 80.6
+      },
+      "cpu": {
+        "avg_utilization_pct": 5.7,
+        "peak_utilization_pct": 33.3,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 9.5,
+        "super_cores_avg_frequency_mhz": 4437,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 3.9,
+        "performance_cores_avg_frequency_mhz": 1355,
+        "avg_power_watts": 4.4,
+        "peak_power_watts": 17.5,
+        "energy_joules": 506.21,
+        "avg_temperature_c": 69.8,
+        "max_temperature_c": 78.1
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 13.8,
+        "energy_joules": 1597.46,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 35.7,
+        "peak_ram_used_gb": 36.5,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 38.5,
+        "peak_power_watts": 53.0,
+        "energy_joules": 4470.95,
+        "idle_power_watts": 0.55,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 116.1,
+      "power_samples": 1063,
+      "energy": {
+        "total_joules": 4452.4,
+        "total_watt_hours": 1.237,
+        "avg_joules_per_prompt": 445.2,
+        "per_input_token_millijoules": 78.312,
+        "per_output_token_millijoules": 638.047,
+        "per_1000_words_joules": 813.5
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 0.000186,
+        "electricity_per_1m_input_tokens": 0.00326,
+        "electricity_per_1m_output_tokens": 0.02659,
+        "electricity_price_per_kwh": 0.15
+      }
+    },
+    {
+      "model": "Llama-2-7b-hf",
+      "family": "Llama-2",
+      "size": "SMALL",
+      "parameters": "7B",
+      "repo": "models/Llama-2-7b-hf-4bit",
+      "parameters_billion": 6.74,
+      "quantization": "4-bit",
+      "context_window_tokens": 4096,
+      "prompt_set": "ttt_prompts_500w",
+      "prompts_run": 10,
+      "tokens": {
+        "input_total": 625,
+        "output_total": 4720,
+        "input_avg_per_prompt": 62,
+        "output_avg_per_prompt": 472,
+        "output_limit_per_prompt": 1024
+      },
+      "response_length": {
+        "avg_words": 333,
+        "min_words": 51,
+        "max_words": 785,
+        "target_words": 500,
+        "avg_pct_of_target": 67,
+        "prompts_within_10pct_of_target": 0,
+        "prompts_cut_off_at_token_limit": 3
+      },
+      "speed": {
+        "model_load_seconds": 0.4,
+        "total_generation_seconds": 40.7,
+        "avg_seconds_per_prompt": 4.07,
+        "avg_time_to_first_token_ms": 73,
+        "prompt_reading_tokens_per_second": 864,
+        "generation_tokens_per_second": 118.5,
+        "ms_per_output_token": 8.44,
+        "words_per_second": 81.9
+      },
+      "memory": {
+        "weights_gb": 3.79,
+        "peak_memory_gb": 4.62,
+        "kv_cache_kb_per_token": 512,
+        "kv_cache_mb_largest_request": 568.9,
+        "context_window_used_max_pct": 26.49
+      },
+      "gpu": {
+        "avg_utilization_pct": 97.6,
+        "peak_utilization_pct": 100.0,
+        "avg_frequency_mhz": 1227,
+        "max_frequency_mhz": 1539,
+        "avg_power_watts": 20.9,
+        "peak_power_watts": 39.5,
+        "energy_joules": 872.45,
+        "avg_temperature_c": 63.9,
+        "max_temperature_c": 78.9
+      },
+      "cpu": {
+        "avg_utilization_pct": 7.8,
+        "peak_utilization_pct": 26.6,
+        "super_cores": 6,
+        "super_cores_avg_utilization_pct": 12.7,
+        "super_cores_avg_frequency_mhz": 4538,
+        "performance_cores": 12,
+        "performance_cores_avg_utilization_pct": 5.4,
+        "performance_cores_avg_frequency_mhz": 1380,
+        "avg_power_watts": 5.7,
+        "peak_power_watts": 13.0,
+        "energy_joules": 239.42,
+        "avg_temperature_c": 58.7,
+        "max_temperature_c": 72.9
+      },
+      "npu": {
+        "name": "Apple Neural Engine (ANE)",
+        "used": false,
+        "avg_power_watts": 0.0,
+        "peak_power_watts": 0.0,
+        "energy_joules": 0.0,
+        "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+      },
+      "system_memory": {
+        "avg_power_watts": 13.0,
+        "energy_joules": 542.62,
+        "ram_total_gb": 51.5,
+        "avg_ram_used_gb": 34.0,
+        "peak_ram_used_gb": 35.2,
+        "peak_swap_used_gb": 0.61,
+        "note": "RAM used is for the whole Mac, including other apps, not just this model."
+      },
+      "whole_chip": {
+        "avg_power_watts": 39.7,
+        "peak_power_watts": 54.0,
+        "energy_joules": 1654.49,
+        "idle_power_watts": 0.63,
+        "note": "CPU + GPU + Neural Engine + memory."
+      },
+      "measured_seconds": 41.68,
+      "power_samples": 383,
+      "energy": {
+        "total_joules": 1630.9,
+        "total_watt_hours": 0.453,
+        "avg_joules_per_prompt": 163.1,
+        "per_input_token_millijoules": 33.055,
+        "per_output_token_millijoules": 341.163,
+        "per_1000_words_joules": 489.3
+      },
+      "cost_usd": {
+        "api_fee": 0.0,
+        "electricity_whole_run": 6.8e-05,
+        "electricity_per_1m_input_tokens": 0.00138,
+        "electricity_per_1m_output_tokens": 0.01422,
+        "electricity_price_per_kwh": 0.15
+      }
+    }
+  ]
+}

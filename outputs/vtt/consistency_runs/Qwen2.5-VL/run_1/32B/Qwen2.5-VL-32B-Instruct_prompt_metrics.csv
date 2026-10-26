@@ -1,0 +1,258 @@
+prompt_id,model,family,size,video_duration (s),video_resolution (px),frames_sampled,input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),video,prompt,response
+01,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,854x480,10,2580,370,294,The,3835.5,696.2,26.74,17.675,prompts/videos_vtt_prompts/vtt_prompts_10/01.mp4,Describe what happens in this video in detail.,"The video shows a gray cat interacting with a red and gray cat toy on a wooden parquet floor. Here's a detailed description of the sequence of events:
+
+1. **Initial Positioning**:
+   - The cat is standing on the wooden floor, facing a red and gray cat toy. The toy has a circular design with multiple holes and sticks protruding from it, likely designed to hold treats or toys for the cat to play with.
+   - The cat appears curious and focused on the toy.
+
+2. **Exploration**:
+   - The cat uses its front paws to interact with the toy. It reaches out and gently taps or pushes the sticks protruding from the toy.
+   - The cat seems to be trying to figure out how the toy works or to extract something from it, possibly a treat or a toy piece.
+
+3. **Persistent Interaction**:
+   - The cat continues to paw at the toy, moving its paws in a deliberate and focused manner. It appears to be testing the toy's mechanics or trying to dislodge something.
+   - The cat's body language suggests concentration and curiosity as it engages with the toy.
+
+4. **Background Details**:
+   - The setting is indoors, with a wooden parquet floor and a white wall in the background. There is a piece of furniture partially visible, suggesting a home environment.
+   - The lighting is warm and natural, indicating it might be daytime.
+
+5. **Overall Behavior**:
+   - The cat remains engaged with the toy throughout the video, showing typical feline curiosity and problem-solving behavior.
+   - There is no significant change in the cat's position or the toy's placement, indicating a steady focus on the interaction.
+
+The video captures a moment of playful exploration and engagement, highlighting the cat's natural curiosity and interaction with its environment."
+02,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,30.0,854x480,30,7680,668,520,The,14219.9,569.7,24.74,41.225,prompts/videos_vtt_prompts/vtt_prompts_10/02.mp4,Describe what happens in this video in detail.,"The video captures a sequence of scenes in an urban setting, likely a city square or a busy street in a European town. Here is a detailed description of the events and scenes in the video:
+
+### **Scene 1:**
+- **Setting:** The video opens with a wide shot of a cobblestone square or street, bordered by historic-looking buildings with arched doorways and large windows. The architecture suggests a European city with a mix of modern and classical styles.
+- **Activity:** Several people are walking across the square, some in groups and others alone. They appear to be pedestrians going about their day.
+- **Vehicles:** A white van with the word ""DOSTAVA"" (which means ""delivery"" in Slovenian) is parked on the side of the street. Another white van is visible in the background, parked near a railing.
+- **Details:** The square is paved with cobblestones, and there are street lamps and trash bins along the sides. Trees and greenery are visible in the background, adding a touch of nature to the urban environment.
+
+### **Scene 2:**
+- **Setting:** The camera pans to the right, revealing more of the square and the adjacent buildings.
+- **Activity:** Two workers in high-visibility orange vests and green uniforms are seen pushing small carts, likely for cleaning or maintenance purposes. They are moving along the sidewalk, indicating that they are part of the city's upkeep crew.
+- **Buildings:** The buildings along this side of the square have large arched windows and doors, with signs indicating businesses such as ""SVEŽE"" (fresh) and ""VSAK DAN"" (every day), suggesting a grocery store or market.
+- **Vehicles:** Several white vans are parked along the street, reinforcing the idea that this area is a hub for deliveries or commercial activity.
+
+### **Scene 3:**
+- **Setting:** The camera continues to pan, showing a broader view of the street and the surrounding architecture.
+- **Activity:** The street is relatively quiet, with a few pedestrians walking in the distance. The cobblestone pavement and the historic buildings create a picturesque urban landscape.
+- **Buildings:** The buildings on this side of the street have a more ornate architectural style, with detailed facades and arched windows. Some buildings have red-tiled roofs, adding to the charm of the scene.
+- **Flags:** Flags are visible hanging from the buildings, suggesting a sense of national or local pride.
+- **Vehicles:** Several white vans are parked along the street, and a few cars are visible in the distance, indicating light traffic.
+- **Background:** In the far background, a hill or elevated area with trees is visible, adding depth to the scene. The sky is overcast, giving the environment a soft, diffused light.
+
+### **Overall Impression:**
+The video provides a detailed look at a lively yet serene urban environment. The presence of delivery vans, workers, and pedestrians suggests a functional and active city square. The architecture and cobblestone streets evoke a sense of history and charm, while the modern elements like the delivery vehicles and flags indicate a contemporary setting. The overall atmosphere is calm and orderly, with a balance between human activity and the natural and architectural beauty of the location."
+03,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,9.9,854x480,8,2070,406,321,The,3957.5,537.4,26.95,19.029,prompts/videos_vtt_prompts/vtt_prompts_10/03.mp4,Describe what happens in this video in detail.,"The video depicts a serene beach scene with a wide expanse of sand leading to the ocean. Here is a detailed description of what happens in the video:
+
+1. **Foreground:**
+   - The foreground consists of a vast, flat expanse of sand. The sand appears smooth and undisturbed, with no visible footprints or objects, suggesting a quiet and untouched beach.
+   - The color of the sand is a light beige, typical of many coastal areas.
+
+2. **Middle Ground:**
+   - The middle ground shows the shoreline where the ocean meets the sand. The waves are rolling in, creating a rhythmic pattern of white foam as they crash onto the beach.
+   - The waves appear moderate in size, indicating a calm but active ocean. There are no large, stormy waves, suggesting relatively mild weather conditions.
+
+3. **Background:**
+   - The background features the open ocean extending to the horizon. The water is a deep blue, transitioning to lighter shades closer to the shore.
+   - The horizon is clearly visible, separating the ocean from the sky. The sky above is a clear, vibrant blue, indicating a sunny day with no visible clouds.
+
+4. **Overall Atmosphere:**
+   - The scene is tranquil and peaceful, with the sound of the waves likely being the primary auditory element (though this cannot be determined from the video alone).
+   - There are no visible people, animals, or structures, reinforcing the sense of solitude and natural beauty.
+
+5. **Movement:**
+   - The primary movement in the video is the rhythmic motion of the waves. The waves consistently roll in, break, and recede, creating a dynamic yet soothing pattern.
+   - There is no significant change in the environment or additional elements entering the frame throughout the video.
+
+In summary, the video captures a calm and picturesque beach scene with a clear blue sky, rolling waves, and a pristine sandy shore. The overall atmosphere is serene and untouched, emphasizing the natural beauty of the coastal environment."
+04,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,854x480,10,2580,686,540,The,4740.0,561.0,26.73,30.409,prompts/videos_vtt_prompts/vtt_prompts_10/04.mp4,Describe what happens in this video in detail.,"The video captures a dynamic scene of a flock of seagulls flying over a body of water, likely a sea or ocean. Here is a detailed description of what happens in the video:
+
+1. **Opening Scene**:
+   - The video begins with a clear view of the sky, which is mostly blue with a gradient effect, transitioning to a hazy, lighter hue near the horizon. This suggests that the weather is partly clear but with some haze or mist.
+   - Several seagulls are seen flying in the sky, their wings spread wide as they glide effortlessly. Their bodies are predominantly white with gray and black accents on their wings and heads, typical of seagulls.
+
+2. **Movement of the Seagulls**:
+   - The seagulls are in constant motion, some flying higher in the sky while others are closer to the water's surface. Their flight paths are not uniform; some are soaring, while others are diving or turning, creating a sense of liveliness and freedom.
+   - The birds appear to be interacting with each other, as some fly in close proximity, suggesting a flock behavior.
+
+3. **Water and Background**:
+   - The camera pans downward, revealing the water below. The water is choppy, with visible waves and ripples, indicating a windy or active sea environment.
+   - In the distance, there is a faint outline of land or hills, adding depth to the scene. The horizon is slightly obscured by haze, giving the background a soft, muted appearance.
+   - A red boat or vessel is visible in the distance, moving across the water. Its presence adds a human element to the natural scene.
+
+4. **Foreground Interaction**:
+   - As the camera continues to pan downward, the viewer's perspective shifts to include the foreground. A person's head and part of their clothing become visible at the bottom of the frame. The person appears to be wearing a dark, furry hood or hat, suggesting they might be cold or dressed for cooler weather.
+   - The person is likely on a boat or moving vessel, as the water and the movement of the seagulls suggest a dynamic setting.
+
+5. **Seagulls in Close Proximity**:
+   - The seagulls continue to fly around, some coming very close to the camera and the person in the foreground. Their wings beat rapidly as they maneuver through the air, creating a sense of immediacy and interaction.
+   - The birds' calls and flapping wings can be heard, adding to the auditory experience of the scene.
+
+6. **Overall Atmosphere**:
+   - The video conveys a sense of freedom and natural beauty, with the seagulls embodying the spirit of the sea. The combination of the dynamic flight, the choppy water, and the distant land creates a vivid and immersive coastal scene.
+   - The presence of the person in the foreground adds a human element, making the viewer feel as though they are part of the experience, observing the seagulls up close.
+
+In summary, the video captures a lively and dynamic scene of seagulls flying over a choppy sea, with a person in the foreground observing the birds. The natural elements, such as the water, sky, and distant land, create a serene yet active coastal environment. The seagulls' movements and interactions add a sense of liveliness and freedom to the scene."
+05,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,854x480,10,2580,555,441,The,5271.0,502.5,26.27,26.399,prompts/videos_vtt_prompts/vtt_prompts_10/05.mp4,Describe what happens in this video in detail.,"The video showcases a vibrant and dynamic display of fireworks lighting up the night sky. Here is a detailed description of the sequence of events:
+
+1. **Opening Scene:**
+   - The video begins with a spectacular burst of fireworks in the night sky. The fireworks are in full bloom, creating a dazzling display of colors.
+   - The primary colors visible are red, green, and yellow. The red fireworks form dense, star-like patterns, while the green fireworks create a more scattered, sparkling effect.
+   - The yellow fireworks add a warm, radiant glow, complementing the other colors and enhancing the overall vibrancy of the scene.
+   - Smoke from the explosions lingers in the air, adding a hazy, atmospheric effect to the scene.
+
+2. **Transition:**
+   - The camera shifts slightly, capturing a different angle of the fireworks display. The smoke from the previous bursts continues to drift across the sky, partially obscuring the view.
+   - The fireworks continue to explode in the background, with red and green bursts still prominent. The red fireworks maintain their dense, star-like patterns, while the green fireworks continue to sparkle.
+   - The smoke adds a dynamic element, as it moves and shifts, creating a sense of depth and movement in the scene.
+
+3. **Middle Scene:**
+   - The camera focuses on a new set of fireworks bursting in the sky. These bursts are more scattered and less dense compared to the earlier scenes.
+   - The green fireworks dominate this part of the display, creating a bright, sparkling effect that contrasts with the darker night sky.
+   - Red and orange trails from the fireworks streak across the sky, adding a sense of motion and energy to the scene.
+   - The smoke continues to linger, creating a smoky, ethereal atmosphere that enhances the visual impact of the fireworks.
+
+4. **Final Scene:**
+   - The fireworks continue to light up the sky, with bursts of red, green, and yellow colors intermingling.
+   - The red fireworks form dense, star-like patterns, while the green fireworks create a more scattered, sparkling effect.
+   - The orange trails from the fireworks add a warm, radiant glow, complementing the other colors.
+   - The smoke continues to drift across the sky, partially obscuring the view and adding a dynamic, atmospheric element to the scene.
+
+### Overall Impression:
+The video captures the beauty and excitement of a fireworks display, with a dynamic interplay of colors, shapes, and movements. The red, green, and yellow fireworks create a visually stunning spectacle, while the lingering smoke adds depth and atmosphere to the scene. The camera movements and shifts in focus highlight the continuous and ever-changing nature of the fireworks, making the display feel lively and immersive."
+06,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,854x480,10,2580,440,361,The,5311.9,500.3,26.23,22.091,prompts/videos_vtt_prompts/vtt_prompts_10/06.mp4,Describe what happens in this video in detail.,"The video depicts a scene inside a dimly lit, rustic shelter, likely made of mud or clay walls. The setting appears to be a modest, possibly rural environment. Here is a detailed description of the events in the video:
+
+1. **Initial Scene:**
+   - A woman is seated on the ground, holding a baby in her arms. She is wearing a striped shirt and a headscarf. The baby is dressed in colorful clothing.
+   - The woman is feeding the baby from a small bowl using a spoon. The baby appears to be eating or drinking something from the bowl.
+   - The ground is uneven and appears to be made of dirt or mud. There are some scattered items around, including a white bowl and a few other objects, suggesting a simple living space.
+
+2. **Camera Movement:**
+   - The camera pans slightly to the left, revealing a man standing nearby. He is wearing a gray t-shirt and has short hair.
+   - The man appears to be observing the woman and the baby. His posture suggests he is either waiting or simply present in the scene.
+
+3. **Background Details:**
+   - The walls of the shelter are made of mud or clay, giving the space a rustic and earthy feel.
+   - There is minimal lighting, likely from a natural light source or a small lamp, which casts shadows and creates a warm, intimate atmosphere.
+   - The overall environment suggests a modest, possibly rural setting where resources are limited.
+
+4. **Actions and Interactions:**
+   - The woman continues to feed the baby, showing care and attentiveness.
+   - The man remains stationary, observing the interaction between the woman and the baby. His presence adds a sense of family or community to the scene.
+
+### Summary:
+The video captures a tender moment of a woman feeding a baby in a simple, rustic shelter. The setting is modest, with earthy walls and minimal lighting, emphasizing a humble lifestyle. The presence of the man adds a layer of family or community interaction, highlighting the care and support within the environment. The overall tone of the video is warm and intimate, focusing on the nurturing relationship between the woman and the baby."
+07,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,854x480,10,2580,517,389,The,5252.7,510.8,26.13,25.047,prompts/videos_vtt_prompts/vtt_prompts_10/07.mp4,Describe what happens in this video in detail.,"The video shows a train station scene where a train is moving along the tracks. Here is a detailed description of the events in the video:
+
+1. **Initial Scene**:
+   - The video starts with a view of a train station platform. The platform is clean and well-maintained, with a yellow safety line marking the edge.
+   - In the background, there is a pedestrian overpass spanning across the tracks, and some greenery is visible, indicating a relatively open and natural setting.
+   - Overhead, there are electrical wires and structures, suggesting that the train is electrically powered.
+
+2. **Train Arrival**:
+   - A red and gray train, labeled with the number ""0103,"" is seen approaching the platform. The train has a modern design with large windows and a sleek body.
+   - The train is moving at a moderate speed, indicating it is either arriving at the station or passing through it.
+
+3. **Train Movement**:
+   - As the train continues to move, it passes by the camera, revealing more of its length. The train consists of multiple connected carriages, all uniformly colored in red and gray.
+   - The train's front is prominently visible initially, showing the locomotive section with its headlights and front design. As the train moves, the side of the train becomes more visible, displaying the passenger carriages.
+
+4. **Details on the Train**:
+   - The train has markings and numbers on its exterior, including ""0103"" on the front and ""13450887"" on the side of one of the carriages.
+   - The train's design suggests it is a commuter or regional train, likely used for short to medium-distance travel.
+
+5. **Station Environment**:
+   - The platform is mostly empty, with no visible passengers or staff. This could indicate a quiet time of day or a less busy station.
+   - The tracks are clean and well-maintained, with clear demarcations and safety features.
+
+6. **Final Scene**:
+   - The train continues to move along the tracks, gradually moving out of the frame as it passes by. The camera remains stationary, capturing the train's movement from a fixed perspective.
+   - The train's motion is smooth and steady, indicating a well-functioning railway system.
+
+Overall, the video captures a typical moment at a train station where a train is in motion, either arriving or departing. The scene is calm and orderly, with a focus on the train's design and movement."
+08,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,854x480,10,2580,572,395,The,5164.2,511.0,26.08,27.105,prompts/videos_vtt_prompts/vtt_prompts_10/08.mp4,Describe what happens in this video in detail.,"The video appears to be the closing credits sequence of an animated film or short titled ""Peach Open Movie."" Here is a detailed description of what happens in the video:
+
+### Scene 1: Credits Roll
+- **Background**: The background is a deep, gradient blue, giving a calm and serene feel.
+- **Text**: The credits are displayed in white text, listing the names and roles of the team members involved in the production.
+  - **Peach Open Movie Team** is prominently displayed at the top.
+  - The roles and names listed include:
+    - **Director**: Sacha Goedegebure
+    - **Art Director**: Andreas Goralczyk
+    - **Lead Artist**: Enrico Valenza
+    - **Character Rigger**: Nathan Vegdahl
+    - **Character Animator**: William Reynish
+    - **Technical Director**: Campbell Barton
+    - **Software Developer**: Brecht Van Lommel
+  - Additional credits are shown for **MUSIC AND SOUND DESIGN** by Jan Morgenstern.
+  - The credits also mention **ORIGINAL STORY AND SCRIPT** by Sacha Goedegebure, **STORYBOARD AND SCRIPT CONSULTANT** by Kroner, and **COLORGUIDE AND ANIMATIC** by Enrico Valenza.
+
+### Scene 2: Animated Character Appears
+- **Character Introduction**: An animated red fox character appears in the frame. The fox has a playful and expressive design, with large eyes, a bushy tail, and a friendly demeanor.
+- **Movement**: The fox is shown floating or swimming underwater, as indicated by the blue, watery background and light rays filtering through the water.
+- **Expression**: The fox looks curious and slightly surprised, with its eyes wide open and its mouth slightly agape.
+- **Text Overlay**: The text ""MUSIC AND SOUND DESIGN"" and ""Jan Morgenstern"" appears above the fox, indicating the person responsible for the music and sound design of the film.
+
+### Scene 3: Credits Continue
+- **Additional Credits**: The credits continue to roll, listing more contributors:
+  - **STORYBOARD AND SCRIPT CONSULTANT**: Kroner
+  - **COLORGUIDE AND ANIMATIC**: Enrico Valenza
+- **Character Focus**: The fox remains in the frame, continuing to float underwater, adding a sense of calm and whimsy to the credits sequence.
+
+### Overall Atmosphere
+- The video maintains a serene and artistic tone, with the deep blue background and the gentle, floating motion of the fox character creating a soothing visual experience.
+- The credits are presented in a clean and organized manner, highlighting the collaborative effort behind the film's creation.
+
+This sequence effectively concludes the film, acknowledging the contributions of the team while maintaining the charm and aesthetic established throughout the production."
+09,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,480x480,10,1475,571,451,The,3508.7,430.9,26.7,24.903,prompts/videos_vtt_prompts/vtt_prompts_10/09.mp4,Describe what happens in this video in detail.,"The video showcases a sequence of cooking steps, focusing on preparing a dish that involves meat and vegetables. Here is a detailed description of what happens in each frame:
+
+### **Frame 1:**
+- **Action:** A person is seen lifting a stack of cooked meat slices out of a frying pan.
+- **Details:** The meat appears to be bacon or a similar type of cured meat, as it has a golden-brown, crispy texture. The slices are layered and held together, indicating they have been cooked to a crisp.
+- **Context:** This suggests that the meat has been fried or roasted and is now being removed from the pan, likely to be used as an ingredient in the dish.
+
+### **Frame 2:**
+- **Action:** The same person is now cutting the cooked meat slices on a white cutting board.
+- **Details:** The meat is being sliced into smaller pieces or strips using a sharp knife. The person's hands are visible, and one hand is wearing a ring, adding a personal touch to the scene.
+- **Context:** This step indicates that the meat is being prepared for further use, possibly to be mixed into a dish or served as part of a recipe.
+
+### **Frame 3:**
+- **Action:** The camera shifts to a frying pan on a stovetop.
+- **Details:** The pan contains a mixture of ground meat (likely beef or pork) and small pieces of what appears to be diced vegetables or other ingredients. The mixture is sizzling and bubbling, indicating it is being cooked.
+- **Context:** This suggests that the meat and vegetables are being sautéed or cooked together, likely as part of the base for the dish.
+
+### **Frame 4:**
+- **Action:** The camera focuses on a food processor.
+- **Details:** The food processor is open, revealing a mixture of finely chopped vegetables, including what looks like onions, celery, and possibly other ingredients. The mixture is being processed or blended.
+- **Context:** This step indicates that the vegetables are being prepared to be added to the dish, either as a sauce, filling, or garnish.
+
+### **Summary:**
+The video depicts a cooking process where:
+1. **Cooked meat** (likely bacon) is removed from a frying pan and sliced into smaller pieces.
+2. **Ground meat and vegetables** are being cooked together in a pan, creating a base for the dish.
+3. **Vegetables** are being processed in a food processor, likely to be used as part of the dish.
+
+The overall sequence suggests the preparation of a hearty, flavorful dish, possibly involving a combination of meat and vegetables, with the meat serving as a key ingredient. The steps highlight the methodical and precise nature of cooking, ensuring each component is prepared correctly before being combined."
+10,Qwen2.5-VL-32B-Instruct,Qwen2.5-VL,LARGE,10.0,854x480,10,2580,470,373,The,5155.1,522.2,26.09,23.177,prompts/videos_vtt_prompts/vtt_prompts_10/10.mp4,Describe what happens in this video in detail.,"The video depicts a serene coastal scene during what appears to be either sunrise or sunset, as indicated by the soft, warm hues in the sky. Here is a detailed description of the video:
+
+### **Setting:**
+- **Foreground:** The foreground features a rocky shoreline with dark, jagged rocks partially submerged in the water. These rocks are silhouetted against the water, creating a stark contrast.
+- **Midground:** The water is calm, with gentle waves rolling in and out. The waves are not turbulent but have a rhythmic, soothing motion as they interact with the rocks.
+- **Background:** In the distance, there is a faint outline of land or an island, with a small structure (possibly a lighthouse or tower) visible on top of it. The horizon is clearly defined, separating the water from the sky.
+- **Sky:** The sky has a gradient of colors, transitioning from a warm pinkish-orange near the horizon to a darker blue higher up, suggesting the time is either early morning or late evening.
+
+### **Action:**
+- **Waves:** The primary movement in the video is the gentle lapping of the waves against the rocks. The water flows smoothly over and around the rocks, creating small splashes and ripples as it retreats back into the ocean.
+- **Rocks:** The rocks remain stationary, serving as a natural barrier to the incoming waves. Their dark, rugged texture is highlighted by the lighting, making them appear prominent against the lighter water.
+- **Vegetation:** In the very foreground, there are blurred elements, possibly branches or plants, partially obstructing the view. These add a natural, layered feel to the scene but do not detract from the focus on the water and rocks.
+
+### **Atmosphere:**
+- The overall atmosphere is peaceful and tranquil. The soft lighting and calm water evoke a sense of serenity and introspection.
+- There is no visible human activity or wildlife, which enhances the feeling of solitude and natural beauty.
+
+### **Summary:**
+The video captures a quiet, natural coastal scene where the gentle interplay of waves and rocks is the central focus. The warm, subdued lighting and the distant landmass create a picturesque and calming environment. The subtle movement of the water adds a dynamic element to an otherwise still and serene setting."

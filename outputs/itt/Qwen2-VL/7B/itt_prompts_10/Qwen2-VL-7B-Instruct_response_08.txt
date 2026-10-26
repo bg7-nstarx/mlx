@@ -1,0 +1,9 @@
+The image shows a mathematical problem related to a math olympiad question. The problem is presented in a simple equation format:
+
+\[ a^3 + a^2 = 36 \]
+
+Below the equation, there is a solution written as:
+
+\[ a = ? \]
+
+The hand holding the pen is pointing to the equation, indicating that the problem is being solved or explained. The background is white, and the text is written in black, making it easy to read. The problem seems to be a cubic equation, and the goal is to find the value of \( a \) that satisfies the equation.

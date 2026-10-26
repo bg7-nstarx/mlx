@@ -1,0 +1,165 @@
+{
+  "model": "stable-diffusion-xl-base-1.0",
+  "family": "Stable-Diffusion-XL",
+  "size": "MEDIUM",
+  "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+  "library": "mlx-examples",
+  "parameters_billion": 3.47,
+  "precision": "float16 (VAE float32)",
+  "prompt_set": "tti_prompts_10",
+  "images_generated": 10,
+  "settings": {
+    "resolution_px": "1024x1024",
+    "steps": 30,
+    "guidance": 7.0,
+    "seed": 0
+  },
+  "speed": {
+    "model_load_seconds": 4.7,
+    "total_inference_seconds": 122.6,
+    "avg_seconds_per_image": 12.26,
+    "avg_ms_per_step": 408.5,
+    "images_per_minute": 4.9,
+    "avg_time_to_first_step_ms": 353,
+    "avg_decode_seconds": 1.08
+  },
+  "memory": {
+    "download_gb": 7.11,
+    "peak_memory_gb": 21.37
+  },
+  "gpu": {
+    "avg_utilization_pct": 96.7,
+    "peak_utilization_pct": 100.0,
+    "avg_frequency_mhz": 1378,
+    "max_frequency_mhz": 1620,
+    "avg_power_watts": 45.7,
+    "peak_power_watts": 91.0,
+    "energy_joules": 5659.21,
+    "avg_temperature_c": 83.9,
+    "max_temperature_c": 95.5
+  },
+  "cpu": {
+    "avg_utilization_pct": 4.1,
+    "peak_utilization_pct": 20.4,
+    "super_cores": 6,
+    "super_cores_avg_utilization_pct": 7.2,
+    "super_cores_avg_frequency_mhz": 4300,
+    "performance_cores": 12,
+    "performance_cores_avg_utilization_pct": 2.6,
+    "performance_cores_avg_frequency_mhz": 1353,
+    "avg_power_watts": 2.5,
+    "peak_power_watts": 9.7,
+    "energy_joules": 305.39,
+    "avg_temperature_c": 72.9,
+    "max_temperature_c": 80.8
+  },
+  "npu": {
+    "name": "Apple Neural Engine (ANE)",
+    "used": false,
+    "avg_power_watts": 0.0,
+    "peak_power_watts": 0.0,
+    "energy_joules": 0.0,
+    "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+  },
+  "system_memory": {
+    "avg_power_watts": 4.1,
+    "energy_joules": 504.85,
+    "ram_total_gb": 51.5,
+    "avg_ram_used_gb": 21.4,
+    "peak_ram_used_gb": 31.5,
+    "peak_swap_used_gb": 8.28,
+    "note": "RAM used is for the whole Mac, including other apps, not just this model."
+  },
+  "whole_chip": {
+    "avg_power_watts": 52.3,
+    "peak_power_watts": 97.1,
+    "energy_joules": 6469.45,
+    "idle_power_watts": 0.83,
+    "note": "CPU + GPU + Neural Engine + memory."
+  },
+  "measured_seconds": 123.76,
+  "power_samples": 1140,
+  "energy": {
+    "total_joules": 6451.1,
+    "avg_joules_per_image": 645.1,
+    "watt_hours_per_100_images": 17.92
+  },
+  "cost_usd": {
+    "api_fee": 0.0,
+    "electricity_whole_run": 0.000269,
+    "electricity_per_1000_images": 0.0269,
+    "electricity_price_per_kwh": 0.15
+  },
+  "per_image": [
+    {
+      "id": "01",
+      "seconds": 11.52,
+      "energy_joules": 765.15,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_01.png",
+      "caption": "The image features a vibrant orange fish with blue markings swimming in an underwater environment. The background includes coral and rocks, and the overall scene has a blue and purple color scheme."
+    },
+    {
+      "id": "02",
+      "seconds": 12.15,
+      "energy_joules": 655.84,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_02.png",
+      "caption": "A modern, green and yellow chair with a unique shape, placed in a room with a potted plant and a bookshelf."
+    },
+    {
+      "id": "03",
+      "seconds": 12.2,
+      "energy_joules": 644.54,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_03.png",
+      "caption": "The image is a painting of a football player in a yellow and blue uniform, holding a football, kneeling on a field."
+    },
+    {
+      "id": "04",
+      "seconds": 12.31,
+      "energy_joules": 632.42,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_04.png",
+      "caption": "The image depicts a futuristic cityscape with advanced buildings and flying saucers."
+    },
+    {
+      "id": "05",
+      "seconds": 12.31,
+      "energy_joules": 631.26,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_05.png",
+      "caption": "The image features a futuristic, robotic head with a circuit board design, set against a dark, technological background."
+    },
+    {
+      "id": "06",
+      "seconds": 12.38,
+      "energy_joules": 627.4,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_06.png",
+      "caption": "A large, orange cat dressed in a white golf shirt is standing on a golf course, holding a golf club and a golf ball."
+    },
+    {
+      "id": "07",
+      "seconds": 12.4,
+      "energy_joules": 627.36,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_07.png",
+      "caption": "The image depicts a sailboat on a calm sea with a flock of birds flying above it, creating a serene and peaceful atmosphere."
+    },
+    {
+      "id": "08",
+      "seconds": 12.4,
+      "energy_joules": 622.39,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_08.png",
+      "caption": "A colorful hot air balloon is floating over a calm lake, with trees and mountains in the background."
+    },
+    {
+      "id": "09",
+      "seconds": 12.43,
+      "energy_joules": 621.89,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_09.png",
+      "caption": "The image features a futuristic race car with glowing neon lights, speeding through a tunnel with streaks of light."
+    },
+    {
+      "id": "10",
+      "seconds": 12.46,
+      "energy_joules": 622.81,
+      "image_file": "outputs/tti/Stable-Diffusion-XL/3.5B/tti_prompts_10/stable-diffusion-xl-base-1.0_image_10.png",
+      "caption": "A cartoon dinosaur is fishing on a floating platform in a tropical setting, with palm trees and fish in the background."
+    }
+  ]
+}

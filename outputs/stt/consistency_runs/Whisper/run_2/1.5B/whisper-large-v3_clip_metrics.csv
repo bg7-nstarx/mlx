@@ -1,0 +1,11 @@
+clip_id,model,family,size,voice,input_audio (s),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),inference_rate (tokens/s),inference_time (s),transcript
+01,whisper-large-v3,Whisper,LARGE,Samantha,6.87,1500,21,18, D,286.0,73.4,0.286,Draft a professional email to a manager requesting a recommendation for a new job opportunity. In 500 words.
+02,whisper-large-v3,Whisper,LARGE,Daniel,9.76,1500,25,22, provide,310.1,80.6,0.31,"provide a brief background on the UK Prime Minister in 1995, highlighting key accomplishments and challenges during their tenure, in 500 words."
+03,whisper-large-v3,Whisper,LARGE,Karen,6.92,1500,24,20, Explain,297.6,80.6,0.298,"Explain the current phase of the moon, its significance, and how it fits within the lunar cycle, in 500 words."
+04,whisper-large-v3,Whisper,LARGE,Moira,8.86,1500,24,20, Des,299.3,80.2,0.299,"Describe the logic used to calculate the time for baking 96 cookies, considering oven capacity and efficiency, in 500 words."
+05,whisper-large-v3,Whisper,LARGE,Rishi,19.13,1500,58,42, Imagine,594.4,97.6,0.594,"Imagine three friends, Mia, Noah, and Olivia, each running a race. Mia finishes ahead of Noah, and Noah finishes ahead of Olivia. Analyze the race results and elaborate on the relationship between Maya's position and Olivia's. Discussing possible scenarios. In 500 words."
+06,whisper-large-v3,Whisper,LARGE,Samantha,3.08,1500,10,8, Tell,194.9,51.3,0.195,"Tell me about global warming, in 500 words."
+07,whisper-large-v3,Whisper,LARGE,Daniel,3.32,1500,9,8, Tell,199.7,45.1,0.2,Tell the history of USA in 500 words.
+08,whisper-large-v3,Whisper,LARGE,Karen,10.98,1500,34,27, D,364.2,93.3,0.364,"Draft a compelling advertisement for a new grocery store in a small town, including the store's unique features, grand opening promotions, and community benefits, in 500 words."
+09,whisper-large-v3,Whisper,LARGE,Moira,7.27,1500,16,15, explain,243.4,65.7,0.243,explain the basic blackjack game including rules logic and example game play in 500 words
+10,whisper-large-v3,Whisper,LARGE,Rishi,6.63,1500,19,14, Break,261.9,72.5,0.262,Break down the steering and braking components of a Cessna 172N in 500 words.

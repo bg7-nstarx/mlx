@@ -1,0 +1,36 @@
+The Cessna 172N is a popular and reliable training aircraft. Understanding its steering and breaking components is essential for pilots and instructors. Here's a breakdown of these critical systems:
+
+**Steering Components:**
+
+1. **Primary Flight Controls (PFCs):** The PFCs are the primary control surfaces for the 172N. They consist of:
+	* **Ailerons:** Located on the trailing edge of the wings, the ailerons control roll (left-right) and pitch (up-down).
+	* **Elevators:** Located on the wing root, the elevators control pitch (up-down) and yaw (left-right).
+	* **Rudder:** Located on the tail, the rudder controls yaw (left-right).
+2. **Primary Flight Controls (PFCs) System:**
+	* **Aileron Pitch and Roll:** The ailerons are connected to the PFCs, which are connected to the elevator and rudder. When the pilot moves the ailerons, it controls the pitch and roll of the aircraft.
+	* **Elevator Pitch and Roll:** The elevator is connected to the PFCs, which are connected to the ailerons and rudder. When the pilot moves the elevator, it controls the pitch and roll of the aircraft.
+	* **Rudder Pitch and Roll:** The rudder is connected to the PFCs, which are connected to the elevator. When the pilot moves the rudder, it controls the pitch and roll of the aircraft.
+
+**Breaking Components:**
+
+1. **Primary Flight Controls (PFCs) System:**
+	* **Aileron Pitch and Roll:** The ailerons are connected to the PFCs, which are connected to the elevator and rudder. When the pilot moves the ailerons, it controls the pitch and roll of the aircraft.
+	* **Elevator Pitch and Roll:** The elevator is connected to the PFCs, which are connected to the ailerons and rudder. When the pilot moves the elevator, it controls the pitch and roll of the aircraft.
+	* **Rudder Pitch and Roll:** The rudder is connected to the PFCs, which are connected to the elevator. When the pilot moves the rudder, it controls the pitch and roll of the aircraft.
+2. **Primary Flight Controls (PFCs) System:**
+	* **Aileron Pitch and Roll:** The ailerons are connected to the PFCs, which are connected to the elevator and rudder. When the pilot moves the ailerons, it controls the pitch and roll of the aircraft.
+	* **Elevator Pitch and Roll:** The elevator is connected to the PFCs, which are connected to the ailerons and rudder. When the pilot moves the elevator, it controls the pitch and roll of the aircraft.
+	* **Rudder Pitch and Roll:** The rudder is connected to the PFCs, which are connected to the elevator. When the pilot moves the rudder, it controls the pitch and roll of the aircraft.
+
+**Additional Components:**
+
+1. **Primary Flight Controls (PFCs) System:**
+	* **Aileron Pitch and Roll:** The ailerons are connected to the PFCs, which are connected to the elevator and rudder. When the pilot moves the ailerons, it controls the pitch and roll of the aircraft.
+	* **Elevator Pitch and Roll:** The elevator is connected to the PFCs, which are connected to the ailerons and rudder. When the pilot moves the elevator, it controls the pitch and roll of the aircraft.
+	* **Rudder Pitch and Roll:** The rudder is connected to the PFCs, which are connected to the elevator. When the pilot moves the rudder, it controls the pitch and roll of the aircraft.
+2. **Primary Flight Controls (PFCs) System:**
+	* **Aileron Pitch and Roll:** The ailerons are connected to the PFCs, which are connected to the elevator and rudder. When the pilot moves the ailerons, it controls the pitch and roll of the aircraft.
+	* **Elevator Pitch and Roll:** The elevator is connected to the PFCs, which are connected to the ailerons and rudder. When the pilot moves the elevator, it controls the pitch and roll of the aircraft.
+	* **Rudder Pitch and Roll:** The rudder is connected to the PFCs, which are connected to the elevator. When the pilot moves the rudder, it controls the pitch and roll of the aircraft.
+
+In summary, the steering and breaking components of the Cessna 172N are complex systems that involve multiple control surfaces and mechanisms. Understanding these components is essential for pilots and instructors to operate the aircraft safely and effectively.

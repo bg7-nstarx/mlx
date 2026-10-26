@@ -1,0 +1,44 @@
+The image is a hierarchical flowchart that outlines a scope for analyzing resumes and job descriptions (JDs) based on various categories. Here is a detailed description of the flowchart:
+
+1. **Scope**:
+   - The topmost level of the flowchart is labeled "Scope," which serves as the overarching category for the entire analysis.
+
+2. **Region**:
+   - The first level under "Scope" is "Region," which is divided into four subcategories:
+     - India
+     - USA
+     - Europe
+     - East Asia/Aus
+
+3. **Domain**:
+   - The second level under "Region" is "Domain," which is divided into three subcategories:
+     - IT
+     - Bio Science
+     - Finance
+
+4. **Resumes and JDs**:
+   - The third level under "Domain" is "Resumes and JDs," which is divided into four subcategories:
+     - UI/UX
+     - Mobile Apps Web Applications
+     - AI
+     - Data Scientist Data Engineer ML Ops
+     - Backend Developer
+     - Dot Net Python Developer
+     - Project Management
+
+5. **Resumes Segregation based on Gender**:
+   - The fourth level under "Resumes and JDs" is "Resumes Segregation based on Gender," which is divided into three subcategories:
+     - Male
+     - Female
+     - Other
+
+6. **Segregation based on Years**:
+   - The fifth level under "Resumes Segregation based on Gender" is "Segregation based on Years," which is divided into three subcategories:
+     - 0 - 3 Years
+     - 3 - 7 Years
+     - 7 Above
+
+7. **Calculation**:
+   - The flowchart includes a note at the bottom right corner that states: "In one Region and within IT, if we have three resumes per category and also include role-specific resumes for different job descriptions, we end up with 1728 unique combinations."
+
+This flowchart is used to organize and analyze a large dataset of resumes and job descriptions by breaking it down into regions, domains, specific job roles, gender, and years of experience, ultimately leading to a detailed segmentation of the data.

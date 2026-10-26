@@ -1,0 +1,49 @@
+**Basic Blackjack Game**
+
+Blackjack, also known as Twenty-One, is a popular casino banking game based on a single hand of 52-card deck and a set of rules. The objective of the game is to have a hand value closest to 21 without going over.
+
+**Rules:**
+
+1. The game starts with each player being dealt two cards, face up.
+2. The dealer is also dealt one card, face down (the "hole card").
+3. Players and the dealer can either "hit" or "stand" based on the value of their hand.
+4. If a player's hand value exceeds 21, they "bust" and lose their bet.
+5. If a player's hand value is 21 or more, but less than 36 (the total of 21), they "blackjack" and win immediately.
+
+**Logic:**
+
+1. The player's hand value is calculated by adding the values of their two cards.
+2. The player can choose to "hit" or "stand" based on the value of their hand.
+3. If the player's hand value exceeds 21, they "bust" and lose their bet.
+4. If the player's hand value is 21 or more, but less than 36, they "blackjack" and win immediately.
+
+**Example Gameplay:**
+
+Let's say we have two players, Alice and Bob.
+
+Alice is dealt two cards: 9 of Hearts, 5 of Diamonds. Her hand value is 14.
+
+Bob is dealt two cards: 7 of Spades, 3 of Clubs. His hand value is 10.
+
+The dealer is dealt one card: 4 of Spades. The dealer's hand value is 14 (the same as Alice's).
+
+Here's the gameplay:
+
+1. Alice chooses to "stand" with a hand value of 14.
+2. Bob chooses to "hit" and receives a new card: 9 of Diamonds. His hand value is now 19.
+3. The dealer reveals their hole card: 4 of Spades. The dealer's hand value is 18 (the same as Alice's).
+4. Since Bob's hand value (19) is higher than Alice's (18), Bob "busts" and loses his bet.
+5. Alice wins her bet, and Bob loses his bet.
+
+**Key Concepts:**
+
+* **Card values:** Aces are worth 1 point, 2s-10s are worth 2-4 points, and 10s-Jacks are worth 5-10 points.
+* **Hand value:** The sum of the values of the two cards in a player's hand.
+* **Blackjack:** A hand value of 21 or more, but less than 36 (the total of 21).
+
+**Tips and Strategies:**
+
+* **Card counting:** Players can use a system to keep track of the number of aces in the deck, which can help them make informed decisions about when to hit or stand.
+* **Basic strategy:** Players can use a set of rules to determine the best course of action based on the hand they have and the dealer's upcard.
+
+In conclusion, Blackjack is a simple yet complex game that requires a basic understanding of card values, hand values, and basic strategy. With practice and experience, players can improve their chances of winning and become proficient in the game.

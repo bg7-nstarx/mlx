@@ -1,0 +1,29 @@
+Blackjack, also known as 21, is a popular card game played between a single player and a dealer, typically at a casino. The objective of the game is to have a hand value closer to 21 than the dealer's hand, without exceeding 21. Here's a breakdown of the basic rules, logic, and an example gameplay:
+
+Rules:
+1. The game is played with one or more standard 52-card decks.
+2. Each player is dealt two cards face-up, while the dealer receives one card face-up and one card face-down.
+3. Numbered cards (2-10) are worth their face value, face cards (Jack, Queen, King) are worth 10, and Aces can be worth either 1 or 11, depending on the player's choice.
+4. After receiving their initial two cards, players can choose to "hit" (receive another card) or "stand" (keep their current hand).
+5. Once all players have completed their turns, the dealer reveals their face-down card and hits until their hand value is 17 or higher.
+6. If a player's hand value exceeds 21, they "bust" and automatically lose their bet.
+7. If the dealer busts, all remaining players win their bets.
+8. If neither the player nor the dealer busts, the hand with a value closest to 21 wins. In case of a tie, it's a "push," and the player's bet is returned.
+
+Logic:
+The basic strategy in Blackjack is to make decisions based on the probability of improving your hand. This involves considering factors such as the dealer's face-up card, the value of your hand, and the cards remaining in the deck. By understanding these probabilities, you can make informed choices about when to hit, stand, or double down.
+
+Example Gameplay:
+Player 1 is dealt a 7 of hearts and a 9 of spades, giving them a hand value of 16. The dealer's face-up card is a 4 of diamonds.
+
+Player 1 decides to hit, hoping to improve their hand without busting. They are dealt a 5 of clubs, bringing their hand value to 21.
+
+Player 1 stands with a hand value of 21.
+
+The dealer reveals their face-down card, which is a 10 of hearts. This gives the dealer a hand value of 14.
+
+The dealer must hit, as their hand value is less than 17. They are dealt a 6 of spades, bringing their hand value to 20.
+
+The dealer stands with a hand value of 20.
+
+Since Player 1 has a hand value of 21, they win the round.

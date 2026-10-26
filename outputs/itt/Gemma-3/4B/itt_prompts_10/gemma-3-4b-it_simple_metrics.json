@@ -1,0 +1,225 @@
+{
+  "model": "gemma-3-4b-it",
+  "family": "Gemma-3",
+  "size": "SMALL",
+  "repo": "mlx-community/gemma-3-4b-it-4bit",
+  "parameters_billion": 4.3,
+  "quantization": "4-bit",
+  "image_handling": "896 x 896, 256 tokens",
+  "prompt_set": "itt_prompts_10",
+  "prompts_run": 10,
+  "tokens": {
+    "input_total": 2760,
+    "output_total": 5600,
+    "input_avg_per_image": 276,
+    "output_avg_per_image": 560,
+    "input_min": 276,
+    "input_max": 276,
+    "output_limit_per_image": 1024
+  },
+  "response_length": {
+    "avg_words": 396,
+    "min_words": 249,
+    "max_words": 673,
+    "responses_cut_off_at_token_limit": 1
+  },
+  "speed": {
+    "model_load_seconds": 1.9,
+    "total_generation_seconds": 36.5,
+    "avg_seconds_per_image": 3.65,
+    "avg_time_to_first_token_ms": 325,
+    "prompt_processing_tokens_per_second": 915,
+    "generation_tokens_per_second": 168.6
+  },
+  "memory": {
+    "weights_gb": 3.44,
+    "peak_memory_gb": 3.92
+  },
+  "gpu": {
+    "avg_utilization_pct": 97.2,
+    "peak_utilization_pct": 100.0,
+    "avg_frequency_mhz": 1591,
+    "max_frequency_mhz": 1620,
+    "avg_power_watts": 33.5,
+    "peak_power_watts": 85.7,
+    "energy_joules": 1248.9,
+    "avg_temperature_c": 68.8,
+    "max_temperature_c": 82.8
+  },
+  "cpu": {
+    "avg_utilization_pct": 7.3,
+    "peak_utilization_pct": 26.6,
+    "super_cores": 6,
+    "super_cores_avg_utilization_pct": 16.7,
+    "super_cores_avg_frequency_mhz": 4559,
+    "performance_cores": 12,
+    "performance_cores_avg_utilization_pct": 2.5,
+    "performance_cores_avg_frequency_mhz": 1382,
+    "avg_power_watts": 7.0,
+    "peak_power_watts": 12.9,
+    "energy_joules": 261.08,
+    "avg_temperature_c": 62.2,
+    "max_temperature_c": 75.4
+  },
+  "npu": {
+    "name": "Apple Neural Engine (ANE)",
+    "used": false,
+    "avg_power_watts": 0.0,
+    "peak_power_watts": 0.0,
+    "energy_joules": 0.0,
+    "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+  },
+  "system_memory": {
+    "avg_power_watts": 9.9,
+    "energy_joules": 368.14,
+    "ram_total_gb": 51.5,
+    "avg_ram_used_gb": 26.5,
+    "peak_ram_used_gb": 27.0,
+    "peak_swap_used_gb": 5.33,
+    "note": "RAM used is for the whole Mac, including other apps, not just this model."
+  },
+  "whole_chip": {
+    "avg_power_watts": 50.4,
+    "peak_power_watts": 90.2,
+    "energy_joules": 1878.13,
+    "idle_power_watts": 0.29,
+    "note": "CPU + GPU + Neural Engine + memory."
+  },
+  "measured_seconds": 37.27,
+  "power_samples": 340,
+  "energy": {
+    "total_joules": 1860.4,
+    "avg_joules_per_image": 186.0,
+    "per_input_token_millijoules": 80.026,
+    "per_output_token_millijoules": 292.78
+  },
+  "cost_usd": {
+    "api_fee": 0.0,
+    "electricity_whole_run": 7.8e-05,
+    "electricity_per_1m_input_tokens": 0.00333,
+    "electricity_per_1m_output_tokens": 0.0122,
+    "electricity_price_per_kwh": 0.15
+  },
+  "per_image": [
+    {
+      "id": "01",
+      "image_size_px": "1024x1024",
+      "input_tokens": 276,
+      "output_tokens": 645,
+      "words": 476,
+      "seconds": 4.2,
+      "time_to_first_token_ms": 334,
+      "tokens_per_second": 166.9,
+      "energy_joules": 210.78,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "02",
+      "image_size_px": "270x187",
+      "input_tokens": 276,
+      "output_tokens": 412,
+      "words": 249,
+      "seconds": 2.74,
+      "time_to_first_token_ms": 314,
+      "tokens_per_second": 170.0,
+      "energy_joules": 137.77,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "03",
+      "image_size_px": "352x339",
+      "input_tokens": 276,
+      "output_tokens": 388,
+      "words": 282,
+      "seconds": 2.59,
+      "time_to_first_token_ms": 317,
+      "tokens_per_second": 170.6,
+      "energy_joules": 132.22,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "04",
+      "image_size_px": "2048x2048",
+      "input_tokens": 276,
+      "output_tokens": 510,
+      "words": 372,
+      "seconds": 3.35,
+      "time_to_first_token_ms": 336,
+      "tokens_per_second": 169.3,
+      "energy_joules": 169.68,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "05",
+      "image_size_px": "2048x1365",
+      "input_tokens": 276,
+      "output_tokens": 516,
+      "words": 386,
+      "seconds": 3.38,
+      "time_to_first_token_ms": 327,
+      "tokens_per_second": 169.4,
+      "energy_joules": 172.17,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "06",
+      "image_size_px": "1920x1080",
+      "input_tokens": 276,
+      "output_tokens": 1024,
+      "words": 673,
+      "seconds": 6.44,
+      "time_to_first_token_ms": 324,
+      "tokens_per_second": 167.4,
+      "energy_joules": 323.21,
+      "cut_off_at_token_limit": true
+    },
+    {
+      "id": "07",
+      "image_size_px": "2240x1400",
+      "input_tokens": 276,
+      "output_tokens": 446,
+      "words": 309,
+      "seconds": 2.96,
+      "time_to_first_token_ms": 330,
+      "tokens_per_second": 169.5,
+      "energy_joules": 153.14,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "08",
+      "image_size_px": "299x168",
+      "input_tokens": 276,
+      "output_tokens": 349,
+      "words": 251,
+      "seconds": 2.36,
+      "time_to_first_token_ms": 315,
+      "tokens_per_second": 170.6,
+      "energy_joules": 124.39,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "09",
+      "image_size_px": "2048x2688",
+      "input_tokens": 276,
+      "output_tokens": 560,
+      "words": 407,
+      "seconds": 3.66,
+      "time_to_first_token_ms": 337,
+      "tokens_per_second": 168.6,
+      "energy_joules": 188.77,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "10",
+      "image_size_px": "251x200",
+      "input_tokens": 276,
+      "output_tokens": 750,
+      "words": 552,
+      "seconds": 4.8,
+      "time_to_first_token_ms": 316,
+      "tokens_per_second": 167.2,
+      "energy_joules": 248.31,
+      "cut_off_at_token_limit": false
+    }
+  ]
+}

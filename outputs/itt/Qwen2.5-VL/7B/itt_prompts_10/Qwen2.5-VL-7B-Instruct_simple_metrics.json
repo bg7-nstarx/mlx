@@ -1,0 +1,225 @@
+{
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "family": "Qwen2.5-VL",
+  "size": "MEDIUM",
+  "repo": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+  "parameters_billion": 8.29,
+  "quantization": "4-bit",
+  "image_handling": "native resolution",
+  "prompt_set": "itt_prompts_10",
+  "prompts_run": 10,
+  "tokens": {
+    "input_total": 24599,
+    "output_total": 2494,
+    "input_avg_per_image": 2460,
+    "output_avg_per_image": 249,
+    "input_min": 90,
+    "input_max": 7035,
+    "output_limit_per_image": 1024
+  },
+  "response_length": {
+    "avg_words": 184,
+    "min_words": 106,
+    "max_words": 301,
+    "responses_cut_off_at_token_limit": 0
+  },
+  "speed": {
+    "model_load_seconds": 1.0,
+    "total_generation_seconds": 38.6,
+    "avg_seconds_per_image": 3.86,
+    "avg_time_to_first_token_ms": 1629,
+    "prompt_processing_tokens_per_second": 1556,
+    "generation_tokens_per_second": 112.1
+  },
+  "memory": {
+    "weights_gb": 5.65,
+    "peak_memory_gb": 7.38
+  },
+  "gpu": {
+    "avg_utilization_pct": 96.0,
+    "peak_utilization_pct": 100.0,
+    "avg_frequency_mhz": 1408,
+    "max_frequency_mhz": 1619,
+    "avg_power_watts": 39.7,
+    "peak_power_watts": 78.6,
+    "energy_joules": 1570.3,
+    "avg_temperature_c": 94.5,
+    "max_temperature_c": 97.1
+  },
+  "cpu": {
+    "avg_utilization_pct": 10.5,
+    "peak_utilization_pct": 48.3,
+    "super_cores": 6,
+    "super_cores_avg_utilization_pct": 11.8,
+    "super_cores_avg_frequency_mhz": 4271,
+    "performance_cores": 12,
+    "performance_cores_avg_utilization_pct": 9.9,
+    "performance_cores_avg_frequency_mhz": 1449,
+    "avg_power_watts": 5.5,
+    "peak_power_watts": 21.2,
+    "energy_joules": 219.51,
+    "avg_temperature_c": 84.6,
+    "max_temperature_c": 87.2
+  },
+  "npu": {
+    "name": "Apple Neural Engine (ANE)",
+    "used": false,
+    "avg_power_watts": 0.0,
+    "peak_power_watts": 0.0,
+    "energy_joules": 0.0,
+    "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+  },
+  "system_memory": {
+    "avg_power_watts": 9.6,
+    "energy_joules": 380.67,
+    "ram_total_gb": 51.5,
+    "avg_ram_used_gb": 27.6,
+    "peak_ram_used_gb": 30.8,
+    "peak_swap_used_gb": 6.27,
+    "note": "RAM used is for the whole Mac, including other apps, not just this model."
+  },
+  "whole_chip": {
+    "avg_power_watts": 54.8,
+    "peak_power_watts": 86.4,
+    "energy_joules": 2170.47,
+    "idle_power_watts": 0.36,
+    "note": "CPU + GPU + Neural Engine + memory."
+  },
+  "measured_seconds": 39.58,
+  "power_samples": 365,
+  "energy": {
+    "total_joules": 2142.2,
+    "avg_joules_per_image": 214.2,
+    "per_input_token_millijoules": 37.183,
+    "per_output_token_millijoules": 492.18
+  },
+  "cost_usd": {
+    "api_fee": 0.0,
+    "electricity_whole_run": 8.9e-05,
+    "electricity_per_1m_input_tokens": 0.00155,
+    "electricity_per_1m_output_tokens": 0.02051,
+    "electricity_price_per_kwh": 0.15
+  },
+  "per_image": [
+    {
+      "id": "01",
+      "image_size_px": "1024x1024",
+      "input_tokens": 1396,
+      "output_tokens": 137,
+      "words": 114,
+      "seconds": 1.95,
+      "time_to_first_token_ms": 720,
+      "tokens_per_second": 111.5,
+      "energy_joules": 124.05,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "02",
+      "image_size_px": "270x187",
+      "input_tokens": 97,
+      "output_tokens": 411,
+      "words": 252,
+      "seconds": 3.55,
+      "time_to_first_token_ms": 98,
+      "tokens_per_second": 119.4,
+      "energy_joules": 196.18,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "03",
+      "image_size_px": "352x339",
+      "input_tokens": 183,
+      "output_tokens": 150,
+      "words": 125,
+      "seconds": 1.37,
+      "time_to_first_token_ms": 120,
+      "tokens_per_second": 120.0,
+      "energy_joules": 76.98,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "04",
+      "image_size_px": "2048x2048",
+      "input_tokens": 5356,
+      "output_tokens": 153,
+      "words": 129,
+      "seconds": 4.95,
+      "time_to_first_token_ms": 3526,
+      "tokens_per_second": 107.7,
+      "energy_joules": 302.01,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "05",
+      "image_size_px": "2048x1365",
+      "input_tokens": 3604,
+      "output_tokens": 157,
+      "words": 133,
+      "seconds": 3.69,
+      "time_to_first_token_ms": 2262,
+      "tokens_per_second": 110.5,
+      "energy_joules": 208.48,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "06",
+      "image_size_px": "1920x1080",
+      "input_tokens": 2718,
+      "output_tokens": 461,
+      "words": 301,
+      "seconds": 5.85,
+      "time_to_first_token_ms": 1658,
+      "tokens_per_second": 110.1,
+      "energy_joules": 323.71,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "07",
+      "image_size_px": "2240x1400",
+      "input_tokens": 4027,
+      "output_tokens": 411,
+      "words": 295,
+      "seconds": 6.43,
+      "time_to_first_token_ms": 2600,
+      "tokens_per_second": 107.3,
+      "energy_joules": 339.61,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "08",
+      "image_size_px": "299x168",
+      "input_tokens": 93,
+      "output_tokens": 140,
+      "words": 106,
+      "seconds": 1.32,
+      "time_to_first_token_ms": 102,
+      "tokens_per_second": 115.3,
+      "energy_joules": 58.99,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "09",
+      "image_size_px": "2048x2688",
+      "input_tokens": 7035,
+      "output_tokens": 212,
+      "words": 173,
+      "seconds": 7.15,
+      "time_to_first_token_ms": 5104,
+      "tokens_per_second": 103.8,
+      "energy_joules": 403.96,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "10",
+      "image_size_px": "251x200",
+      "input_tokens": 90,
+      "output_tokens": 262,
+      "words": 216,
+      "seconds": 2.31,
+      "time_to_first_token_ms": 97,
+      "tokens_per_second": 118.5,
+      "energy_joules": 108.18,
+      "cut_off_at_token_limit": false
+    }
+  ]
+}

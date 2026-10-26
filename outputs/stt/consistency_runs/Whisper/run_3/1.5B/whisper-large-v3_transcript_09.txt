@@ -1,0 +1,1 @@
+explain the basic blackjack game including rules logic and example game play in 500 words

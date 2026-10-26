@@ -1,0 +1,25 @@
+To calculate the time required for baking 
+
+96 cookies, we need to consider several factors, including oven capacity, cookie size, and oven efficiency. The logic behind the calculation involves determining the number of batches needed, the baking time per batch, and the total time required for all batches.
+
+1. Oven Capacity: First, we need to determine the oven's capacity. Oven capacity refers to the number of cookies that can be baked at once. This depends on the size of the oven and the size of the baking trays. For example, if an oven can fit two trays of cookies at a time, and each tray can hold 12 cookies, the oven's capacity is 24 cookies per batch.
+
+2. Cookie Size: The size of the cookies will affect the baking time. Larger cookies will take longer to bake than smaller ones. For this example, let's assume we are baking standard-sized cookies that require 12 minutes per batch.
+
+3. Baking Time per Batch: Once we know the oven's capacity and the size of the cookies, we can calculate the baking time per batch. In our example, the baking time per batch is 12 minutes.
+
+4. Number of Batches: To bake 96 cookies, we need to divide the total number of cookies by the oven's capacity. In our example, 96 cookies divided by 24 cookies per batch equals 4 batches.
+
+5. Total Baking Time: To calculate the total baking time, we multiply the number of batches by the baking time per batch. In our example, 4 batches multiplied by 12 minutes per batch equals 48 minutes.
+
+6. Oven Efficiency: Oven efficiency refers to the time it takes for the oven to preheat and cool down between batches. This time can vary depending on the oven's type and model. For this example, let's assume the oven takes 10 minutes to preheat and cool down between batches.
+
+7. Total Time: To calculate the total time required for baking 96 cookies, we add the preheating and cooling time to the total baking time. In our example, 48 minutes of baking time plus 10 minutes of preheating and cooling time equals 58 minutes.
+
+8. Adjustments: If the cookies are larger or smaller than the standard size, we may need to adjust the baking time per batch. For example, larger cookies may require an additional 2-3 minutes per batch, while smaller cookies may require 1-2 minutes less per batch.
+
+9. Final Calculation: To calculate the final time required for baking 96 cookies, we add the adjusted baking time per batch to the total baking time. In our example, if the cookies are larger and require an additional 2 minutes per batch, the total baking time would be 50 minutes (4 batches x 14 minutes per batch).
+
+In summary, the logic used to calculate the time for baking 96 cookies involves determining the oven's capacity, the size of the cookies, the baking time per batch, the number of batches, the total baking time, the oven's efficiency, and any adjustments needed for cookie size. By considering these factors, we can accur
+
+determine the total time required for baking 96 cookies.

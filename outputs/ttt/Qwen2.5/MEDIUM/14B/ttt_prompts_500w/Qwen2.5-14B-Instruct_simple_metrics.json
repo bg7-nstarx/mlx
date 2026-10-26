@@ -1,0 +1,234 @@
+{
+  "model": "Qwen2.5-14B-Instruct",
+  "family": "Qwen2.5",
+  "size": "MEDIUM",
+  "parameters": "14B",
+  "repo": "mlx-community/Qwen2.5-14B-Instruct-4bit",
+  "parameters_billion": 14.77,
+  "quantization": "4-bit",
+  "context_window_tokens": 32768,
+  "prompt_set": "ttt_prompts_500w",
+  "prompts_run": 10,
+  "tokens": {
+    "input_total": 571,
+    "output_total": 6908,
+    "input_avg_per_prompt": 57,
+    "output_avg_per_prompt": 691,
+    "output_limit_per_prompt": 1024
+  },
+  "response_length": {
+    "avg_words": 547,
+    "min_words": 367,
+    "max_words": 684,
+    "target_words": 500,
+    "avg_pct_of_target": 109,
+    "prompts_within_10pct_of_target": 4,
+    "prompts_cut_off_at_token_limit": 0
+  },
+  "speed": {
+    "model_load_seconds": 1.4,
+    "total_generation_seconds": 115.0,
+    "avg_seconds_per_prompt": 11.5,
+    "avg_time_to_first_token_ms": 108,
+    "prompt_reading_tokens_per_second": 526,
+    "generation_tokens_per_second": 60.9,
+    "ms_per_output_token": 16.42,
+    "words_per_second": 47.6
+  },
+  "memory": {
+    "weights_gb": 8.31,
+    "peak_memory_gb": 8.57,
+    "kv_cache_kb_per_token": 192,
+    "kv_cache_mb_largest_request": 190.5,
+    "context_window_used_max_pct": 2.96
+  },
+  "gpu": {
+    "avg_utilization_pct": 98.6,
+    "peak_utilization_pct": 100.0,
+    "avg_frequency_mhz": 1183,
+    "max_frequency_mhz": 1379,
+    "avg_power_watts": 20.4,
+    "peak_power_watts": 41.3,
+    "energy_joules": 2367.27,
+    "avg_temperature_c": 75.8,
+    "max_temperature_c": 80.6
+  },
+  "cpu": {
+    "avg_utilization_pct": 5.7,
+    "peak_utilization_pct": 33.3,
+    "super_cores": 6,
+    "super_cores_avg_utilization_pct": 9.5,
+    "super_cores_avg_frequency_mhz": 4437,
+    "performance_cores": 12,
+    "performance_cores_avg_utilization_pct": 3.9,
+    "performance_cores_avg_frequency_mhz": 1355,
+    "avg_power_watts": 4.4,
+    "peak_power_watts": 17.5,
+    "energy_joules": 506.21,
+    "avg_temperature_c": 69.8,
+    "max_temperature_c": 78.1
+  },
+  "npu": {
+    "name": "Apple Neural Engine (ANE)",
+    "used": false,
+    "avg_power_watts": 0.0,
+    "peak_power_watts": 0.0,
+    "energy_joules": 0.0,
+    "note": "MLX runs models on the GPU, so the Neural Engine stays idle (about 0 W) during these runs."
+  },
+  "system_memory": {
+    "avg_power_watts": 13.8,
+    "energy_joules": 1597.46,
+    "ram_total_gb": 51.5,
+    "avg_ram_used_gb": 35.7,
+    "peak_ram_used_gb": 36.5,
+    "peak_swap_used_gb": 0.61,
+    "note": "RAM used is for the whole Mac, including other apps, not just this model."
+  },
+  "whole_chip": {
+    "avg_power_watts": 38.5,
+    "peak_power_watts": 53.0,
+    "energy_joules": 4470.95,
+    "idle_power_watts": 0.55,
+    "note": "CPU + GPU + Neural Engine + memory."
+  },
+  "measured_seconds": 116.1,
+  "power_samples": 1063,
+  "energy": {
+    "total_joules": 4452.4,
+    "total_watt_hours": 1.237,
+    "avg_joules_per_prompt": 445.2,
+    "per_input_token_millijoules": 78.312,
+    "per_output_token_millijoules": 638.047,
+    "per_1000_words_joules": 813.5
+  },
+  "cost_usd": {
+    "api_fee": 0.0,
+    "electricity_whole_run": 0.000186,
+    "electricity_per_1m_input_tokens": 0.00326,
+    "electricity_per_1m_output_tokens": 0.02659,
+    "electricity_price_per_kwh": 0.15
+  },
+  "per_prompt": [
+    {
+      "id": "01",
+      "words": 367,
+      "target_words": 500,
+      "input_tokens": 53,
+      "output_tokens": 417,
+      "seconds": 6.95,
+      "time_to_first_token_ms": 100,
+      "tokens_per_second": 61.5,
+      "energy_joules": 271.03,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "02",
+      "words": 511,
+      "target_words": 500,
+      "input_tokens": 61,
+      "output_tokens": 646,
+      "seconds": 10.66,
+      "time_to_first_token_ms": 110,
+      "tokens_per_second": 61.5,
+      "energy_joules": 410.36,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "03",
+      "words": 567,
+      "target_words": 500,
+      "input_tokens": 57,
+      "output_tokens": 689,
+      "seconds": 11.37,
+      "time_to_first_token_ms": 100,
+      "tokens_per_second": 61.4,
+      "energy_joules": 439.26,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "04",
+      "words": 508,
+      "target_words": 500,
+      "input_tokens": 57,
+      "output_tokens": 641,
+      "seconds": 10.68,
+      "time_to_first_token_ms": 100,
+      "tokens_per_second": 60.9,
+      "energy_joules": 409.65,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "05",
+      "words": 563,
+      "target_words": 500,
+      "input_tokens": 87,
+      "output_tokens": 641,
+      "seconds": 10.75,
+      "time_to_first_token_ms": 140,
+      "tokens_per_second": 60.7,
+      "energy_joules": 416.65,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "06",
+      "words": 500,
+      "target_words": 500,
+      "input_tokens": 42,
+      "output_tokens": 591,
+      "seconds": 9.84,
+      "time_to_first_token_ms": 110,
+      "tokens_per_second": 61.1,
+      "energy_joules": 377.42,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "07",
+      "words": 655,
+      "target_words": 500,
+      "input_tokens": 42,
+      "output_tokens": 869,
+      "seconds": 14.45,
+      "time_to_first_token_ms": 110,
+      "tokens_per_second": 60.8,
+      "energy_joules": 560.89,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "08",
+      "words": 511,
+      "target_words": 500,
+      "input_tokens": 65,
+      "output_tokens": 664,
+      "seconds": 11.07,
+      "time_to_first_token_ms": 100,
+      "tokens_per_second": 60.8,
+      "energy_joules": 432.05,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "09",
+      "words": 607,
+      "target_words": 500,
+      "input_tokens": 52,
+      "output_tokens": 836,
+      "seconds": 13.95,
+      "time_to_first_token_ms": 100,
+      "tokens_per_second": 60.6,
+      "energy_joules": 546.98,
+      "cut_off_at_token_limit": false
+    },
+    {
+      "id": "10",
+      "words": 684,
+      "target_words": 500,
+      "input_tokens": 55,
+      "output_tokens": 914,
+      "seconds": 15.26,
+      "time_to_first_token_ms": 110,
+      "tokens_per_second": 60.5,
+      "energy_joules": 588.07,
+      "cut_off_at_token_limit": false
+    }
+  ]
+}

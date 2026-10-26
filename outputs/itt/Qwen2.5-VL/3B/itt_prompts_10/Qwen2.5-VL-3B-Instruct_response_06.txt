@@ -1,0 +1,32 @@
+The image is a hierarchical flowchart that outlines the scope of a project or initiative, broken down into different regions and domains. The flowchart is structured as follows:
+
+1. **Scope** (Top Node): This is the overarching node at the top of the flowchart, indicating the main focus or project scope.
+
+2. **Region** (Second Level): This node is divided into four sub-nodes representing different regions:
+   - **India**
+   - **USA**
+   - **Europe**
+   - **East Asia/Aus** (Australia)
+
+3. **Domain** (Third Level): This node is further divided into three sub-nodes representing different domains:
+   - **IT**
+   - **Bio Science**
+   - **Finance**
+
+4. **Resumes and JD** (Fourth Level): This node is further divided into two sub-nodes representing different types of resumes and job descriptions:
+   - **UI/UX**
+   - **AI**
+
+5. **Resumes Segregation based on Gender** (Fifth Level): This node is further divided into three sub-nodes representing different genders:
+   - **Male**
+   - **Female**
+   - **Other**
+
+6. **Segregation based on Years** (Sixth Level): This node is further divided into three sub-nodes representing different time periods:
+   - **0-3 Years**
+   - **3-7 Years**
+   - **7 Above**
+
+The flowchart visually represents the different levels of categorization and the relationships between them. The text at the bottom of the flowchart provides additional context, stating that if there are three resumes per category and role-specific resumes for different job descriptions in one region and within IT, the total number of unique combinations would be 1728.
+
+This hierarchical structure helps in organizing and understanding the scope of the project or initiative, breaking it down into manageable parts and providing a clear roadmap for further analysis or implementation.

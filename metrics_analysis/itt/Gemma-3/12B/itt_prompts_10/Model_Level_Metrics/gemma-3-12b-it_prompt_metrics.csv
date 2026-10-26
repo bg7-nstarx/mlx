@@ -1,0 +1,327 @@
+prompt_id,model,family,size,image_size (px),input_tokens,output_tokens,output_words,first_token,time_to_first_token (ms),prompt_processing_rate (tokens/s),inference_rate (tokens/s),inference_time (s),image,prompt,response
+01,gemma-3-12b-it,Gemma-3,MEDIUM,1024x1024,276,506,368,,486.7,605.6,62.77,8.554,images/itt_prompts_10/01.png,Describe this image in detail.,"Here's a detailed description of the image:
+
+**Overall Impression:**
+
+The image is a surreal and whimsical digital illustration, rendered in a striking, monochromatic green color palette. It combines unexpected elements – an astronaut riding a horse – creating a dreamlike and slightly absurd scene. The style is reminiscent of vintage science fiction book covers or graphic novel art, with a strong emphasis on line work and a limited color range.
+
+**Detailed Breakdown:**
+
+*   **Central Figures:**
+    *   **Astronaut:** A fully suited astronaut is prominently featured, riding a horse. The astronaut's suit is detailed with visible seams, rivets, and a large, rectangular backpack. The helmet has a reflective visor. The astronaut is positioned in a riding stance, holding reins.
+    *   **Horse:** The horse is a muscular breed, likely a draft horse or a similar sturdy type. It's in mid-stride, with its legs extended, suggesting movement. The horse's coat is a uniform green, matching the astronaut's suit.
+
+*   **Background:**
+    *   **Landscape:** The background depicts a rolling, grassy landscape. There's a suggestion of hills or low mountains in the distance, rendered in the same green tones. A winding path or road is visible, adding to the sense of journey.
+    *   **Sky:** The sky is a lighter shade of green, with scattered, small white dots that resemble stars or distant lights.
+
+*   **Artistic Style:**
+    *   **Color Palette:** The entire image is dominated by shades of green, from a deep, almost olive green in the foreground to lighter, more pastel greens in the background. This limited color palette gives the image a unique, almost retro-futuristic feel.
+    *   **Line Work:** The artist uses bold, clean lines to define shapes and create texture. The lines are consistent and deliberate, giving the image a graphic, almost printed look.
+    *   **Texture:** While the color palette is limited, the artist uses line work and shading to create a sense of texture on the astronaut's suit, the horse's coat, and the landscape.
+
+*   **Overall Mood:** The image evokes a sense of wonder, absurdity, and perhaps a touch of melancholy. The combination of the astronaut and the horse creates a surreal juxtaposition that invites interpretation.
+
+
+
+Let me know if you'd like a deeper dive into any specific aspect of the image!"
+02,gemma-3-12b-it,Gemma-3,MEDIUM,270x187,276,355,205,,473.1,600.1,63.05,6.109,images/itt_prompts_10/02.png,Describe this image in detail.,"Here's a detailed description of the image you sent:
+
+**Type of Visual:** The image is a bar graph, likely representing sales data for different car brands across multiple showrooms.
+
+**Title:** The title of the graph is ""The number of five different cars sold in three different showrooms sold.""
+
+**Axes:**
+
+*   **X-axis (Horizontal):**  Lists four car brands: Ford, Toyota, BMW, Honda, and Audi.
+*   **Y-axis (Vertical):** Represents the number of cars sold, ranging from 0 to 400, with increments of 50.
+
+**Data Representation:**
+
+*   **Bar Colors:** Each car brand is represented by a different color bar:
+    *   Ford: Blue
+    *   Toyota: Red
+    *   BMW: Green
+    *   Honda: Orange
+    *   Audi: Light Green
+*   **Bar Heights:** The height of each bar corresponds to the number of cars sold for that brand.
+
+**Specific Data Points (Approximate):**
+
+*   **Ford:**
+    *   Blue bar: Approximately 325 cars
+*   **Toyota:**
+    *   Red bar: Approximately 300 cars
+*   **BMW:**
+    *   Green bar: Approximately 225 cars
+*   **Honda:**
+    *   Orange bar: Approximately 275 cars
+*   **Audi:**
+    *   Light Green bar: Approximately 200 cars
+
+**Overall Impression:** The graph visually compares the sales performance of five different car brands. Honda has the highest sales, followed by Ford and Toyota. BMW and Audi have the lowest sales."
+03,gemma-3-12b-it,Gemma-3,MEDIUM,352x339,276,384,261,,487.4,582.5,62.98,6.591,images/itt_prompts_10/03.png,Describe this image in detail.,"Here's a detailed description of the image:
+
+**Overall Impression:**
+
+The image appears to be a screenshot of a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) interface. It's designed to verify that a user is a human and not a bot.
+
+**Visual Elements:**
+
+*   **Text:** The primary element is a series of characters displayed in a distorted, stylized font. The characters are:
+    *   ""4""
+    *   ""S""
+    *   ""Z""
+    *   ""X""
+    *   ""T""
+    These letters are arranged horizontally, one after the other.
+*   **Distortion:** The letters are significantly distorted and overlapping, making them difficult to read clearly. They appear to be tilted and have varying line thicknesses.
+*   **Background:** The background is a light blue color with a scattered pattern of small, dark dots or speckles. This adds to the visual noise and makes the letters harder to discern.
+*   **Interface Elements:** Below the text, there are several interactive elements:
+    *   **""Generate New Image""** - A blue hyperlink, likely allowing the user to refresh the CAPTCHA and get a new set of characters.
+    *   **Text Field:** A blank, rectangular text field where the user is expected to type the code they see in the image.
+    *   **""Type the code from the image""** - Text instructing the user to enter the code.
+    *   **""Verify Code""** - A button, likely used to submit the user's input and verify if it matches the displayed code.
+
+**Overall Purpose:**
+
+The image is a typical CAPTCHA challenge, designed to prevent automated bots from accessing a website or performing an action that requires human verification."
+04,gemma-3-12b-it,Gemma-3,MEDIUM,2048x2048,276,504,373,,503.2,590.3,62.45,8.58,images/itt_prompts_10/04.jpg,Describe this image in detail.,"Here's a detailed description of the image:
+
+**Overall Impression:**
+
+The image is a whimsical, digitally-created illustration featuring a cat dressed in golf attire, mid-swing with a golf club. It has a playful, slightly surreal quality, likely created using AI art generation techniques.
+
+**Subject:**
+
+*   **The Cat:** The central figure is a plump, calico cat. It has a round, almost cartoonish body with a very fluffy appearance. The cat's fur is a mix of white, black, and orange patches, typical of a calico cat. It has large, expressive yellow eyes and a slightly smug expression.
+*   **Attire:** The cat is wearing a bright yellow golf shirt that appears slightly too small for its size, emphasizing its roundness. It also has a white golf glove on its left paw, which is holding the golf club.
+*   **Action:** The cat is in the middle of a golf swing, its body leaning into the action. Its right paw is holding a golf club, raised high as if about to strike the ball.
+
+**Setting & Background:**
+
+*   **Golf Course:** The cat is standing on a vibrant green golf course. The grass is neatly manicured and appears lush.
+*   **Golf Ball:** A single white golf ball is on the ground in front of the cat, ready to be hit. A few more golf balls are scattered in the background, suggesting a practice range or a casual game.
+*   **Background:** The background is a soft, blurred green, likely representing trees or foliage. The blur creates a bokeh effect with circular highlights, adding to the image's dreamlike quality.
+
+**Artistic Style & Details:**
+
+*   **Digital Illustration:** The image is clearly a digital illustration, likely created with AI assistance or digital painting software.
+*   **Realistic Textures:** Despite the whimsical subject matter, the artist has paid attention to detail, giving the cat's fur a realistic, fluffy texture. The golf shirt also has a fabric-like texture.
+*   **Lighting:** The lighting is soft and diffused, creating a warm and inviting atmosphere.
+*   **Color Palette:** The color palette is dominated by greens, yellows, and whites, creating a cheerful and sunny feel.
+
+
+
+**Overall, the image is a humorous and charming depiction of a cat enjoying a round of golf, rendered in a detailed and visually appealing digital style.**"
+05,gemma-3-12b-it,Gemma-3,MEDIUM,2048x1365,276,429,319,,485.6,605.2,62.75,7.328,images/itt_prompts_10/05.jpg,Describe this image in detail.,"Here's a detailed description of the image:
+
+**Overall Impression:**
+
+The image captures a warm, peaceful moment between a young woman and her dog on a sandy beach at what appears to be sunrise or sunset. The lighting is soft and golden, creating a serene and joyful atmosphere.
+
+**Subject Details:**
+
+*   **Woman:** A young woman with long, dark hair is sitting cross-legged on the sand. She's wearing a casual, plaid shirt (likely flannel) and dark pants. She's smiling gently, looking down at her dog with affection.
+*   **Dog:** A golden Labrador Retriever is sitting attentively beside her. The dog is wearing a colorful harness with a leash lying on the sand nearby. It's looking up at the woman with a sweet, eager expression, and has one paw raised slightly, as if offering it to her.
+
+**Setting & Environment:**
+
+*   **Beach:** The scene is set on a wide, sandy beach. The sand is a light tan color, and the texture appears soft and slightly damp.
+*   **Ocean:** In the background, the ocean stretches out to the horizon. Gentle waves are rolling in, and the water has a muted, grayish-blue tone.
+*   **Sky:** The sky is bathed in warm, golden light, suggesting either sunrise or sunset. The light creates a soft glow and long shadows on the sand.
+
+**Composition & Lighting:**
+
+*   **Angle:** The photo is taken from a slightly low angle, giving a sense of intimacy and connection between the woman and her dog.
+*   **Focus:** The focus is sharp on the woman and the dog, while the background is slightly softer, creating depth.
+*   **Color Palette:** The color palette is dominated by warm tones – golds, tans, and soft blues – which contribute to the overall feeling of warmth and tranquility.
+
+**Overall Mood:**
+
+The image evokes a feeling of happiness, companionship, and peacefulness. It's a heartwarming scene that captures a simple, joyful moment between a person and their beloved pet."
+06,gemma-3-12b-it,Gemma-3,MEDIUM,1920x1080,276,718,438,,482.6,610.8,62.07,12.057,images/itt_prompts_10/06.png,Describe this image in detail.,"Here's a detailed description of the image you sent, which appears to be a visual representation of a data segmentation strategy, likely for recruitment or talent acquisition.
+
+**Overall Structure:**
+
+The image is a hierarchical diagram, resembling a tree structure or a flow chart. It's organized into several levels, each representing a different segmentation criterion. The overall design is clean and modern, utilizing a color-coded system to differentiate categories.
+
+**Levels and Categories:**
+
+1.  **Top Level (Regions):**
+    *   The top level defines geographical regions. There are five main regions listed:
+        *   India
+        *   USA
+        *   Europe
+        *   East Asia/Aus
+        *   Region (This is a placeholder, likely indicating a region that hasn't been defined yet)
+
+2.  **Second Level (Domains):**
+    *   Below each region, there's a ""Domain"" level, which specifies areas of expertise or business functions.  These are:
+        *   **IT:**  Includes sub-categories like:
+            *   UI/UX
+            *   Mobile Apps
+            *   Web Applications
+            *   AI
+            *   Data Scientist
+            *   Backend Developer
+            *   Dev Ops
+            *   Project Management
+        *   **Bio Science**
+        *   **Finance**
+
+3.  **Third Level (Job Titles/Roles):**
+    *   Under each domain, the diagram lists specific job titles or roles within that domain.  For example, under ""IT,"" you see ""Data Scientist,"" ""Backend Developer,"" ""Dev Ops,"" and ""Project Management.""
+
+4.  **Fourth Level (Demographic Segmentation):**
+    *   At the very bottom, the diagram branches out into demographic segmentation criteria:
+        *   **Resumes and JD:** (This is a placeholder, likely indicating the source of data)
+        *   **Gender:**  Categorized as ""Male,"" ""Female,"" and ""Other.""
+        *   **Years of Experience:**  Categorized into three ranges:
+            *   0-3 Years
+            *   3-7 Years
+            *   7 Above
+
+**Color Coding:**
+
+*   **Regions:**  Represented in a light blue color.
+*   **Domains:** Represented in a light green color.
+*   **Job Titles/Roles:** Represented in a darker green color.
+*   **Demographic Segmentation:** Represented in a light pink color.
+
+**Text and Notes:**
+
+*   There's a note at the bottom of the image that reads: ""In one Region and within IT, if we have three resumes per category and also include role-specific resumes for different job descriptions, we end up with 1728 unique combinations."" This suggests the diagram is being used to plan a targeted recruitment strategy, aiming to identify a large number of potential candidates.
+*   There's a note at the bottom of the image that reads: ""Segregation based on Years.""
+
+**Overall Impression:**
+
+The diagram is a clear and organized way to visualize a data segmentation strategy. It's likely being used to plan a recruitment campaign, targeting specific roles within different regions and demographic groups. The note about 1728 unique combinations highlights the scale of the effort.
+
+
+
+Let me know if you'd like me to elaborate on any specific aspect of the image!"
+07,gemma-3-12b-it,Gemma-3,MEDIUM,2240x1400,276,400,271,,500.9,582.3,62.19,6.934,images/itt_prompts_10/07.png,Describe this image in detail.,"Here's a detailed description of the image:
+
+**Overall Impression:**
+
+The image is a collage of well-known company logos arranged against a grid background. The grid appears to be a graph paper style, with light gray lines forming a regular pattern of squares.
+
+**Logos Present (from top left to bottom right):**
+
+*   **Coca-Cola:** The classic red and white Coca-Cola logo is prominently displayed.
+*   **Google:** The Google logo is shown in its current color scheme: blue, red, yellow, and green.
+*   **Unilever:** The Unilever logo, featuring a blue ""U"" with a stylized ""v"" underneath, is present.
+*   **McDonald's:** The golden arches of the McDonald's logo are visible.
+*   **Visa:** The blue, white, and red Visa logo is shown.
+*   **Amazon:** The Amazon logo, with the arrow pointing from ""a"" to ""z,"" is present in orange.
+*   **Apple:** The iconic black Apple logo with a bite taken out of it is displayed.
+*   **Shell:** The Shell logo, featuring a red and yellow scallop shell, is shown.
+*   **FedEx:** The FedEx logo, with the subtle arrow created by the space between the ""E"" and ""x,"" is present.
+*   **Meta:** The Meta logo, a stylized infinity symbol in white against a dark blue background, is displayed.
+
+**Color Palette:**
+
+The color palette is diverse, reflecting the variety of brands represented. The logos themselves use a range of colors, including red, blue, yellow, green, black, white, and orange. The background is a muted gray.
+
+**Overall Style:**
+
+The image has a clean, graphic design feel. The logos are presented in a straightforward manner, without any additional design elements. The grid background provides a sense of order and structure."
+08,gemma-3-12b-it,Gemma-3,MEDIUM,299x168,276,413,286,,479.7,592.5,62.82,7.06,images/itt_prompts_10/08.jpg,Describe this image in detail.,"Here's a detailed description of the image:
+
+**Overall Impression:**
+
+The image appears to be a screenshot or photograph of a math problem, likely from a Math Olympiad or similar competition. It has a clean, white background, suggesting it's taken from a whiteboard or similar surface.
+
+**Text Elements:**
+
+*   **""Math Olympiad Question""**: This text is displayed in a bold, sans-serif font at the top of the image, indicating the context of the problem.
+*   **""a³ + a² = 36""**: This is the mathematical equation presented in a large, clear font. The variable ""a"" is in a bold font.
+*   **""Solution:""**: This text appears below the equation, indicating that a solution is expected.
+*   **""a = ?""**: This text is directly below ""Solution:"" and is a question mark, implying that the viewer is expected to find the value of ""a.""
+
+**Mathematical Symbols:**
+
+*   **a³**: Represents ""a cubed"" (a raised to the power of 3).
+*   **a²**: Represents ""a squared"" (a raised to the power of 2).
+*   **=**: The equals sign, indicating that the expression on the left side of the equation is equal to the value on the right side.
+*   **36**: A whole number, representing the value to which the expression equals.
+
+**Visual Elements:**
+
+*   **White Background**: The background is a plain white color, providing a clean and uncluttered look.
+*   **Hand with Pen**: A hand is partially visible in the lower right corner of the image, holding a pen. The hand appears to be in focus, and the pen is pointed towards the equation, suggesting that someone is about to solve the problem.
+
+
+
+**Overall, the image presents a simple algebraic equation as a Math Olympiad question, prompting the viewer to find the value of 'a'.**"
+09,gemma-3-12b-it,Gemma-3,MEDIUM,2048x2688,276,521,361,,509.3,590.7,62.43,8.86,images/itt_prompts_10/09.jpg,Describe this image in detail.,"Here's a detailed description of the image:
+
+**Overall Impression:**
+
+The image is a charming, whimsical scene that appears to be a still from a children's film or a highly stylized photograph. It features a realistic-looking, anthropomorphic rabbit dressed in human clothing, standing in a picturesque, idyllic countryside setting.
+
+**The Rabbit:**
+
+*   **Appearance:** The central focus is a large, fluffy rabbit with soft, light brown fur. Its eyes are large, round, and a warm brown color, giving it a gentle and inquisitive expression.
+*   **Clothing:** The rabbit is dressed in a meticulously detailed outfit:
+    *   A light blue, double-breasted jacket with gold buttons.
+    *   A light brown waistcoat with a subtle pattern.
+    *   A white shirt with a bow tie.
+    *   Light brown trousers.
+    *   A small, brown satchel or bag slung over its shoulder.
+*   **Pose:** The rabbit stands upright on its hind legs, with its paws slightly apart, giving it a human-like stance. It looks directly at the viewer, creating a sense of connection.
+
+**Background & Setting:**
+
+*   **Landscape:** The scene is set in a lush, green countryside. Rolling hills stretch into the distance, covered in vibrant green grass and dotted with trees.
+*   **Path:** A winding, dirt path leads away from the viewer, disappearing into the distance.
+*   **Buildings:** In the background, to the left, is a charming, traditional English cottage or house. It's made of light-colored stone with a pitched, tiled roof.
+*   **Flowers:** The foreground is filled with a profusion of colorful wildflowers, primarily white and purple, adding to the idyllic atmosphere.
+*   **Fence:** A rustic wooden fence runs along the right side of the path, partially obscuring the view of the landscape.
+
+**Lighting & Color:**
+
+*   **Lighting:** The scene is bathed in warm, natural sunlight, creating soft shadows and highlighting the textures of the rabbit's fur and clothing.
+*   **Color Palette:** The color palette is dominated by greens, browns, and blues, with pops of color from the wildflowers. The overall tone is warm, inviting, and cheerful.
+
+**Overall Tone:**
+
+The image evokes a sense of nostalgia, wonder, and gentle charm. It feels like a scene from a classic children's story, possibly inspired by Beatrix Potter's Peter Rabbit."
+10,gemma-3-12b-it,Gemma-3,MEDIUM,251x200,276,734,518,,487.0,582.6,61.61,12.406,images/itt_prompts_10/10.jpg,Describe this image in detail.,"Okay, let's break down this iconic image! This is Vincent van Gogh's ""The Starry Night."" Here's a detailed description:
+
+**Overall Impression:**
+
+The painting is a swirling, dynamic night scene, dominated by a vibrant, turbulent sky. It's a powerful expression of emotion and a departure from realistic representation. The style is distinctly Post-Impressionist, characterized by thick, visible brushstrokes and a focus on conveying feeling rather than precise detail.
+
+**Foreground (Lower Left):**
+
+*   **Cypress Tree:** A large, dark, flame-like cypress tree dominates the left side of the painting. It's rendered in dark greens and browns, with thick, upward-reaching brushstrokes that give it a sense of energy and almost a spiritual quality. It acts as a visual anchor and a connection between the earth and the sky.
+*   **Village:** Below the cypress tree, a small village nestles into the landscape. The buildings are simplified, with dark, blocky shapes. The roofs are a mix of dark browns and greens, and the windows glow with warm, yellow light.
+*   **Church Steeple:** A tall, dark church steeple rises above the village, pointing upwards towards the sky. It's a prominent feature, adding a sense of human presence and perhaps a touch of hope or faith.
+
+**Midground:**
+
+*   **Rolling Hills:** Gentle, rolling hills stretch across the middle ground, painted in shades of blue, green, and brown. They are not sharply defined but blend into the overall landscape.
+
+**Background (Sky):**
+
+*   **Dominant Feature:** The sky is the most striking element of the painting. It's a swirling vortex of blues, yellows, and whites.
+*   **Stars:** Numerous stars are scattered across the sky, each depicted as a glowing orb surrounded by a halo of light. They are not realistic representations of stars but rather stylized, almost pulsating forms.
+*   **Moon:** A large, bright moon dominates the right side of the sky. It's surrounded by a large, radiant halo of yellow and white light.
+*   **Swirling Clouds/Sky:** The sky itself is a mass of swirling, dynamic brushstrokes. Van Gogh uses short, thick strokes of blue, white, and yellow to create a sense of movement and energy. It feels almost like a living, breathing entity.
+
+**Color Palette:**
+
+*   **Dominant Colors:** Deep blues, vibrant yellows, and dark greens are the primary colors.
+*   **Contrast:** There's a strong contrast between the dark foreground elements (the cypress tree and village) and the bright, luminous sky.
+*   **Warm vs. Cool:** The warm yellows of the stars and moon contrast with the cool blues of the sky, creating a dynamic visual tension.
+
+**Brushwork & Technique:**
+
+*   **Impasto:** Van Gogh uses a technique called ""impasto,"" where the paint is applied very thickly to the canvas. This gives the painting a three-dimensional texture and makes the brushstrokes highly visible.
+*   **Short, Choppy Strokes:** The brushstrokes are short, choppy, and often applied in a swirling or circular motion, which contributes to the overall sense of movement and energy.
+
+
+
+Overall, ""The Starry Night"" is a powerful and emotionally charged landscape that transcends a simple depiction of a night scene. It's a window into Van Gogh's inner world, conveying a sense of awe, wonder, and perhaps even a touch of turmoil."
