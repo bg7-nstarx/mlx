@@ -1,4 +1,4 @@
-"""Model and framework names used by the TTT code in ttt_final_vaibhav/ (local stand-in for the production utils.constants)."""
+"""Model and framework names used by the TTT code in ttt_final/ (local stand-in for the production utils.constants)."""
 
 MODEL_TYPE = {'SMALL': 'TTT_SMALL', 'MEDIUM': 'TTT_MEDIUM', 'LARGE': 'TTT_LARGE'}
 
