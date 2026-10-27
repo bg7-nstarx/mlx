@@ -1,4 +1,4 @@
-"""Runs the TTT models (ttt_vaibhav/ttt_small.py, ttt_medium.py, ttt_large.py) on
+"""Runs the TTT models (ttt_final_vaibhav/ttt_small.py, ttt_medium.py, ttt_large.py) on
 prompts/tti_tts_ttt_prompts/ttt_prompts_500w.csv, on Apple Silicon.
 
     .venv/bin/python run_test.py              # SMALL, MEDIUM and LARGE, each in its own process
@@ -37,7 +37,7 @@ if __name__ == '__main__':
             subprocess.run([sys.executable, __file__, size], check=True)
         sys.exit()
     from utils.constants import MODEL_PATH
-    ttt = importlib.import_module(f'ttt_vaibhav.ttt_{sizes[0].lower()}')   # ttt_small / ttt_medium / ttt_large
+    ttt = importlib.import_module(f'ttt_final_vaibhav.ttt_{sizes[0].lower()}')   # ttt_small / ttt_medium / ttt_large
     path, source = MODEL_PATH[sizes[0]]
     prepare(path, source)
     out = ttt.process_text_to_text(Path('outputs/ttt/ttt_vaibhav') / sizes[0], Path(path), sizes[0])

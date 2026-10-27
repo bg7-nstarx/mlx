@@ -1,4 +1,4 @@
-"""TTT MEDIUM — Llama-2-7b-hf (6.7B), float16, MLX on Apple Silicon."""
+"""TTT MEDIUM — Phi-3-mini-128k-instruct (3.8B), float16, MLX on Apple Silicon."""
 import os
 import gc
 import sys
@@ -12,7 +12,6 @@ from huggingface_hub import snapshot_download
 from pathlib import Path
 
 MAX_NEW_TOKENS = 1024   # hard cap: no response exceeds 1,024 output tokens
-BASE_STOP = "\n### "    # the base model starting a new section has finished its answer
 
 
 def load_model(local_path):
@@ -20,6 +19,7 @@ def load_model(local_path):
         raise RuntimeError("This code runs only on Apple Silicon (MLX on the Apple GPU).")
     # Load tokenizer and model (float16 MLX weights) from the local path
     model, tokenizer = load(str(local_path))
+    tokenizer.add_eos_token("<|end|>")   # Phi-3 ends each chat turn with <|end|>
     return tokenizer, model
 
 
@@ -42,16 +42,13 @@ def process_text_to_text(output_folder, model_dir, model_type_key="MEDIUM", **kw
     for index, row in data.iterrows():
         try:
             prompt = row["prompt"]
-            text = f"Below is an instruction, followed by a response that completes it.\n\n### Instruction:\n{prompt}\n\n### Response:\n"
-            input_ids = tokenizer.encode(text)
+            text = tokenizer.apply_chat_template([{"role": "user", "content": prompt}], add_generation_prompt=True, tokenize=False)
+            input_ids = tokenizer.encode(text, add_special_tokens=False)
 
             start_time = time.time()
             response = ""
             for r in stream_generate(model, tokenizer, input_ids, max_tokens=MAX_NEW_TOKENS, sampler=sampler):
                 response += r.text
-                if BASE_STOP in response.lstrip():
-                    response = response.lstrip().split(BASE_STOP)[0]
-                    break
             end_time = time.time()
 
             # Metrics over the generated tokens

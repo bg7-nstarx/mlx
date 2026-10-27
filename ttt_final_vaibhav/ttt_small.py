@@ -1,4 +1,4 @@
-"""TTT SMALL — Phi-3-mini-128k-instruct (3.8B), float16, MLX on Apple Silicon."""
+"""TTT SMALL — Falcon-H1-1B-Base (1.5B), float16, MLX on Apple Silicon."""
 import os
 import gc
 import sys
@@ -15,6 +15,7 @@ from pathlib import Path
 from run_test import logger
 
 MAX_NEW_TOKENS = 1024   # hard cap: no response exceeds 1,024 output tokens
+BASE_STOP = "\n### "    # the base model starting a new section has finished its answer
 
 
 def load_model(local_path):
@@ -23,7 +24,6 @@ def load_model(local_path):
     logger.info(f"Loading model from: {local_path}")
     # Load tokenizer and model (float16 MLX weights) from the local path
     model, tokenizer = load(str(local_path))
-    tokenizer.add_eos_token("<|end|>")   # Phi-3 ends each chat turn with <|end|>
     logger.info(f"Using device: {mx.default_device()}  |  weights in memory: {mx.get_active_memory() / 1e9:.2f} GB")
     return tokenizer, model
 
@@ -45,14 +45,18 @@ def process_text_to_text(output_folder, model_dir, model_type_key="SMALL", **kwa
     for index, row in data.iterrows():
         try:
             prompt = row["prompt"]
-            text = tokenizer.apply_chat_template([{"role": "user", "content": prompt}], add_generation_prompt=True, tokenize=False)
-            input_ids = tokenizer.encode(text, add_special_tokens=False)
+            # Base model, no chat template: use a plain instruction/response layout
+            text = f"Below is an instruction, followed by a response that completes it.\n\n### Instruction:\n{prompt}\n\n### Response:\n"
+            input_ids = tokenizer.encode(text)
 
             processes, npu_process = metrics_monitor_start(index, sys_met_paths, include_npu=True)
             start_time = time.time()
             response = ""
             for r in stream_generate(model, tokenizer, input_ids, max_tokens=MAX_NEW_TOKENS, sampler=sampler):
                 response += r.text
+                if BASE_STOP in response.lstrip():
+                    response = response.lstrip().split(BASE_STOP)[0]
+                    break
             end_time = time.time()
             metrics_monitor_stop(processes, npu_process)
 
