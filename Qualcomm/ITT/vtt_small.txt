@@ -1,0 +1,86 @@
+from geniex import AutoModelForCausalLM
+import os
+import subprocess          # FIX 1: was missing
+import time
+from math import ceil      # FIX 1: was missing
+
+
+def extract_frames_ffmpeg(video_path, output_path, fps=1):
+    """
+    Equivalent to: ffmpeg -i {video_path} -q:v 2 -start_number 0 {output_path}/%05d.jpg
+    """
+    os.makedirs(output_path, exist_ok=True)
+    output_pattern = os.path.join(output_path, "%05d.jpg")
+
+    cmd = [
+        "ffmpeg",
+        "-i", video_path,       # input video
+        "-q:v", "2",            # image quality (2 is high, 31 is lowest)
+        "-start_number", "0",   # start numbering at 0
+        output_pattern
+    ]
+
+    subprocess.run(cmd, check=True)
+    print(f"Frames saved to: {output_path}")
+
+
+def get_frame_list(output_path, fraction=0.0125):
+    # Get all jpg files in the directory
+    all_frames = sorted([f for f in os.listdir(output_path) if f.endswith('.jpg')])
+
+    total_frames = len(all_frames)
+    frames_to_keep = ceil(total_frames * fraction)
+
+    # Calculate the step size to evenly distribute the selected frames
+    step = total_frames // frames_to_keep
+
+    # Select the frames
+    selected_frames = all_frames[::step][:frames_to_keep]
+
+    # Create the full paths for the selected frames
+    frame_paths = [f"file://{os.path.join(output_path, frame)}" for frame in selected_frames]
+
+    return frame_paths
+
+
+MODEL = "unsloth/Qwen3-VL-4B-Instruct-GGUF"
+DEVICE = "npu"   # try "npu", "hybrid", "gpu", "cpu"
+vid_path = r"C:\Users\shi-lab\AppData\Local\Programs\Benchsmart-Desktop-App\resources\app.asar.unpacked\genai_services\video_to_text\temp\data\v_golf_01_01.mp4"
+output_folder_path = r"C:\Users\shi-lab\vtt_output"   # FIX 2: was undefined
+idx = 0                                               # FIX 2: was undefined
+
+model = AutoModelForCausalLM.from_pretrained(MODEL, precision="Q4_0", device_map=DEVICE)
+
+question = (f"These 3 images are frames from one video, in chronological order. "
+            "Describe this video in detail.")
+
+frames_folder = os.path.join(output_folder_path, f"frames_of_video_{idx}")
+os.makedirs(frames_folder, exist_ok=True)
+
+extract_frames_ffmpeg(vid_path, frames_folder)
+
+# Get the frames
+# FIX 3: GenieX needs plain paths, so strip "file://"
+selected_frames = [f.replace("file://", "", 1) for f in get_frame_list(frames_folder)]
+print(f"Using {len(selected_frames)} frames")
+
+# FIX 4: GenieX has no "video" type -> pass the frames as images, in order
+messages = [
+    {
+        "role": "user",
+        "content": [{"type": "image", "image": f} for f in selected_frames]
+                   + [{"type": "text", "text": question}],
+    }
+]
+
+# FIX 5: no `processor` in GenieX -> use model.tokenizer, then generate
+text = model.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
+start = time.perf_counter()
+out = model.generate(text, images=selected_frames, max_new_tokens=1024)
+inference_time = time.perf_counter() - start
+
+print(out.text)
+print(f"[{DEVICE}] {out.profile.generated_tokens} tok, {out.profile.decode_speed:.1f} tok/s, "
+      f"inference {inference_time:.1f}s")
+model.close()
